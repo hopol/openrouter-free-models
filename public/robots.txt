@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://openrouter-free-models.pages.dev/sitemap.xml

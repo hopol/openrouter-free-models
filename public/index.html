@@ -1,84 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenRouter 免费模型中心｜免费模型情报与选型建议</title>
-    <meta name="description" content="面向开发者与企业团队的 OpenRouter 免费大模型情报、能力概览与场景化选型建议">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="description" content="实时查询 OpenRouter 当前可用的免费大模型，查看模型简介、上下文、模态能力及十个实际使用场景的选型建议。">
+  <meta name="keywords" content="OpenRouter,免费模型,免费大模型,AI模型,LLM,免费AI模型,模型对比,代码模型">
+  <meta name="author" content="hopol">
+  <meta name="theme-color" content="#071b35">
+  <link rel="canonical" href="https://openrouter-free-models.pages.dev/">
+  <link rel="alternate" hreflang="zh-CN" href="https://openrouter-free-models.pages.dev/?lang=zh-CN">
+  <link rel="alternate" hreflang="en" href="https://openrouter-free-models.pages.dev/?lang=en">
+  <link rel="alternate" hreflang="es" href="https://openrouter-free-models.pages.dev/?lang=es">
+  <link rel="alternate" hreflang="ja" href="https://openrouter-free-models.pages.dev/?lang=ja">
+  <link rel="alternate" hreflang="ko" href="https://openrouter-free-models.pages.dev/?lang=ko">
+  <link rel="alternate" hreflang="fr" href="https://openrouter-free-models.pages.dev/?lang=fr">
+  <link rel="alternate" hreflang="x-default" href="https://openrouter-free-models.pages.dev/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="OpenRouter 免费模型中心">
+  <meta property="og:description" content="实时查询 OpenRouter 当前可用的免费大模型，并获取场景化选型建议。">
+  <meta property="og:url" content="https://openrouter-free-models.pages.dev/">
+  <meta property="og:site_name" content="OpenRouter 免费模型中心">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="OpenRouter 免费模型中心">
+  <meta name="twitter:description" content="实时查询 OpenRouter 当前可用的免费大模型，并获取场景化选型建议。">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="seo-i18n.css">
+  <title>OpenRouter 免费模型中心｜免费模型情报与选型建议</title>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"OpenRouter 免费模型中心",
+    "url":"https://openrouter-free-models.pages.dev/",
+    "description":"自动更新的 OpenRouter 免费模型目录与场景化选型指南。",
+    "inLanguage":["zh-CN","en","es","ja","ko","fr"],
+    "publisher":{"@type":"Organization","name":"hopol","url":"https://www.hopolcn.com"}
+  }
+  </script>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>OpenRouter 免费模型中心</h1>
-            <p class="subtitle">面向开发者与企业团队的免费模型情报、能力概览与场景化选型建议</p>
-            <div class="header-stats" id="headerStats">
-                <span>加载中...</span>
-            </div>
-        </div>
-    </header>
+  <header class="header" role="banner">
+    <div class="container">
+      <div class="utility-bar">
+        <a class="brand-mark" href="./" aria-label="OpenRouter 免费模型中心首页">OR <span>INTELLIGENCE</span></a>
+        <label class="language-control" for="languageSelect"><span class="visually-hidden" data-i18n="languageLabel">选择语言</span><select id="languageSelect" aria-label="选择语言"></select></label>
+      </div>
+      <p class="eyebrow" data-i18n="eyebrow">OPENROUTER INTELLIGENCE DIRECTORY</p>
+      <h1 data-i18n="heroTitle">OpenRouter 免费模型中心</h1>
+      <p class="subtitle" data-i18n="heroSubtitle">面向开发者与企业团队的免费模型情报、能力概览与场景化选型建议</p>
+      <div class="header-stats" id="headerStats" aria-live="polite"><span data-i18n="loading">正在加载模型数据…</span></div>
+    </div>
+  </header>
 
-    <nav class="nav">
-        <div class="container">
-            <a href="#models" class="active">模型列表</a>
-            <a href="#scenarios">场景推荐</a>
-            <a href="#about">关于</a>
-        </div>
-    </nav>
+  <nav class="nav" aria-label="主导航">
+    <div class="container">
+      <a href="#models" class="active" data-i18n="navModels">模型目录</a>
+      <a href="#scenarios" data-i18n="navScenarios">选型建议</a>
+      <a href="#guide" data-i18n="navGuide">使用说明</a>
+      <a href="#about" data-i18n="navAbout">关于数据</a>
+    </div>
+  </nav>
 
-    <main class="container">
-        <!-- 模型列表 -->
-        <section id="models">
-            <h2>免费模型全景</h2>
-            <div class="filter-bar">
-                <input type="text" id="searchInput" placeholder="搜索模型名称或 ID...">
-                <select id="companyFilter">
-                    <option value="all">全部公司</option>
-                </select>
-            </div>
-            <div class="model-grid" id="modelGrid">
-                <p>加载中...</p>
-            </div>
-        </section>
+  <main class="container">
+    <section id="models" aria-labelledby="modelsHeading">
+      <p class="section-kicker" data-i18n="modelsKicker">LIVE MODEL CATALOG</p>
+      <h2 id="modelsHeading" data-i18n="modelsTitle">免费模型全景</h2>
+      <p class="section-intro" data-i18n="modelsIntro">仅列出输入与输出 token 单价均为零的模型。可用性和限流状态请以 OpenRouter 实际响应为准。</p>
+      <div class="filter-bar" role="search">
+        <label class="visually-hidden" for="searchInput" data-i18n="searchLabel">搜索模型</label>
+        <input type="search" id="searchInput" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="搜索模型名称或 ID…">
+        <label class="visually-hidden" for="companyFilter" data-i18n="companyLabel">筛选提供方</label>
+        <select id="companyFilter" aria-label="筛选提供方"></select>
+      </div>
+      <div class="model-grid" id="modelGrid" aria-live="polite"><p data-i18n="loading">正在加载模型数据…</p></div>
+    </section>
 
-        <!-- 场景推荐 -->
-        <section id="scenarios">
-            <h2>场景化选型建议</h2>
-            <div class="scenario-tabs" id="scenarioTabs">
-                <button class="tab active" data-tab="chat">日常聊天</button>
-                <button class="tab" data-tab="code">写代码</button>
-                <button class="tab" data-tab="longdoc">超长文档</button>
-                <button class="tab" data-tab="multimodal">多模态</button>
-                <button class="tab" data-tab="audio">音频生成</button>
-                <button class="tab" data-tab="safety">内容安全</button>
-                <button class="tab" data-tab="opensource">开源项目</button>
-                <button class="tab" data-tab="lightweight">轻量级</button>
-                <button class="tab" data-tab="performance">高性能</button>
-                <button class="tab" data-tab="quickstart">快速上手</button>
-            </div>
-            <div class="scenario-content" id="scenarioContent">
-                <p>选择上方标签查看推荐</p>
-            </div>
-        </section>
+    <section id="scenarios" aria-labelledby="scenariosHeading">
+      <p class="section-kicker" data-i18n="scenariosKicker">PRACTICAL MODEL SELECTION</p>
+      <h2 id="scenariosHeading" data-i18n="scenariosTitle">场景化选型建议</h2>
+      <p class="section-intro" data-i18n="scenariosIntro">从真实工作任务出发选择模型；重要结果均应通过原始资料、测试或人工复核验证。</p>
+      <div class="scenario-tabs" id="scenarioTabs" role="tablist" aria-label="使用场景">
+        <button class="tab active" role="tab" aria-selected="true" data-tab="chat" data-i18n="scenarioChat">日常聊天</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="code" data-i18n="scenarioCode">代码开发</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="longdoc" data-i18n="scenarioLongdoc">长文档</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="multimodal" data-i18n="scenarioMultimodal">多模态</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="audio" data-i18n="scenarioAudio">音频实验</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="safety" data-i18n="scenarioSafety">内容安全</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="opensource" data-i18n="scenarioOpenSource">开源原型</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="lightweight" data-i18n="scenarioLightweight">轻量任务</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="performance" data-i18n="scenarioPerformance">复杂推理</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="quickstart" data-i18n="scenarioQuickStart">快速上手</button>
+      </div>
+      <div class="scenario-content" id="scenarioContent" role="tabpanel"></div>
+    </section>
 
-        <!-- 关于 -->
-        <section id="about">
-            <h2>数据与服务说明</h2>
-            <div class="about-content">
-                <p>本项目通过 OpenRouter 官方 API 自动抓取所有免费大模型数据，每日两次更新。</p>
-                <p><strong>数据来源：</strong><a href="https://openrouter.ai/api/v1/models" target="_blank" rel="noopener noreferrer">OpenRouter API</a></p>
-                <p><strong>部署平台：</strong><a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare Pages</a></p>
-                <p><strong>项目开源地址：</strong><a href="https://github.com/hopol/openrouter-free-models" target="_blank" rel="noopener noreferrer">GitHub</a></p>
-            </div>
-        </section>
-    </main>
+    <section id="guide" aria-labelledby="guideHeading">
+      <p class="section-kicker" data-i18n="guideKicker">WORKFLOW GUIDANCE</p>
+      <h2 id="guideHeading" data-i18n="guideTitle">如何可靠地使用免费模型</h2>
+      <div class="guide-grid">
+        <article><span>01</span><h3 data-i18n="guideOneTitle">先做小样本评测</h3><p data-i18n="guideOneText">使用真实任务准备少量测试题，记录质量、速度、失败率和人工修改量。</p></article>
+        <article><span>02</span><h3 data-i18n="guideTwoTitle">为关键任务准备备用模型</h3><p data-i18n="guideTwoText">免费模型会变化或限流。将模型 ID 配置化，并准备通用路由器或同类模型作为回退。</p></article>
+        <article><span>03</span><h3 data-i18n="guideThreeTitle">保护敏感信息</h3><p data-i18n="guideThreeText">提交前移除密钥、个人信息、客户机密与生产数据；对代理工具设置最小权限。</p></article>
+      </div>
+    </section>
 
-    <footer class="footer">
-        <div class="container">
-            <p>OpenRouter 免费模型中心 · 每日两次自动更新 · 由 Cloudflare Pages 提供全球静态分发</p>
-        </div>
-    </footer>
+    <section id="about" aria-labelledby="aboutHeading">
+      <p class="section-kicker" data-i18n="aboutKicker">DATA TRANSPARENCY</p>
+      <h2 id="aboutHeading" data-i18n="aboutTitle">数据与服务说明</h2>
+      <div class="about-content">
+        <p data-i18n="aboutText">本目录通过 OpenRouter 官方模型接口自动更新。模型价格、功能、上下文窗口、限流和服务状态均可能变化。</p>
+        <p><strong data-i18n="sourceLabel">数据来源：</strong><a href="https://openrouter.ai/api/v1/models" target="_blank" rel="noopener noreferrer">OpenRouter API</a></p>
+        <p><strong data-i18n="updateLabel">更新频率：</strong><span data-i18n="updateText">每天两次自动检查；仅在数据变化时发布更新。</span></p>
+      </div>
+    </section>
+  </main>
 
-    <script src="app.js"></script>
+  <footer class="footer">
+    <div class="container">
+      <p data-i18n="footerText">OpenRouter 免费模型中心 · 自动更新的免费模型目录</p>
+      <p class="author-link"><span data-i18n="authorPrefix">作者博客：</span><a href="https://www.hopolcn.com" target="_blank" rel="noopener noreferrer">https://www.hopolcn.com</a></p>
+    </div>
+  </footer>
+
+  <noscript><div class="noscript-message">本页面需要启用 JavaScript 才能加载实时模型目录。数据来源：OpenRouter API。</div></noscript>
+  <script src="app.js" defer></script>
 </body>
 </html>

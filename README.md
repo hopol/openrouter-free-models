@@ -27,7 +27,9 @@ openrouter-free-models/
 ├── public/                             # Cloudflare Pages 发布目录
 │   ├── index.html                      # 网页结构
 │   ├── styles.css                      # 网页样式
-│   ├── app.js                          # 网页逻辑
+│   ├── app.js                          # 网页逻辑与六语言自动适配
+│   ├── seo-i18n.css                    # 多语言与 SEO 内容区样式
+│   ├── robots.txt / sitemap.xml        # 搜索引擎抓取与站点地图
 │   └── data/models.json                # 自动生成的模型数据
 ├── scripts/fetch_models.py             # 从 OpenRouter 获取数据
 ├── generate_initial.py                 # 兼容入口，调用上面的脚本
@@ -137,6 +139,18 @@ Cloudflare 的控制台菜单与深层链接会调整，因此**不要依赖旧�
 ### 需要自定义域名（可选）
 
 部署成功后，在 Cloudflare 项目中进入 **Custom domains**（自定义域）或名称相近的菜单，点击添加域名，按提示完成 DNS 配置即可。首次使用建议先确认 `.pages.dev` 地址工作正常，再绑定自己的域名。
+
+### 多语言与 SEO 配置
+
+网站内置简体中文、English、Español、日本語、한국어、Français 六种界面语言。首次访问会根据浏览器语言自动选择；访问者也可以在页首手动切换，语言选择会保存在浏览器中，并写入地址栏的 `?lang=` 参数。
+
+发布在默认 `.pages.dev` 域名时，无需修改 SEO 文件。若使用自定义域名，请在发布前把以下文件中出现的 `https://openrouter-free-models.pages.dev/` 统一改为你的正式 HTTPS 域名：
+
+- `public/index.html`：canonical、hreflang、Open Graph、结构化数据 URL；
+- `public/robots.txt`：Sitemap 地址；
+- `public/sitemap.xml`：所有 `<loc>` 与 `hreflang` 地址。
+
+完成后可在 Google Search Console、Bing Webmaster Tools 等站长平台提交 `https://你的域名/sitemap.xml`。
 
 ## 手动更新数据
 

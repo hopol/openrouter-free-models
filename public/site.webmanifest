@@ -1,0 +1,9 @@
+{
+  "name": "OpenRouter 免费模型中心",
+  "short_name": "免费模型中心",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f9fc",
+  "theme_color": "#071b35"
+}
