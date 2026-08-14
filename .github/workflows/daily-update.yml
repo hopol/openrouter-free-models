@@ -1,0 +1,38 @@
+name: 更新免费模型数据
+
+on:
+  schedule:
+    # UTC 00:00 和 12:00；分别为北京时间 08:00 和 20:00。
+    - cron: "0 0 * * *"
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-models:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 获取最新免费模型
+        run: python scripts/fetch_models.py
+
+      - name: 提交发生变化的数据
+        run: |
+          if git diff --quiet -- public/data/models.json; then
+            echo "模型数据没有变化。"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/models.json
+          git commit -m "chore: 更新免费模型数据"
+          git push

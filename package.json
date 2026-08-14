@@ -1,0 +1,18 @@
+{
+  "name": "openrouter-free-models",
+  "version": "1.0.0",
+  "private": true,
+  "description": "展示 OpenRouter 当前免费模型的静态网站",
+  "scripts": {
+    "fetch": "python scripts/fetch_models.py",
+    "build": "python scripts/fetch_models.py",
+    "preview": "python -m http.server 8000 --directory public"
+  },
+  "keywords": ["openrouter", "free-models", "ai", "llm", "cloudflare-pages"],
+  "author": "hopol",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hopol/openrouter-free-models.git"
+  }
+}

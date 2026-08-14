@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenRouter 免费模型中心｜免费模型情报与选型建议</title>
+    <meta name="description" content="面向开发者与企业团队的 OpenRouter 免费大模型情报、能力概览与场景化选型建议">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>OpenRouter 免费模型中心</h1>
+            <p class="subtitle">面向开发者与企业团队的免费模型情报、能力概览与场景化选型建议</p>
+            <div class="header-stats" id="headerStats">
+                <span>加载中...</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <a href="#models" class="active">模型列表</a>
+            <a href="#scenarios">场景推荐</a>
+            <a href="#about">关于</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- 模型列表 -->
+        <section id="models">
+            <h2>免费模型全景</h2>
+            <div class="filter-bar">
+                <input type="text" id="searchInput" placeholder="搜索模型名称或 ID...">
+                <select id="companyFilter">
+                    <option value="all">全部公司</option>
+                </select>
+            </div>
+            <div class="model-grid" id="modelGrid">
+                <p>加载中...</p>
+            </div>
+        </section>
+
+        <!-- 场景推荐 -->
+        <section id="scenarios">
+            <h2>场景化选型建议</h2>
+            <div class="scenario-tabs" id="scenarioTabs">
+                <button class="tab active" data-tab="chat">日常聊天</button>
+                <button class="tab" data-tab="code">写代码</button>
+                <button class="tab" data-tab="longdoc">超长文档</button>
+                <button class="tab" data-tab="multimodal">多模态</button>
+                <button class="tab" data-tab="audio">音频生成</button>
+                <button class="tab" data-tab="safety">内容安全</button>
+                <button class="tab" data-tab="opensource">开源项目</button>
+                <button class="tab" data-tab="lightweight">轻量级</button>
+                <button class="tab" data-tab="performance">高性能</button>
+                <button class="tab" data-tab="quickstart">快速上手</button>
+            </div>
+            <div class="scenario-content" id="scenarioContent">
+                <p>选择上方标签查看推荐</p>
+            </div>
+        </section>
+
+        <!-- 关于 -->
+        <section id="about">
+            <h2>数据与服务说明</h2>
+            <div class="about-content">
+                <p>本项目通过 OpenRouter 官方 API 自动抓取所有免费大模型数据，每日两次更新。</p>
+                <p><strong>数据来源：</strong><a href="https://openrouter.ai/api/v1/models" target="_blank" rel="noopener noreferrer">OpenRouter API</a></p>
+                <p><strong>部署平台：</strong><a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">Cloudflare Pages</a></p>
+                <p><strong>项目开源地址：</strong><a href="https://github.com/hopol/openrouter-free-models" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>OpenRouter 免费模型中心 · 每日两次自动更新 · 由 Cloudflare Pages 提供全球静态分发</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
