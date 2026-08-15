@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 410,
-  "free_models_count": 17,
-  "paid_models_count": 393,
+  "total_models": 413,
+  "free_models_count": 19,
+  "paid_models_count": 394,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -68,6 +68,58 @@
           "coding_index": 36.5,
           "agentic_index": 3.1
         }
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "canonical_slug": "dots-studio/dots-3-note-preview-20260813",
+      "hugging_face_id": null,
+      "name": "Dots Studio: Dots3-Note Preview (free)",
+      "created": 1786680361,
+      "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+      "context_length": 512000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 512000,
+        "max_completion_tokens": 512000,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
       },
       "reasoning": {
         "mandatory": false
@@ -674,7 +726,7 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1150,
+            "elo": 1151,
             "win_rate": 37.5,
             "rank": 72
           },
@@ -688,15 +740,15 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1115,
-            "win_rate": 37.5,
+            "elo": 1114,
+            "win_rate": 37.4,
             "rank": 52
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1171,
-            "win_rate": 38.4,
+            "elo": 1170,
+            "win_rate": 38.3,
             "rank": 65
           },
           {
@@ -704,7 +756,7 @@
             "category": "website",
             "elo": 1129,
             "win_rate": 33.5,
-            "rank": 84
+            "rank": 85
           }
         ],
         "artificial_analysis": {
@@ -952,6 +1004,99 @@
       }
     },
     {
+      "id": "openai/gpt-oss-20b:free",
+      "canonical_slug": "openai/gpt-oss-20b",
+      "hugging_face_id": "openai/gpt-oss-20b",
+      "name": "OpenAI: gpt-oss-20b (free)",
+      "created": 1754414229,
+      "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
+      "context_length": 131072,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 32768,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "frequency_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": "2024-06-30",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/openai/gpt-oss-20b/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 953,
+            "win_rate": 39.7,
+            "rank": 105
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 863,
+            "win_rate": 27.9,
+            "rank": 122
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 15.2,
+          "coding_index": 20.7,
+          "agentic_index": 3.1
+        }
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
       "id": "openrouter/free",
       "canonical_slug": "openrouter/free",
       "hugging_face_id": "",
@@ -1183,6 +1328,64 @@
               "coding_index": 36.5,
               "agentic_index": 3.1
             }
+          },
+          "reasoning": {
+            "mandatory": false
+          }
+        }
+      ]
+    },
+    "dots-studio": {
+      "name": "dots-studio",
+      "count": 1,
+      "models": [
+        {
+          "id": "dots-studio/dots-3-note-preview:free",
+          "canonical_slug": "dots-studio/dots-3-note-preview-20260813",
+          "hugging_face_id": null,
+          "name": "Dots Studio: Dots3-Note Preview (free)",
+          "created": 1786680361,
+          "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+          "context_length": 512000,
+          "architecture": {
+            "modality": "text+image->text",
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 512000,
+            "max_completion_tokens": 512000,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
           },
           "reasoning": {
             "mandatory": false
@@ -1807,7 +2010,7 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1150,
+                "elo": 1151,
                 "win_rate": 37.5,
                 "rank": 72
               },
@@ -1821,15 +2024,15 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1115,
-                "win_rate": 37.5,
+                "elo": 1114,
+                "win_rate": 37.4,
                 "rank": 52
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1171,
-                "win_rate": 38.4,
+                "elo": 1170,
+                "win_rate": 38.3,
                 "rank": 65
               },
               {
@@ -1837,7 +2040,7 @@
                 "category": "website",
                 "elo": 1129,
                 "win_rate": 33.5,
-                "rank": 84
+                "rank": 85
               }
             ],
             "artificial_analysis": {
@@ -2086,6 +2289,105 @@
         }
       ]
     },
+    "openai": {
+      "name": "openai",
+      "count": 1,
+      "models": [
+        {
+          "id": "openai/gpt-oss-20b:free",
+          "canonical_slug": "openai/gpt-oss-20b",
+          "hugging_face_id": "openai/gpt-oss-20b",
+          "name": "OpenAI: gpt-oss-20b (free)",
+          "created": 1754414229,
+          "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
+          "context_length": 131072,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "GPT",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 131072,
+            "max_completion_tokens": 32768,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "logprobs",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "reasoning_effort",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_logprobs",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "frequency_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": "2024-06-30",
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/openai/gpt-oss-20b/endpoints"
+          },
+          "benchmarks": {
+            "design_arena": [
+              {
+                "arena": "models",
+                "category": "dataviz",
+                "elo": 953,
+                "win_rate": 39.7,
+                "rank": 105
+              },
+              {
+                "arena": "models",
+                "category": "website",
+                "elo": 863,
+                "win_rate": 27.9,
+                "rank": 122
+              }
+            ],
+            "artificial_analysis": {
+              "intelligence_index": 15.2,
+              "coding_index": 20.7,
+              "agentic_index": 3.1
+            }
+          },
+          "reasoning": {
+            "mandatory": true,
+            "supported_efforts": [
+              "high",
+              "medium",
+              "low"
+            ],
+            "default_effort": "medium"
+          }
+        }
+      ]
+    },
     "openrouter": {
       "name": "openrouter",
       "count": 1,
@@ -2261,5 +2563,5 @@
       ]
     }
   },
-  "updated_at": "2026-08-15T01:06:13+00:00"
+  "updated_at": "2026-08-15T12:20:40+00:00"
 }
