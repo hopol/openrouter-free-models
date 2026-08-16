@@ -705,7 +705,7 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1186,
+            "elo": 1185,
             "win_rate": 41.1,
             "rank": 55
           },
@@ -714,7 +714,7 @@
             "category": "asciiart",
             "elo": 1108,
             "win_rate": 36.8,
-            "rank": 51
+            "rank": 52
           },
           {
             "arena": "models",
@@ -726,8 +726,8 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1151,
-            "win_rate": 37.4,
+            "elo": 1152,
+            "win_rate": 37.5,
             "rank": 72
           },
           {
@@ -740,23 +740,23 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1114,
+            "elo": 1115,
             "win_rate": 37.4,
             "rank": 52
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1170,
-            "win_rate": 38.3,
+            "elo": 1169,
+            "win_rate": 38.2,
             "rank": 65
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1129,
+            "elo": 1130,
             "win_rate": 33.5,
-            "rank": 85
+            "rank": 84
           }
         ],
         "artificial_analysis": {
@@ -1989,7 +1989,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1186,
+                "elo": 1185,
                 "win_rate": 41.1,
                 "rank": 55
               },
@@ -1998,7 +1998,7 @@
                 "category": "asciiart",
                 "elo": 1108,
                 "win_rate": 36.8,
-                "rank": 51
+                "rank": 52
               },
               {
                 "arena": "models",
@@ -2010,8 +2010,8 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1151,
-                "win_rate": 37.4,
+                "elo": 1152,
+                "win_rate": 37.5,
                 "rank": 72
               },
               {
@@ -2024,23 +2024,23 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1114,
+                "elo": 1115,
                 "win_rate": 37.4,
                 "rank": 52
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1170,
-                "win_rate": 38.3,
+                "elo": 1169,
+                "win_rate": 38.2,
                 "rank": 65
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1129,
+                "elo": 1130,
                 "win_rate": 33.5,
-                "rank": 85
+                "rank": 84
               }
             ],
             "artificial_analysis": {
@@ -2563,5 +2563,5 @@
       ]
     }
   },
-  "updated_at": "2026-08-16T01:09:35+00:00"
+  "updated_at": "2026-08-16T12:21:53+00:00"
 }
