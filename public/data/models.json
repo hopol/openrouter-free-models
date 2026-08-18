@@ -1,7 +1,7 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 414,
-  "free_models_count": 20,
+  "total_models": 413,
+  "free_models_count": 19,
   "paid_models_count": 394,
   "free_models": [
     {
@@ -375,71 +375,6 @@
       }
     },
     {
-      "id": "liquid/lfm-2.5-2.6b:free",
-      "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
-      "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
-      "created": 1786470519,
-      "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 8192,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_completion_tokens",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.1,
-        "top_k": 50,
-        "repetition_penalty": 1.1
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
-      },
-      "reasoning": {
-        "mandatory": true
-      }
-    },
-    {
       "id": "nvidia/nemotron-3-nano-30b-a3b:free",
       "canonical_slug": "nvidia/nemotron-3-nano-30b-a3b",
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
@@ -705,14 +640,14 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1184,
+            "elo": 1183,
             "win_rate": 41.1,
             "rank": 56
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1108,
+            "elo": 1107,
             "win_rate": 36.8,
             "rank": 52
           },
@@ -721,7 +656,7 @@
             "category": "codecategories",
             "elo": 1150,
             "win_rate": 36,
-            "rank": 76
+            "rank": 77
           },
           {
             "arena": "models",
@@ -740,22 +675,22 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1117,
-            "win_rate": 37.5,
+            "elo": 1116,
+            "win_rate": 37.4,
             "rank": 53
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1168,
+            "elo": 1169,
             "win_rate": 38.3,
             "rank": 66
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1131,
-            "win_rate": 33.6,
+            "elo": 1130,
+            "win_rate": 33.5,
             "rank": 84
           }
         ],
@@ -1130,7 +1065,6 @@
         "frequency_penalty",
         "include_reasoning",
         "logprobs",
-        "max_completion_tokens",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -1329,14 +1263,14 @@
             "arena": "agents",
             "category": "androidnative",
             "elo": 1208,
-            "win_rate": 54.8,
-            "rank": 16
+            "win_rate": 54.7,
+            "rank": 15
           },
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1270,
-            "win_rate": 61.5,
+            "elo": 1264,
+            "win_rate": 61.4,
             "rank": 9
           },
           {
@@ -1349,37 +1283,37 @@
           {
             "arena": "agents",
             "category": "htmlslides",
-            "elo": 1194,
-            "win_rate": 49.4,
+            "elo": 1199,
+            "win_rate": 50.1,
             "rank": 10
           },
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1210,
-            "win_rate": 51.8,
-            "rank": 15
+            "elo": 1209,
+            "win_rate": 51.9,
+            "rank": 14
           },
           {
             "arena": "agents",
             "category": "python-pptxslides",
-            "elo": 1198,
-            "win_rate": 48.3,
+            "elo": 1207,
+            "win_rate": 49.3,
             "rank": 11
           },
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1261,
+            "elo": 1258,
             "win_rate": 56.8,
             "rank": 10
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1351,
-            "win_rate": 56.7,
-            "rank": 7
+            "elo": 1353,
+            "win_rate": 56.8,
+            "rank": 6
           },
           {
             "arena": "models",
@@ -1391,21 +1325,21 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1325,
-            "win_rate": 56.4,
+            "elo": 1326,
+            "win_rate": 56.3,
             "rank": 6
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1323,
-            "win_rate": 54.1,
-            "rank": 6
+            "elo": 1321,
+            "win_rate": 53.7,
+            "rank": 8
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1326,
+            "elo": 1327,
             "win_rate": 53.7,
             "rank": 11
           },
@@ -1427,8 +1361,8 @@
             "arena": "models",
             "category": "website",
             "elo": 1319,
-            "win_rate": 57.6,
-            "rank": 5
+            "win_rate": 57.5,
+            "rank": 4
           }
         ],
         "artificial_analysis": {
@@ -1837,77 +1771,6 @@
         }
       ]
     },
-    "liquid": {
-      "name": "liquid",
-      "count": 1,
-      "models": [
-        {
-          "id": "liquid/lfm-2.5-2.6b:free",
-          "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
-          "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-          "name": "LiquidAI: LFM2.5-2.6B (free)",
-          "created": 1786470519,
-          "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-          "context_length": 128000,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 128000,
-            "max_completion_tokens": 8192,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "logprobs",
-            "max_completion_tokens",
-            "max_tokens",
-            "min_p",
-            "presence_penalty",
-            "reasoning",
-            "repetition_penalty",
-            "response_format",
-            "seed",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_k",
-            "top_logprobs",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": 0.1,
-            "top_k": 50,
-            "repetition_penalty": 1.1
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
-          },
-          "reasoning": {
-            "mandatory": true
-          }
-        }
-      ]
-    },
     "nvidia": {
       "name": "nvidia",
       "count": 8,
@@ -2178,14 +2041,14 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1184,
+                "elo": 1183,
                 "win_rate": 41.1,
                 "rank": 56
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1108,
+                "elo": 1107,
                 "win_rate": 36.8,
                 "rank": 52
               },
@@ -2194,7 +2057,7 @@
                 "category": "codecategories",
                 "elo": 1150,
                 "win_rate": 36,
-                "rank": 76
+                "rank": 77
               },
               {
                 "arena": "models",
@@ -2213,22 +2076,22 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1117,
-                "win_rate": 37.5,
+                "elo": 1116,
+                "win_rate": 37.4,
                 "rank": 53
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1168,
+                "elo": 1169,
                 "win_rate": 38.3,
                 "rank": 66
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1131,
-                "win_rate": 33.6,
+                "elo": 1130,
+                "win_rate": 33.5,
                 "rank": 84
               }
             ],
@@ -2615,7 +2478,6 @@
             "frequency_penalty",
             "include_reasoning",
             "logprobs",
-            "max_completion_tokens",
             "max_tokens",
             "min_p",
             "presence_penalty",
@@ -2826,14 +2688,14 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1208,
-                "win_rate": 54.8,
-                "rank": 16
+                "win_rate": 54.7,
+                "rank": 15
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1270,
-                "win_rate": 61.5,
+                "elo": 1264,
+                "win_rate": 61.4,
                 "rank": 9
               },
               {
@@ -2846,37 +2708,37 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1194,
-                "win_rate": 49.4,
+                "elo": 1199,
+                "win_rate": 50.1,
                 "rank": 10
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1210,
-                "win_rate": 51.8,
-                "rank": 15
+                "elo": 1209,
+                "win_rate": 51.9,
+                "rank": 14
               },
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1198,
-                "win_rate": 48.3,
+                "elo": 1207,
+                "win_rate": 49.3,
                 "rank": 11
               },
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1261,
+                "elo": 1258,
                 "win_rate": 56.8,
                 "rank": 10
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1351,
-                "win_rate": 56.7,
-                "rank": 7
+                "elo": 1353,
+                "win_rate": 56.8,
+                "rank": 6
               },
               {
                 "arena": "models",
@@ -2888,21 +2750,21 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1325,
-                "win_rate": 56.4,
+                "elo": 1326,
+                "win_rate": 56.3,
                 "rank": 6
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1323,
-                "win_rate": 54.1,
-                "rank": 6
+                "elo": 1321,
+                "win_rate": 53.7,
+                "rank": 8
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1326,
+                "elo": 1327,
                 "win_rate": 53.7,
                 "rank": 11
               },
@@ -2924,8 +2786,8 @@
                 "arena": "models",
                 "category": "website",
                 "elo": 1319,
-                "win_rate": 57.6,
-                "rank": 5
+                "win_rate": 57.5,
+                "rank": 4
               }
             ],
             "artificial_analysis": {
@@ -2947,5 +2809,5 @@
       ]
     }
   },
-  "updated_at": "2026-08-17T12:26:16+00:00"
+  "updated_at": "2026-08-18T01:05:41+00:00"
 }
