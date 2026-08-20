@@ -1339,9 +1339,9 @@
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1264,
+            "elo": 1270,
             "win_rate": 61.4,
-            "rank": 9
+            "rank": 10
           },
           {
             "arena": "agents",
@@ -1367,9 +1367,9 @@
           {
             "arena": "agents",
             "category": "python-pptxslides",
-            "elo": 1207,
-            "win_rate": 49.4,
-            "rank": 11
+            "elo": 1221,
+            "win_rate": 49,
+            "rank": 13
           },
           {
             "arena": "agents",
@@ -2840,9 +2840,9 @@
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1264,
+                "elo": 1270,
                 "win_rate": 61.4,
-                "rank": 9
+                "rank": 10
               },
               {
                 "arena": "agents",
@@ -2868,9 +2868,9 @@
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1207,
-                "win_rate": 49.4,
-                "rank": 11
+                "elo": 1221,
+                "win_rate": 49,
+                "rank": 13
               },
               {
                 "arena": "agents",
@@ -2955,5 +2955,5 @@
       ]
     }
   },
-  "updated_at": "2026-08-20T01:05:58+00:00"
+  "updated_at": "2026-08-20T12:31:00+00:00"
 }
