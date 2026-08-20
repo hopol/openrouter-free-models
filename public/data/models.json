@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 415,
+  "total_models": 414,
   "free_models_count": 20,
-  "paid_models_count": 395,
+  "paid_models_count": 394,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -485,7 +485,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-08-24",
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-3-nano-30b-a3b/endpoints"
       },
@@ -995,7 +995,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
+      "expiration_date": "2026-08-24",
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-nano-9b-v2/endpoints"
       },
@@ -1962,7 +1962,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-08-24",
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-3-nano-30b-a3b/endpoints"
           },
@@ -2472,7 +2472,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": "2025-03-31",
-          "expiration_date": null,
+          "expiration_date": "2026-08-24",
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-nano-9b-v2/endpoints"
           },
@@ -2955,5 +2955,5 @@
       ]
     }
   },
-  "updated_at": "2026-08-19T01:06:35+00:00"
+  "updated_at": "2026-08-20T01:05:58+00:00"
 }
