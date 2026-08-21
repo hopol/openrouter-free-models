@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 419,
+  "total_models": 420,
   "free_models_count": 21,
-  "paid_models_count": 398,
+  "paid_models_count": 399,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -373,7 +373,7 @@
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "created": 1786470519,
       "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-      "context_length": 128000,
+      "context_length": 65536,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -390,7 +390,7 @@
         "completion": "0"
       },
       "top_provider": {
-        "context_length": 128000,
+        "context_length": 65536,
         "max_completion_tokens": 8192,
         "is_moderated": false
       },
@@ -704,9 +704,9 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1103,
+            "elo": 1101,
             "win_rate": 36,
-            "rank": 54
+            "rank": 55
           },
           {
             "arena": "models",
@@ -718,8 +718,8 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1156,
-            "win_rate": 37.9,
+            "elo": 1157,
+            "win_rate": 38,
             "rank": 71
           },
           {
@@ -732,22 +732,22 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1119,
-            "win_rate": 36.9,
-            "rank": 55
+            "elo": 1120,
+            "win_rate": 37.1,
+            "rank": 54
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1166,
-            "win_rate": 38,
+            "win_rate": 37.9,
             "rank": 67
           },
           {
             "arena": "models",
             "category": "website",
             "elo": 1143,
-            "win_rate": 33.8,
+            "win_rate": 33.9,
             "rank": 81
           }
         ],
@@ -1390,12 +1390,12 @@
             "category": "androidnative",
             "elo": 1205,
             "win_rate": 54.9,
-            "rank": 16
+            "rank": 17
           },
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1269,
+            "elo": 1270,
             "win_rate": 61.3,
             "rank": 10
           },
@@ -1409,16 +1409,16 @@
           {
             "arena": "agents",
             "category": "htmlslides",
-            "elo": 1196,
-            "win_rate": 49.8,
+            "elo": 1187,
+            "win_rate": 50,
             "rank": 10
           },
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1211,
-            "win_rate": 51.8,
-            "rank": 14
+            "elo": 1210,
+            "win_rate": 51.7,
+            "rank": 15
           },
           {
             "arena": "agents",
@@ -1437,14 +1437,14 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1349,
+            "elo": 1348,
             "win_rate": 56.9,
             "rank": 6
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1258,
+            "elo": 1256,
             "win_rate": 52.1,
             "rank": 13
           },
@@ -1465,8 +1465,8 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1322,
-            "win_rate": 54,
+            "elo": 1321,
+            "win_rate": 54.1,
             "rank": 11
           },
           {
@@ -1479,8 +1479,8 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1326,
-            "win_rate": 57.5,
+            "elo": 1327,
+            "win_rate": 57.7,
             "rank": 9
           },
           {
@@ -1900,7 +1900,7 @@
           "name": "LiquidAI: LFM2.5-2.6B (free)",
           "created": 1786470519,
           "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-          "context_length": 128000,
+          "context_length": 65536,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -1917,7 +1917,7 @@
             "completion": "0"
           },
           "top_provider": {
-            "context_length": 128000,
+            "context_length": 65536,
             "max_completion_tokens": 8192,
             "is_moderated": false
           },
@@ -2237,9 +2237,9 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1103,
+                "elo": 1101,
                 "win_rate": 36,
-                "rank": 54
+                "rank": 55
               },
               {
                 "arena": "models",
@@ -2251,8 +2251,8 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1156,
-                "win_rate": 37.9,
+                "elo": 1157,
+                "win_rate": 38,
                 "rank": 71
               },
               {
@@ -2265,22 +2265,22 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1119,
-                "win_rate": 36.9,
-                "rank": 55
+                "elo": 1120,
+                "win_rate": 37.1,
+                "rank": 54
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1166,
-                "win_rate": 38,
+                "win_rate": 37.9,
                 "rank": 67
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1143,
-                "win_rate": 33.8,
+                "win_rate": 33.9,
                 "rank": 81
               }
             ],
@@ -2953,12 +2953,12 @@
                 "category": "androidnative",
                 "elo": 1205,
                 "win_rate": 54.9,
-                "rank": 16
+                "rank": 17
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1269,
+                "elo": 1270,
                 "win_rate": 61.3,
                 "rank": 10
               },
@@ -2972,16 +2972,16 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1196,
-                "win_rate": 49.8,
+                "elo": 1187,
+                "win_rate": 50,
                 "rank": 10
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1211,
-                "win_rate": 51.8,
-                "rank": 14
+                "elo": 1210,
+                "win_rate": 51.7,
+                "rank": 15
               },
               {
                 "arena": "agents",
@@ -3000,14 +3000,14 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1349,
+                "elo": 1348,
                 "win_rate": 56.9,
                 "rank": 6
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1258,
+                "elo": 1256,
                 "win_rate": 52.1,
                 "rank": 13
               },
@@ -3028,8 +3028,8 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1322,
-                "win_rate": 54,
+                "elo": 1321,
+                "win_rate": 54.1,
                 "rank": 11
               },
               {
@@ -3042,8 +3042,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1326,
-                "win_rate": 57.5,
+                "elo": 1327,
+                "win_rate": 57.7,
                 "rank": 9
               },
               {
@@ -3073,5 +3073,5 @@
       ]
     }
   },
-  "updated_at": "2026-08-21T01:09:15+00:00"
+  "updated_at": "2026-08-21T12:30:19+00:00"
 }
