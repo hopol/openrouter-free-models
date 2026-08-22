@@ -1,7 +1,7 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 420,
-  "free_models_count": 21,
+  "total_models": 421,
+  "free_models_count": 22,
   "paid_models_count": 399,
   "free_models": [
     {
@@ -704,7 +704,7 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1101,
+            "elo": 1096,
             "win_rate": 36,
             "rank": 55
           },
@@ -712,7 +712,7 @@
             "arena": "models",
             "category": "codecategories",
             "elo": 1158,
-            "win_rate": 36.1,
+            "win_rate": 36.2,
             "rank": 75
           },
           {
@@ -726,13 +726,13 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1160,
-            "win_rate": 36.9,
+            "win_rate": 37,
             "rank": 68
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1120,
+            "elo": 1121,
             "win_rate": 37.1,
             "rank": 54
           },
@@ -740,13 +740,13 @@
             "arena": "models",
             "category": "uicomponent",
             "elo": 1166,
-            "win_rate": 37.9,
+            "win_rate": 38,
             "rank": 67
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1143,
+            "elo": 1144,
             "win_rate": 33.9,
             "rank": 81
           }
@@ -996,99 +996,6 @@
       }
     },
     {
-      "id": "openai/gpt-oss-20b:free",
-      "canonical_slug": "openai/gpt-oss-20b",
-      "hugging_face_id": "openai/gpt-oss-20b",
-      "name": "OpenAI: gpt-oss-20b (free)",
-      "created": 1754414229,
-      "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 32768,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-06-30",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/openai/gpt-oss-20b/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 953,
-            "win_rate": 39.7,
-            "rank": 107
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 872,
-            "win_rate": 27.9,
-            "rank": 122
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": 15.2,
-          "coding_index": 20.7,
-          "agentic_index": 3.1
-        }
-      },
-      "reasoning": {
-        "mandatory": true,
-        "supported_efforts": [
-          "high",
-          "medium",
-          "low"
-        ],
-        "default_effort": "medium"
-      }
-    },
-    {
       "id": "openrouter/free",
       "canonical_slug": "openrouter/free",
       "hugging_face_id": "",
@@ -1315,6 +1222,216 @@
       }
     },
     {
+      "id": "thinkingmachines/inkling-small:free",
+      "canonical_slug": "thinkingmachines/inkling-small-20260730",
+      "hugging_face_id": "thinkingmachines/Inkling-Small",
+      "name": "Thinking Machines: Inkling Small (free)",
+      "created": 1785443117,
+      "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+audio->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 41.2,
+          "coding_index": 52.9,
+          "agentic_index": 31.9
+        }
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
+      "id": "thinkingmachines/inkling:free",
+      "canonical_slug": "thinkingmachines/inkling-20260715",
+      "hugging_face_id": "thinkingmachines/Inkling",
+      "name": "Thinking Machines: Inkling (free)",
+      "created": 1784325956,
+      "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+audio->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1206,
+            "win_rate": 43.2,
+            "rank": 47
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1128,
+            "win_rate": 35.8,
+            "rank": 50
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1218,
+            "win_rate": 41.7,
+            "rank": 44
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1194,
+            "win_rate": 39.6,
+            "rank": 54
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1192,
+            "win_rate": 38.4,
+            "rank": 54
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1217,
+            "win_rate": 41.5,
+            "rank": 46
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1226,
+            "win_rate": 42.5,
+            "rank": 44
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 42.3,
+          "coding_index": 52.1,
+          "agentic_index": 34.1
+        }
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
       "id": "z-ai/glm-5.2:free",
       "canonical_slug": "z-ai/glm-5.2-20260616",
       "hugging_face_id": "zai-org/GLM-5.2",
@@ -1382,20 +1499,20 @@
             "arena": "agents",
             "category": "agenticgamedev",
             "elo": 1188,
-            "win_rate": 49.2,
+            "win_rate": 49.3,
             "rank": 9
           },
           {
             "arena": "agents",
             "category": "androidnative",
             "elo": 1205,
-            "win_rate": 54.9,
+            "win_rate": 55,
             "rank": 17
           },
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1270,
+            "elo": 1269,
             "win_rate": 61.3,
             "rank": 10
           },
@@ -1416,8 +1533,8 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1210,
-            "win_rate": 51.7,
+            "elo": 1211,
+            "win_rate": 51.8,
             "rank": 15
           },
           {
@@ -1430,7 +1547,7 @@
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1255,
+            "elo": 1256,
             "win_rate": 56.5,
             "rank": 11
           },
@@ -1444,7 +1561,7 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1256,
+            "elo": 1251,
             "win_rate": 52.1,
             "rank": 13
           },
@@ -1465,7 +1582,7 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1321,
+            "elo": 1322,
             "win_rate": 54.1,
             "rank": 11
           },
@@ -1473,13 +1590,13 @@
             "arena": "models",
             "category": "svg",
             "elo": 1256,
-            "win_rate": 54.9,
-            "rank": 14
+            "win_rate": 54.8,
+            "rank": 15
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1327,
+            "elo": 1328,
             "win_rate": 57.7,
             "rank": 9
           },
@@ -2237,7 +2354,7 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1101,
+                "elo": 1096,
                 "win_rate": 36,
                 "rank": 55
               },
@@ -2245,7 +2362,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1158,
-                "win_rate": 36.1,
+                "win_rate": 36.2,
                 "rank": 75
               },
               {
@@ -2259,13 +2376,13 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1160,
-                "win_rate": 36.9,
+                "win_rate": 37,
                 "rank": 68
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1120,
+                "elo": 1121,
                 "win_rate": 37.1,
                 "rank": 54
               },
@@ -2273,13 +2390,13 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1166,
-                "win_rate": 37.9,
+                "win_rate": 38,
                 "rank": 67
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1143,
+                "elo": 1144,
                 "win_rate": 33.9,
                 "rank": 81
               }
@@ -2530,105 +2647,6 @@
         }
       ]
     },
-    "openai": {
-      "name": "openai",
-      "count": 1,
-      "models": [
-        {
-          "id": "openai/gpt-oss-20b:free",
-          "canonical_slug": "openai/gpt-oss-20b",
-          "hugging_face_id": "openai/gpt-oss-20b",
-          "name": "OpenAI: gpt-oss-20b (free)",
-          "created": 1754414229,
-          "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
-          "context_length": 131072,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "GPT",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 131072,
-            "max_completion_tokens": 32768,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "logprobs",
-            "max_tokens",
-            "presence_penalty",
-            "reasoning",
-            "reasoning_effort",
-            "repetition_penalty",
-            "response_format",
-            "seed",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_k",
-            "top_logprobs",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": null,
-            "top_p": null,
-            "frequency_penalty": null
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": "2024-06-30",
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/openai/gpt-oss-20b/endpoints"
-          },
-          "benchmarks": {
-            "design_arena": [
-              {
-                "arena": "models",
-                "category": "dataviz",
-                "elo": 953,
-                "win_rate": 39.7,
-                "rank": 107
-              },
-              {
-                "arena": "models",
-                "category": "website",
-                "elo": 872,
-                "win_rate": 27.9,
-                "rank": 122
-              }
-            ],
-            "artificial_analysis": {
-              "intelligence_index": 15.2,
-              "coding_index": 20.7,
-              "agentic_index": 3.1
-            }
-          },
-          "reasoning": {
-            "mandatory": true,
-            "supported_efforts": [
-              "high",
-              "medium",
-              "low"
-            ],
-            "default_effort": "medium"
-          }
-        }
-      ]
-    },
     "openrouter": {
       "name": "openrouter",
       "count": 1,
@@ -2873,6 +2891,222 @@
         }
       ]
     },
+    "thinkingmachines": {
+      "name": "thinkingmachines",
+      "count": 2,
+      "models": [
+        {
+          "id": "thinkingmachines/inkling-small:free",
+          "canonical_slug": "thinkingmachines/inkling-small-20260730",
+          "hugging_face_id": "thinkingmachines/Inkling-Small",
+          "name": "Thinking Machines: Inkling Small (free)",
+          "created": 1785443117,
+          "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text+image+audio->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "audio"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 262144,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "reasoning_effort",
+            "seed",
+            "stop",
+            "temperature",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
+          },
+          "benchmarks": {
+            "design_arena": [],
+            "artificial_analysis": {
+              "intelligence_index": 41.2,
+              "coding_index": 52.9,
+              "agentic_index": 31.9
+            }
+          },
+          "reasoning": {
+            "mandatory": false,
+            "default_enabled": true,
+            "supported_efforts": [
+              "max",
+              "high",
+              "medium",
+              "low",
+              "minimal",
+              "none"
+            ],
+            "default_effort": "high"
+          }
+        },
+        {
+          "id": "thinkingmachines/inkling:free",
+          "canonical_slug": "thinkingmachines/inkling-20260715",
+          "hugging_face_id": "thinkingmachines/Inkling",
+          "name": "Thinking Machines: Inkling (free)",
+          "created": 1784325956,
+          "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text+image+audio->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "audio"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 262144,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "reasoning_effort",
+            "seed",
+            "stop",
+            "temperature",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
+          },
+          "benchmarks": {
+            "design_arena": [
+              {
+                "arena": "models",
+                "category": "3d",
+                "elo": 1206,
+                "win_rate": 43.2,
+                "rank": 47
+              },
+              {
+                "arena": "models",
+                "category": "asciiart",
+                "elo": 1128,
+                "win_rate": 35.8,
+                "rank": 50
+              },
+              {
+                "arena": "models",
+                "category": "codecategories",
+                "elo": 1218,
+                "win_rate": 41.7,
+                "rank": 44
+              },
+              {
+                "arena": "models",
+                "category": "dataviz",
+                "elo": 1194,
+                "win_rate": 39.6,
+                "rank": 54
+              },
+              {
+                "arena": "models",
+                "category": "gamedev",
+                "elo": 1192,
+                "win_rate": 38.4,
+                "rank": 54
+              },
+              {
+                "arena": "models",
+                "category": "uicomponent",
+                "elo": 1217,
+                "win_rate": 41.5,
+                "rank": 46
+              },
+              {
+                "arena": "models",
+                "category": "website",
+                "elo": 1226,
+                "win_rate": 42.5,
+                "rank": 44
+              }
+            ],
+            "artificial_analysis": {
+              "intelligence_index": 42.3,
+              "coding_index": 52.1,
+              "agentic_index": 34.1
+            }
+          },
+          "reasoning": {
+            "mandatory": false,
+            "default_enabled": true,
+            "supported_efforts": [
+              "max",
+              "high",
+              "medium",
+              "low",
+              "minimal",
+              "none"
+            ],
+            "default_effort": "high"
+          }
+        }
+      ]
+    },
     "z-ai": {
       "name": "z-ai",
       "count": 1,
@@ -2945,20 +3179,20 @@
                 "arena": "agents",
                 "category": "agenticgamedev",
                 "elo": 1188,
-                "win_rate": 49.2,
+                "win_rate": 49.3,
                 "rank": 9
               },
               {
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1205,
-                "win_rate": 54.9,
+                "win_rate": 55,
                 "rank": 17
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1270,
+                "elo": 1269,
                 "win_rate": 61.3,
                 "rank": 10
               },
@@ -2979,8 +3213,8 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1210,
-                "win_rate": 51.7,
+                "elo": 1211,
+                "win_rate": 51.8,
                 "rank": 15
               },
               {
@@ -2993,7 +3227,7 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1255,
+                "elo": 1256,
                 "win_rate": 56.5,
                 "rank": 11
               },
@@ -3007,7 +3241,7 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1256,
+                "elo": 1251,
                 "win_rate": 52.1,
                 "rank": 13
               },
@@ -3028,7 +3262,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1321,
+                "elo": 1322,
                 "win_rate": 54.1,
                 "rank": 11
               },
@@ -3036,13 +3270,13 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1256,
-                "win_rate": 54.9,
-                "rank": 14
+                "win_rate": 54.8,
+                "rank": 15
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1327,
+                "elo": 1328,
                 "win_rate": 57.7,
                 "rank": 9
               },
@@ -3073,5 +3307,5 @@
       ]
     }
   },
-  "updated_at": "2026-08-21T12:30:19+00:00"
+  "updated_at": "2026-08-22T01:05:53+00:00"
 }
