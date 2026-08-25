@@ -1,7 +1,7 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 417,
-  "free_models_count": 19,
+  "total_models": 419,
+  "free_models_count": 21,
   "paid_models_count": 398,
   "free_models": [
     {
@@ -432,6 +432,303 @@
       }
     },
     {
+      "id": "minimax/minimax-m2.7:free",
+      "canonical_slug": "minimax/minimax-m2.7-20260318",
+      "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
+      "name": "MiniMax: MiniMax M2.7 (free)",
+      "created": 1773836697,
+      "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
+      "context_length": 196608,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 196608,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/minimax/minimax-m2.7-20260318/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1239,
+            "win_rate": 50.8,
+            "rank": 37
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1167,
+            "win_rate": 47.9,
+            "rank": 36
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1260,
+            "win_rate": 52.3,
+            "rank": 33
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1251,
+            "win_rate": 52.4,
+            "rank": 30
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1244,
+            "win_rate": 51.7,
+            "rank": 35
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1179,
+            "win_rate": 49.4,
+            "rank": 41
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1237,
+            "win_rate": 49.4,
+            "rank": 40
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1266,
+            "win_rate": 53,
+            "rank": 32
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 38.9,
+          "coding_index": 52.6,
+          "agentic_index": 25.9
+        }
+      },
+      "reasoning": {
+        "mandatory": true
+      }
+    },
+    {
+      "id": "minimax/minimax-m3:free",
+      "canonical_slug": "minimax/minimax-m3-20260531",
+      "hugging_face_id": "MiniMaxAI/Minimax-M3",
+      "name": "MiniMax: MiniMax M3 (free)",
+      "created": 1780245374,
+      "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/minimax/minimax-m3-20260531/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "agents",
+            "category": "agenticgamedev",
+            "elo": 1170,
+            "win_rate": 46.1,
+            "rank": 17
+          },
+          {
+            "arena": "agents",
+            "category": "androidnative",
+            "elo": 1175,
+            "win_rate": 46.6,
+            "rank": 23
+          },
+          {
+            "arena": "agents",
+            "category": "fullstack",
+            "elo": 1226,
+            "win_rate": 50.2,
+            "rank": 15
+          },
+          {
+            "arena": "agents",
+            "category": "htmlslides",
+            "elo": 1185,
+            "win_rate": 45.4,
+            "rank": 11
+          },
+          {
+            "arena": "agents",
+            "category": "mobileapps",
+            "elo": 1212,
+            "win_rate": 48.1,
+            "rank": 17
+          },
+          {
+            "arena": "agents",
+            "category": "python-pptxslides",
+            "elo": 1241,
+            "win_rate": 49.5,
+            "rank": 10
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1232,
+            "win_rate": 49,
+            "rank": 18
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1257,
+            "win_rate": 52.6,
+            "rank": 31
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1187,
+            "win_rate": 47.5,
+            "rank": 26
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1275,
+            "win_rate": 52.8,
+            "rank": 26
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1255,
+            "win_rate": 51.9,
+            "rank": 29
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1247,
+            "win_rate": 47.9,
+            "rank": 34
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1213,
+            "win_rate": 49.3,
+            "rank": 28
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1273,
+            "win_rate": 52.7,
+            "rank": 28
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1280,
+            "win_rate": 53.4,
+            "rank": 25
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 45.4,
+          "coding_index": 58.6,
+          "agentic_index": 36.1
+        }
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "canonical_slug": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428",
       "hugging_face_id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
@@ -635,16 +932,16 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1179,
-            "win_rate": 41.2,
-            "rank": 56
+            "elo": 1178,
+            "win_rate": 41.1,
+            "rank": 57
           },
           {
             "arena": "models",
             "category": "asciiart",
             "elo": 1101,
             "win_rate": 36.6,
-            "rank": 54
+            "rank": 55
           },
           {
             "arena": "models",
@@ -656,9 +953,9 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1157,
-            "win_rate": 37.9,
-            "rank": 71
+            "elo": 1158,
+            "win_rate": 38,
+            "rank": 70
           },
           {
             "arena": "models",
@@ -677,7 +974,7 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1163,
+            "elo": 1164,
             "win_rate": 37.6,
             "rank": 69
           },
@@ -1190,29 +1487,29 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1206,
-            "win_rate": 43.7,
-            "rank": 47
+            "elo": 1207,
+            "win_rate": 43.9,
+            "rank": 46
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1124,
+            "elo": 1125,
             "win_rate": 36.4,
-            "rank": 51
+            "rank": 52
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1219,
-            "win_rate": 42,
+            "win_rate": 42.1,
             "rank": 44
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1200,
-            "win_rate": 40.5,
+            "elo": 1197,
+            "win_rate": 40.2,
             "rank": 51
           },
           {
@@ -1225,15 +1522,15 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1203,
-            "win_rate": 40.3,
+            "elo": 1201,
+            "win_rate": 40.1,
             "rank": 50
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1226,
-            "win_rate": 42.7,
+            "elo": 1227,
+            "win_rate": 42.8,
             "rank": 44
           }
         ],
@@ -1324,7 +1621,7 @@
           {
             "arena": "agents",
             "category": "agenticgamedev",
-            "elo": 1194,
+            "elo": 1195,
             "win_rate": 46.5,
             "rank": 11
           },
@@ -1338,7 +1635,7 @@
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1262,
+            "elo": 1261,
             "win_rate": 61.4,
             "rank": 10
           },
@@ -1359,8 +1656,8 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1211,
-            "win_rate": 52,
+            "elo": 1213,
+            "win_rate": 52.1,
             "rank": 16
           },
           {
@@ -1373,7 +1670,7 @@
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1252,
+            "elo": 1253,
             "win_rate": 56.5,
             "rank": 11
           },
@@ -1389,14 +1686,14 @@
             "category": "asciiart",
             "elo": 1246,
             "win_rate": 52.1,
-            "rank": 13
+            "rank": 14
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1331,
             "win_rate": 56.5,
-            "rank": 6
+            "rank": 5
           },
           {
             "arena": "models",
@@ -1415,9 +1712,9 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1255,
-            "win_rate": 54.5,
-            "rank": 15
+            "elo": 1257,
+            "win_rate": 54.6,
+            "rank": 14
           },
           {
             "arena": "models",
@@ -1430,7 +1727,7 @@
             "arena": "models",
             "category": "website",
             "elo": 1326,
-            "win_rate": 57.4,
+            "win_rate": 57.3,
             "rank": 4
           }
         ],
@@ -1903,6 +2200,309 @@
         }
       ]
     },
+    "minimax": {
+      "name": "minimax",
+      "count": 2,
+      "models": [
+        {
+          "id": "minimax/minimax-m2.7:free",
+          "canonical_slug": "minimax/minimax-m2.7-20260318",
+          "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
+          "name": "MiniMax: MiniMax M2.7 (free)",
+          "created": 1773836697,
+          "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
+          "context_length": 196608,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 196608,
+            "max_completion_tokens": null,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "seed",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": 1,
+            "top_p": 0.95,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/minimax/minimax-m2.7-20260318/endpoints"
+          },
+          "benchmarks": {
+            "design_arena": [
+              {
+                "arena": "models",
+                "category": "3d",
+                "elo": 1239,
+                "win_rate": 50.8,
+                "rank": 37
+              },
+              {
+                "arena": "models",
+                "category": "asciiart",
+                "elo": 1167,
+                "win_rate": 47.9,
+                "rank": 36
+              },
+              {
+                "arena": "models",
+                "category": "codecategories",
+                "elo": 1260,
+                "win_rate": 52.3,
+                "rank": 33
+              },
+              {
+                "arena": "models",
+                "category": "dataviz",
+                "elo": 1251,
+                "win_rate": 52.4,
+                "rank": 30
+              },
+              {
+                "arena": "models",
+                "category": "gamedev",
+                "elo": 1244,
+                "win_rate": 51.7,
+                "rank": 35
+              },
+              {
+                "arena": "models",
+                "category": "svg",
+                "elo": 1179,
+                "win_rate": 49.4,
+                "rank": 41
+              },
+              {
+                "arena": "models",
+                "category": "uicomponent",
+                "elo": 1237,
+                "win_rate": 49.4,
+                "rank": 40
+              },
+              {
+                "arena": "models",
+                "category": "website",
+                "elo": 1266,
+                "win_rate": 53,
+                "rank": 32
+              }
+            ],
+            "artificial_analysis": {
+              "intelligence_index": 38.9,
+              "coding_index": 52.6,
+              "agentic_index": 25.9
+            }
+          },
+          "reasoning": {
+            "mandatory": true
+          }
+        },
+        {
+          "id": "minimax/minimax-m3:free",
+          "canonical_slug": "minimax/minimax-m3-20260531",
+          "hugging_face_id": "MiniMaxAI/Minimax-M3",
+          "name": "MiniMax: MiniMax M3 (free)",
+          "created": 1780245374,
+          "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+          "context_length": 1048576,
+          "architecture": {
+            "modality": "text+image+video->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 1048576,
+            "max_completion_tokens": null,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "seed",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": 1,
+            "top_p": 0.95,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/minimax/minimax-m3-20260531/endpoints"
+          },
+          "benchmarks": {
+            "design_arena": [
+              {
+                "arena": "agents",
+                "category": "agenticgamedev",
+                "elo": 1170,
+                "win_rate": 46.1,
+                "rank": 17
+              },
+              {
+                "arena": "agents",
+                "category": "androidnative",
+                "elo": 1175,
+                "win_rate": 46.6,
+                "rank": 23
+              },
+              {
+                "arena": "agents",
+                "category": "fullstack",
+                "elo": 1226,
+                "win_rate": 50.2,
+                "rank": 15
+              },
+              {
+                "arena": "agents",
+                "category": "htmlslides",
+                "elo": 1185,
+                "win_rate": 45.4,
+                "rank": 11
+              },
+              {
+                "arena": "agents",
+                "category": "mobileapps",
+                "elo": 1212,
+                "win_rate": 48.1,
+                "rank": 17
+              },
+              {
+                "arena": "agents",
+                "category": "python-pptxslides",
+                "elo": 1241,
+                "win_rate": 49.5,
+                "rank": 10
+              },
+              {
+                "arena": "agents",
+                "category": "webapps",
+                "elo": 1232,
+                "win_rate": 49,
+                "rank": 18
+              },
+              {
+                "arena": "models",
+                "category": "3d",
+                "elo": 1257,
+                "win_rate": 52.6,
+                "rank": 31
+              },
+              {
+                "arena": "models",
+                "category": "asciiart",
+                "elo": 1187,
+                "win_rate": 47.5,
+                "rank": 26
+              },
+              {
+                "arena": "models",
+                "category": "codecategories",
+                "elo": 1275,
+                "win_rate": 52.8,
+                "rank": 26
+              },
+              {
+                "arena": "models",
+                "category": "dataviz",
+                "elo": 1255,
+                "win_rate": 51.9,
+                "rank": 29
+              },
+              {
+                "arena": "models",
+                "category": "gamedev",
+                "elo": 1247,
+                "win_rate": 47.9,
+                "rank": 34
+              },
+              {
+                "arena": "models",
+                "category": "svg",
+                "elo": 1213,
+                "win_rate": 49.3,
+                "rank": 28
+              },
+              {
+                "arena": "models",
+                "category": "uicomponent",
+                "elo": 1273,
+                "win_rate": 52.7,
+                "rank": 28
+              },
+              {
+                "arena": "models",
+                "category": "website",
+                "elo": 1280,
+                "win_rate": 53.4,
+                "rank": 25
+              }
+            ],
+            "artificial_analysis": {
+              "intelligence_index": 45.4,
+              "coding_index": 58.6,
+              "agentic_index": 36.1
+            }
+          },
+          "reasoning": {
+            "mandatory": false
+          }
+        }
+      ]
+    },
     "nvidia": {
       "name": "nvidia",
       "count": 5,
@@ -2111,16 +2711,16 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1179,
-                "win_rate": 41.2,
-                "rank": 56
+                "elo": 1178,
+                "win_rate": 41.1,
+                "rank": 57
               },
               {
                 "arena": "models",
                 "category": "asciiart",
                 "elo": 1101,
                 "win_rate": 36.6,
-                "rank": 54
+                "rank": 55
               },
               {
                 "arena": "models",
@@ -2132,9 +2732,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1157,
-                "win_rate": 37.9,
-                "rank": 71
+                "elo": 1158,
+                "win_rate": 38,
+                "rank": 70
               },
               {
                 "arena": "models",
@@ -2153,7 +2753,7 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1163,
+                "elo": 1164,
                 "win_rate": 37.6,
                 "rank": 69
               },
@@ -2690,29 +3290,29 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1206,
-                "win_rate": 43.7,
-                "rank": 47
+                "elo": 1207,
+                "win_rate": 43.9,
+                "rank": 46
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1124,
+                "elo": 1125,
                 "win_rate": 36.4,
-                "rank": 51
+                "rank": 52
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1219,
-                "win_rate": 42,
+                "win_rate": 42.1,
                 "rank": 44
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1200,
-                "win_rate": 40.5,
+                "elo": 1197,
+                "win_rate": 40.2,
                 "rank": 51
               },
               {
@@ -2725,15 +3325,15 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1203,
-                "win_rate": 40.3,
+                "elo": 1201,
+                "win_rate": 40.1,
                 "rank": 50
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1226,
-                "win_rate": 42.7,
+                "elo": 1227,
+                "win_rate": 42.8,
                 "rank": 44
               }
             ],
@@ -2830,7 +3430,7 @@
               {
                 "arena": "agents",
                 "category": "agenticgamedev",
-                "elo": 1194,
+                "elo": 1195,
                 "win_rate": 46.5,
                 "rank": 11
               },
@@ -2844,7 +3444,7 @@
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1262,
+                "elo": 1261,
                 "win_rate": 61.4,
                 "rank": 10
               },
@@ -2865,8 +3465,8 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1211,
-                "win_rate": 52,
+                "elo": 1213,
+                "win_rate": 52.1,
                 "rank": 16
               },
               {
@@ -2879,7 +3479,7 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1252,
+                "elo": 1253,
                 "win_rate": 56.5,
                 "rank": 11
               },
@@ -2895,14 +3495,14 @@
                 "category": "asciiart",
                 "elo": 1246,
                 "win_rate": 52.1,
-                "rank": 13
+                "rank": 14
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1331,
                 "win_rate": 56.5,
-                "rank": 6
+                "rank": 5
               },
               {
                 "arena": "models",
@@ -2921,9 +3521,9 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1255,
-                "win_rate": 54.5,
-                "rank": 15
+                "elo": 1257,
+                "win_rate": 54.6,
+                "rank": 14
               },
               {
                 "arena": "models",
@@ -2936,7 +3536,7 @@
                 "arena": "models",
                 "category": "website",
                 "elo": 1326,
-                "win_rate": 57.4,
+                "win_rate": 57.3,
                 "rank": 4
               }
             ],
@@ -2959,5 +3559,5 @@
       ]
     }
   },
-  "updated_at": "2026-08-25T01:07:26+00:00"
+  "updated_at": "2026-08-25T12:31:44+00:00"
 }
