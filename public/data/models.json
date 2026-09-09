@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 426,
-  "free_models_count": 19,
-  "paid_models_count": 407,
+  "total_models": 431,
+  "free_models_count": 21,
+  "paid_models_count": 410,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -548,6 +548,137 @@
       }
     },
     {
+      "id": "nex-agi/nex-n2.5-mini:free",
+      "canonical_slug": "nex-agi/nex-n2.5-mini-20260908",
+      "hugging_face_id": "nex-agi/Nex-N2.5-mini",
+      "name": "Nex AGI: Nex-N2.5-Mini (free)",
+      "created": 1788890061,
+      "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen3",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "top_k": 40
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/nex-agi/nex-n2.5-mini-20260908/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "none"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "canonical_slug": "nex-agi/nex-n2.5-pro-20260907",
+      "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
+      "name": "Nex AGI: Nex-N2.5-Pro (free)",
+      "created": 1788890050,
+      "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen3",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.95,
+        "top_k": 40
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/nex-agi/nex-n2.5-pro-20260907/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "none"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "canonical_slug": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428",
       "hugging_face_id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
@@ -780,14 +911,14 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1153,
-            "win_rate": 36.8,
+            "win_rate": 37,
             "rank": 70
           },
           {
             "arena": "models",
             "category": "svg",
             "elo": 1104,
-            "win_rate": 36.1,
+            "win_rate": 36,
             "rank": 58
           },
           {
@@ -800,7 +931,7 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1144,
+            "elo": 1143,
             "win_rate": 34.3,
             "rank": 82
           }
@@ -1244,8 +1375,8 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1196,
-            "win_rate": 43,
+            "elo": 1195,
+            "win_rate": 42.8,
             "rank": 48
           },
           {
@@ -1258,7 +1389,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1217,
+            "elo": 1216,
             "win_rate": 42.3,
             "rank": 46
           },
@@ -1272,9 +1403,9 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1183,
-            "win_rate": 38,
-            "rank": 56
+            "elo": 1179,
+            "win_rate": 37.6,
+            "rank": 57
           },
           {
             "arena": "models",
@@ -1286,14 +1417,14 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1204,
-            "win_rate": 40.8,
+            "elo": 1206,
+            "win_rate": 41.1,
             "rank": 49
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1227,
+            "elo": 1226,
             "win_rate": 43.4,
             "rank": 45
           }
@@ -1893,6 +2024,143 @@
         }
       ]
     },
+    "nex-agi": {
+      "name": "nex-agi",
+      "count": 2,
+      "models": [
+        {
+          "id": "nex-agi/nex-n2.5-mini:free",
+          "canonical_slug": "nex-agi/nex-n2.5-mini-20260908",
+          "hugging_face_id": "nex-agi/Nex-N2.5-mini",
+          "name": "Nex AGI: Nex-N2.5-Mini (free)",
+          "created": 1788890061,
+          "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Qwen3",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 235929,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "logprobs",
+            "max_tokens",
+            "reasoning",
+            "reasoning_effort",
+            "response_format",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_logprobs",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": 0.7,
+            "top_p": 0.95,
+            "top_k": 40
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/nex-agi/nex-n2.5-mini-20260908/endpoints"
+          },
+          "reasoning": {
+            "mandatory": false,
+            "supported_efforts": [
+              "high",
+              "medium",
+              "none"
+            ],
+            "default_effort": "high"
+          }
+        },
+        {
+          "id": "nex-agi/nex-n2.5-pro:free",
+          "canonical_slug": "nex-agi/nex-n2.5-pro-20260907",
+          "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
+          "name": "Nex AGI: Nex-N2.5-Pro (free)",
+          "created": 1788890050,
+          "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text+image->text",
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Qwen3",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 235929,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "logprobs",
+            "max_tokens",
+            "reasoning",
+            "reasoning_effort",
+            "response_format",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_logprobs",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": 0.7,
+            "top_p": 0.95,
+            "top_k": 40
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/nex-agi/nex-n2.5-pro-20260907/endpoints"
+          },
+          "reasoning": {
+            "mandatory": false,
+            "supported_efforts": [
+              "high",
+              "medium",
+              "none"
+            ],
+            "default_effort": "high"
+          }
+        }
+      ]
+    },
     "nvidia": {
       "name": "nvidia",
       "count": 5,
@@ -2130,14 +2398,14 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1153,
-                "win_rate": 36.8,
+                "win_rate": 37,
                 "rank": 70
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1104,
-                "win_rate": 36.1,
+                "win_rate": 36,
                 "rank": 58
               },
               {
@@ -2150,7 +2418,7 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1144,
+                "elo": 1143,
                 "win_rate": 34.3,
                 "rank": 82
               }
@@ -2612,8 +2880,8 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1196,
-                "win_rate": 43,
+                "elo": 1195,
+                "win_rate": 42.8,
                 "rank": 48
               },
               {
@@ -2626,7 +2894,7 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1217,
+                "elo": 1216,
                 "win_rate": 42.3,
                 "rank": 46
               },
@@ -2640,9 +2908,9 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1183,
-                "win_rate": 38,
-                "rank": 56
+                "elo": 1179,
+                "win_rate": 37.6,
+                "rank": 57
               },
               {
                 "arena": "models",
@@ -2654,14 +2922,14 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1204,
-                "win_rate": 40.8,
+                "elo": 1206,
+                "win_rate": 41.1,
                 "rank": 49
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1227,
+                "elo": 1226,
                 "win_rate": 43.4,
                 "rank": 45
               }
@@ -2689,5 +2957,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-08T15:44:21+00:00"
+  "updated_at": "2026-09-09T03:05:48+00:00"
 }
