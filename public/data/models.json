@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 435,
+  "total_models": 436,
   "free_models_count": 21,
-  "paid_models_count": 414,
+  "paid_models_count": 415,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -117,7 +117,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2026-09-30",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
       },
@@ -890,8 +890,8 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1093,
-            "win_rate": 36,
+            "elo": 1099,
+            "win_rate": 36.6,
             "rank": 58
           },
           {
@@ -925,14 +925,14 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1153,
+            "elo": 1152,
             "win_rate": 37.4,
             "rank": 71
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1143,
+            "elo": 1144,
             "win_rate": 34.3,
             "rank": 82
           }
@@ -1376,16 +1376,16 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1191,
-            "win_rate": 42.2,
-            "rank": 50
+            "elo": 1190,
+            "win_rate": 42,
+            "rank": 51
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1122,
-            "win_rate": 35.2,
-            "rank": 53
+            "elo": 1118,
+            "win_rate": 35.1,
+            "rank": 54
           },
           {
             "arena": "models",
@@ -1397,35 +1397,35 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1191,
-            "win_rate": 40.1,
-            "rank": 56
+            "elo": 1195,
+            "win_rate": 40.6,
+            "rank": 55
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1180,
-            "win_rate": 37.5,
+            "elo": 1179,
+            "win_rate": 37.3,
             "rank": 58
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1130,
-            "win_rate": 34.4,
+            "elo": 1131,
+            "win_rate": 34.3,
             "rank": 52
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1207,
-            "win_rate": 41.4,
-            "rank": 48
+            "win_rate": 41.6,
+            "rank": 47
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1228,
+            "elo": 1227,
             "win_rate": 43.5,
             "rank": 45
           }
@@ -1575,7 +1575,7 @@
           "default_parameters": {},
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": "2026-09-30",
+          "expiration_date": null,
           "links": {
             "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
           },
@@ -2378,8 +2378,8 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1093,
-                "win_rate": 36,
+                "elo": 1099,
+                "win_rate": 36.6,
                 "rank": 58
               },
               {
@@ -2413,14 +2413,14 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1153,
+                "elo": 1152,
                 "win_rate": 37.4,
                 "rank": 71
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1143,
+                "elo": 1144,
                 "win_rate": 34.3,
                 "rank": 82
               }
@@ -2882,16 +2882,16 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1191,
-                "win_rate": 42.2,
-                "rank": 50
+                "elo": 1190,
+                "win_rate": 42,
+                "rank": 51
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1122,
-                "win_rate": 35.2,
-                "rank": 53
+                "elo": 1118,
+                "win_rate": 35.1,
+                "rank": 54
               },
               {
                 "arena": "models",
@@ -2903,35 +2903,35 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1191,
-                "win_rate": 40.1,
-                "rank": 56
+                "elo": 1195,
+                "win_rate": 40.6,
+                "rank": 55
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1180,
-                "win_rate": 37.5,
+                "elo": 1179,
+                "win_rate": 37.3,
                 "rank": 58
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1130,
-                "win_rate": 34.4,
+                "elo": 1131,
+                "win_rate": 34.3,
                 "rank": 52
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1207,
-                "win_rate": 41.4,
-                "rank": 48
+                "win_rate": 41.6,
+                "rank": 47
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1228,
+                "elo": 1227,
                 "win_rate": 43.5,
                 "rank": 45
               }
@@ -2959,5 +2959,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-10T03:05:59+00:00"
+  "updated_at": "2026-09-10T15:34:59+00:00"
 }
