@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 430,
+  "total_models": 435,
   "free_models_count": 21,
-  "paid_models_count": 409,
+  "paid_models_count": 414,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -556,9 +556,10 @@
       "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
       "context_length": 262144,
       "architecture": {
-        "modality": "text->text",
+        "modality": "text+image->text",
         "input_modalities": [
-          "text"
+          "text",
+          "image"
         ],
         "output_modalities": [
           "text"
@@ -882,8 +883,8 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1163,
-            "win_rate": 40.8,
+            "elo": 1164,
+            "win_rate": 40.7,
             "rank": 60
           },
           {
@@ -903,29 +904,29 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1156,
-            "win_rate": 38.5,
+            "elo": 1157,
+            "win_rate": 38.4,
             "rank": 72
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1155,
-            "win_rate": 37.1,
+            "win_rate": 37,
             "rank": 70
           },
           {
             "arena": "models",
             "category": "svg",
             "elo": 1104,
-            "win_rate": 36,
+            "win_rate": 35.9,
             "rank": 58
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1155,
-            "win_rate": 37.3,
+            "elo": 1153,
+            "win_rate": 37.4,
             "rank": 71
           },
           {
@@ -1376,48 +1377,48 @@
             "arena": "models",
             "category": "3d",
             "elo": 1191,
-            "win_rate": 42.6,
+            "win_rate": 42.2,
             "rank": 50
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1115,
-            "win_rate": 34.8,
-            "rank": 55
+            "elo": 1122,
+            "win_rate": 35.2,
+            "rank": 53
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1216,
-            "win_rate": 42.3,
+            "win_rate": 42.2,
             "rank": 46
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1192,
-            "win_rate": 40.2,
-            "rank": 55
+            "elo": 1191,
+            "win_rate": 40.1,
+            "rank": 56
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1179,
-            "win_rate": 37.4,
+            "elo": 1180,
+            "win_rate": 37.5,
             "rank": 58
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1131,
-            "win_rate": 34.5,
+            "elo": 1130,
+            "win_rate": 34.4,
             "rank": 52
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1208,
+            "elo": 1207,
             "win_rate": 41.4,
             "rank": 48
           },
@@ -2037,9 +2038,10 @@
           "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
           "context_length": 262144,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+image->text",
             "input_modalities": [
-              "text"
+              "text",
+              "image"
             ],
             "output_modalities": [
               "text"
@@ -2369,8 +2371,8 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1163,
-                "win_rate": 40.8,
+                "elo": 1164,
+                "win_rate": 40.7,
                 "rank": 60
               },
               {
@@ -2390,29 +2392,29 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1156,
-                "win_rate": 38.5,
+                "elo": 1157,
+                "win_rate": 38.4,
                 "rank": 72
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1155,
-                "win_rate": 37.1,
+                "win_rate": 37,
                 "rank": 70
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1104,
-                "win_rate": 36,
+                "win_rate": 35.9,
                 "rank": 58
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1155,
-                "win_rate": 37.3,
+                "elo": 1153,
+                "win_rate": 37.4,
                 "rank": 71
               },
               {
@@ -2881,48 +2883,48 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1191,
-                "win_rate": 42.6,
+                "win_rate": 42.2,
                 "rank": 50
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1115,
-                "win_rate": 34.8,
-                "rank": 55
+                "elo": 1122,
+                "win_rate": 35.2,
+                "rank": 53
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1216,
-                "win_rate": 42.3,
+                "win_rate": 42.2,
                 "rank": 46
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1192,
-                "win_rate": 40.2,
-                "rank": 55
+                "elo": 1191,
+                "win_rate": 40.1,
+                "rank": 56
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1179,
-                "win_rate": 37.4,
+                "elo": 1180,
+                "win_rate": 37.5,
                 "rank": 58
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1131,
-                "win_rate": 34.5,
+                "elo": 1130,
+                "win_rate": 34.4,
                 "rank": 52
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1208,
+                "elo": 1207,
                 "win_rate": 41.4,
                 "rank": 48
               },
@@ -2957,5 +2959,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-09T15:39:25+00:00"
+  "updated_at": "2026-09-10T03:05:59+00:00"
 }
