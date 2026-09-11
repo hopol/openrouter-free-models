@@ -1,7 +1,7 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 436,
-  "free_models_count": 21,
+  "total_models": 437,
+  "free_models_count": 22,
   "paid_models_count": 415,
   "free_models": [
     {
@@ -117,7 +117,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-09-30",
       "links": {
         "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
       },
@@ -476,6 +476,74 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/inclusionai/ling-3.0-flash-sante-20260904/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      }
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-vl:free",
+      "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
+      "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
+      "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+      "created": 1789056114,
+      "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/inclusionai/ling-3.0-flash-vl-20260910/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 24.8,
+          "coding_index": 57,
+          "agentic_index": 30
+        }
       },
       "reasoning": {
         "mandatory": false,
@@ -883,58 +951,58 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1164,
-            "win_rate": 40.7,
-            "rank": 60
+            "elo": 1165,
+            "win_rate": 40.6,
+            "rank": 61
           },
           {
             "arena": "models",
             "category": "asciiart",
             "elo": 1099,
             "win_rate": 36.6,
-            "rank": 58
+            "rank": 59
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1154,
-            "win_rate": 36.2,
-            "rank": 76
+            "win_rate": 36.3,
+            "rank": 78
           },
           {
             "arena": "models",
             "category": "dataviz",
             "elo": 1157,
             "win_rate": 38.4,
-            "rank": 72
+            "rank": 74
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1155,
             "win_rate": 37,
-            "rank": 70
+            "rank": 72
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1104,
-            "win_rate": 35.9,
-            "rank": 58
+            "elo": 1101,
+            "win_rate": 35.8,
+            "rank": 60
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1152,
-            "win_rate": 37.4,
-            "rank": 71
+            "win_rate": 37.3,
+            "rank": 73
           },
           {
             "arena": "models",
             "category": "website",
             "elo": 1144,
-            "win_rate": 34.3,
-            "rank": 82
+            "win_rate": 34.4,
+            "rank": 84
           }
         ],
         "artificial_analysis": {
@@ -1265,7 +1333,6 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logprobs",
         "max_tokens",
         "presence_penalty",
         "reasoning",
@@ -1274,7 +1341,6 @@
         "stop",
         "temperature",
         "tools",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -1377,57 +1443,57 @@
             "arena": "models",
             "category": "3d",
             "elo": 1190,
-            "win_rate": 42,
-            "rank": 51
+            "win_rate": 41.8,
+            "rank": 53
           },
           {
             "arena": "models",
             "category": "asciiart",
             "elo": 1118,
             "win_rate": 35.1,
-            "rank": 54
+            "rank": 55
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1216,
-            "win_rate": 42.2,
-            "rank": 46
+            "elo": 1214,
+            "win_rate": 42.1,
+            "rank": 48
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1195,
-            "win_rate": 40.6,
-            "rank": 55
+            "elo": 1191,
+            "win_rate": 40.2,
+            "rank": 58
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1179,
-            "win_rate": 37.3,
-            "rank": 58
+            "win_rate": 37.2,
+            "rank": 60
           },
           {
             "arena": "models",
             "category": "svg",
             "elo": 1131,
-            "win_rate": 34.3,
-            "rank": 52
+            "win_rate": 34.5,
+            "rank": 54
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1207,
-            "win_rate": 41.6,
-            "rank": 47
+            "elo": 1209,
+            "win_rate": 41.7,
+            "rank": 48
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1227,
-            "win_rate": 43.5,
-            "rank": 45
+            "elo": 1226,
+            "win_rate": 43.4,
+            "rank": 47
           }
         ],
         "artificial_analysis": {
@@ -1575,7 +1641,7 @@
           "default_parameters": {},
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-09-30",
           "links": {
             "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
           },
@@ -1834,7 +1900,7 @@
     },
     "inclusionai": {
       "name": "inclusionai",
-      "count": 2,
+      "count": 3,
       "models": [
         {
           "id": "inclusionai/ling-3.0-flash-fin:free",
@@ -1946,6 +2012,74 @@
           "expiration_date": null,
           "links": {
             "details": "/api/v1/models/inclusionai/ling-3.0-flash-sante-20260904/endpoints"
+          },
+          "reasoning": {
+            "mandatory": false,
+            "default_enabled": true
+          }
+        },
+        {
+          "id": "inclusionai/ling-3.0-flash-vl:free",
+          "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
+          "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
+          "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+          "created": 1789056114,
+          "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text+image+video->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 32768,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "logprobs",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "repetition_penalty",
+            "seed",
+            "stop",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_logprobs",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/inclusionai/ling-3.0-flash-vl-20260910/endpoints"
+          },
+          "benchmarks": {
+            "design_arena": [],
+            "artificial_analysis": {
+              "intelligence_index": 24.8,
+              "coding_index": 57,
+              "agentic_index": 30
+            }
           },
           "reasoning": {
             "mandatory": false,
@@ -2371,58 +2505,58 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1164,
-                "win_rate": 40.7,
-                "rank": 60
+                "elo": 1165,
+                "win_rate": 40.6,
+                "rank": 61
               },
               {
                 "arena": "models",
                 "category": "asciiart",
                 "elo": 1099,
                 "win_rate": 36.6,
-                "rank": 58
+                "rank": 59
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1154,
-                "win_rate": 36.2,
-                "rank": 76
+                "win_rate": 36.3,
+                "rank": 78
               },
               {
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1157,
                 "win_rate": 38.4,
-                "rank": 72
+                "rank": 74
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1155,
                 "win_rate": 37,
-                "rank": 70
+                "rank": 72
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1104,
-                "win_rate": 35.9,
-                "rank": 58
+                "elo": 1101,
+                "win_rate": 35.8,
+                "rank": 60
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1152,
-                "win_rate": 37.4,
-                "rank": 71
+                "win_rate": 37.3,
+                "rank": 73
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1144,
-                "win_rate": 34.3,
-                "rank": 82
+                "win_rate": 34.4,
+                "rank": 84
               }
             ],
             "artificial_analysis": {
@@ -2771,7 +2905,6 @@
           "supported_parameters": [
             "frequency_penalty",
             "include_reasoning",
-            "logprobs",
             "max_tokens",
             "presence_penalty",
             "reasoning",
@@ -2780,7 +2913,6 @@
             "stop",
             "temperature",
             "tools",
-            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {
@@ -2883,57 +3015,57 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1190,
-                "win_rate": 42,
-                "rank": 51
+                "win_rate": 41.8,
+                "rank": 53
               },
               {
                 "arena": "models",
                 "category": "asciiart",
                 "elo": 1118,
                 "win_rate": 35.1,
-                "rank": 54
+                "rank": 55
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1216,
-                "win_rate": 42.2,
-                "rank": 46
+                "elo": 1214,
+                "win_rate": 42.1,
+                "rank": 48
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1195,
-                "win_rate": 40.6,
-                "rank": 55
+                "elo": 1191,
+                "win_rate": 40.2,
+                "rank": 58
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1179,
-                "win_rate": 37.3,
-                "rank": 58
+                "win_rate": 37.2,
+                "rank": 60
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1131,
-                "win_rate": 34.3,
-                "rank": 52
+                "win_rate": 34.5,
+                "rank": 54
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1207,
-                "win_rate": 41.6,
-                "rank": 47
+                "elo": 1209,
+                "win_rate": 41.7,
+                "rank": 48
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1227,
-                "win_rate": 43.5,
-                "rank": 45
+                "elo": 1226,
+                "win_rate": 43.4,
+                "rank": 47
               }
             ],
             "artificial_analysis": {
@@ -2959,5 +3091,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-10T15:34:59+00:00"
+  "updated_at": "2026-09-11T03:01:06+00:00"
 }
