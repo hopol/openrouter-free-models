@@ -597,8 +597,7 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
-        "top_p"
+        "top_logprobs"
       ],
       "default_parameters": {
         "temperature": 0.1,
@@ -958,8 +957,8 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1099,
-            "win_rate": 36.9,
+            "elo": 1098,
+            "win_rate": 36.7,
             "rank": 60
           },
           {
@@ -1484,7 +1483,7 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1210,
+            "elo": 1211,
             "win_rate": 41.9,
             "rank": 48
           },
@@ -2139,8 +2138,7 @@
             "tool_choice",
             "tools",
             "top_k",
-            "top_logprobs",
-            "top_p"
+            "top_logprobs"
           ],
           "default_parameters": {
             "temperature": 0.1,
@@ -2512,8 +2510,8 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1099,
-                "win_rate": 36.9,
+                "elo": 1098,
+                "win_rate": 36.7,
                 "rank": 60
               },
               {
@@ -3056,7 +3054,7 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1210,
+                "elo": 1211,
                 "win_rate": 41.9,
                 "rank": 48
               },
@@ -3091,5 +3089,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-13T03:10:42+00:00"
+  "updated_at": "2026-09-13T15:22:41+00:00"
 }
