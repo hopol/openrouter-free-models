@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 447,
+  "total_models": 445,
   "free_models_count": 22,
-  "paid_models_count": 425,
+  "paid_models_count": 423,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -1448,7 +1448,7 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1118,
+            "elo": 1119,
             "win_rate": 34.6,
             "rank": 55
           },
@@ -1456,7 +1456,7 @@
             "arena": "models",
             "category": "codecategories",
             "elo": 1215,
-            "win_rate": 42.1,
+            "win_rate": 42,
             "rank": 48
           },
           {
@@ -3019,7 +3019,7 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1118,
+                "elo": 1119,
                 "win_rate": 34.6,
                 "rank": 55
               },
@@ -3027,7 +3027,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1215,
-                "win_rate": 42.1,
+                "win_rate": 42,
                 "rank": 48
               },
               {
@@ -3089,5 +3089,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-14T17:19:25+00:00"
+  "updated_at": "2026-09-15T03:25:01+00:00"
 }
