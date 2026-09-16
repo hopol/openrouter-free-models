@@ -1,7 +1,7 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 443,
-  "free_models_count": 23,
+  "total_models": 444,
+  "free_models_count": 24,
   "paid_models_count": 420,
   "free_models": [
     {
@@ -64,7 +64,7 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": null,
+          "intelligence_index": 9.9,
           "coding_index": 36.5,
           "agentic_index": 1.1
         }
@@ -971,9 +971,9 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1156,
-            "win_rate": 38.4,
-            "rank": 74
+            "elo": 1157,
+            "win_rate": 38.5,
+            "rank": 73
           },
           {
             "arena": "models",
@@ -1299,6 +1299,52 @@
       }
     },
     {
+      "id": "stealth/union-alpha",
+      "canonical_slug": "stealth/union-alpha",
+      "hugging_face_id": null,
+      "name": "Union Alpha",
+      "created": 1789569723,
+      "description": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model....",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "max_tokens",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": "2098-12-31",
+      "links": {
+        "details": "/api/v1/models/stealth/union-alpha/endpoints"
+      }
+    },
+    {
       "id": "thinkingmachines/inkling-small:free",
       "canonical_slug": "thinkingmachines/inkling-small-20260730",
       "hugging_face_id": "thinkingmachines/Inkling-Small",
@@ -1441,9 +1487,9 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1187,
-            "win_rate": 41.4,
-            "rank": 53
+            "elo": 1186,
+            "win_rate": 41.3,
+            "rank": 54
           },
           {
             "arena": "models",
@@ -1463,14 +1509,14 @@
             "arena": "models",
             "category": "dataviz",
             "elo": 1191,
-            "win_rate": 40.2,
+            "win_rate": 40.1,
             "rank": 57
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1178,
-            "win_rate": 37.2,
+            "elo": 1177,
+            "win_rate": 37.1,
             "rank": 59
           },
           {
@@ -1478,20 +1524,20 @@
             "category": "svg",
             "elo": 1134,
             "win_rate": 34.8,
-            "rank": 53
+            "rank": 52
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1210,
-            "win_rate": 41.8,
+            "elo": 1212,
+            "win_rate": 42.1,
             "rank": 48
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1228,
-            "win_rate": 43.6,
+            "elo": 1229,
+            "win_rate": 43.7,
             "rank": 47
           }
         ],
@@ -1593,7 +1639,7 @@
             "arena": "agents",
             "category": "fullstack",
             "elo": 1250,
-            "win_rate": 61.2,
+            "win_rate": 61.1,
             "rank": 12
           },
           {
@@ -1628,20 +1674,20 @@
             "arena": "agents",
             "category": "webapps",
             "elo": 1236,
-            "win_rate": 56.3,
-            "rank": 14
+            "win_rate": 56.2,
+            "rank": 13
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1321,
+            "elo": 1322,
             "win_rate": 54,
             "rank": 13
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1228,
+            "elo": 1227,
             "win_rate": 48.7,
             "rank": 19
           },
@@ -1656,7 +1702,7 @@
             "arena": "models",
             "category": "dataviz",
             "elo": 1312,
-            "win_rate": 53.9,
+            "win_rate": 53.8,
             "rank": 10
           },
           {
@@ -1669,8 +1715,8 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1249,
-            "win_rate": 50.7,
+            "elo": 1248,
+            "win_rate": 50.4,
             "rank": 14
           },
           {
@@ -1770,7 +1816,7 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": null,
+              "intelligence_index": 9.9,
               "coding_index": 36.5,
               "agentic_index": 1.1
             }
@@ -2713,9 +2759,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1156,
-                "win_rate": 38.4,
-                "rank": 74
+                "elo": 1157,
+                "win_rate": 38.5,
+                "rank": 73
               },
               {
                 "arena": "models",
@@ -3054,6 +3100,58 @@
         }
       ]
     },
+    "stealth": {
+      "name": "stealth",
+      "count": 1,
+      "models": [
+        {
+          "id": "stealth/union-alpha",
+          "canonical_slug": "stealth/union-alpha",
+          "hugging_face_id": null,
+          "name": "Union Alpha",
+          "created": 1789569723,
+          "description": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model....",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text+image->text",
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 131072,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "max_tokens",
+            "response_format",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": "2098-12-31",
+          "links": {
+            "details": "/api/v1/models/stealth/union-alpha/endpoints"
+          }
+        }
+      ]
+    },
     "thinkingmachines": {
       "name": "thinkingmachines",
       "count": 2,
@@ -3201,9 +3299,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1187,
-                "win_rate": 41.4,
-                "rank": 53
+                "elo": 1186,
+                "win_rate": 41.3,
+                "rank": 54
               },
               {
                 "arena": "models",
@@ -3223,14 +3321,14 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1191,
-                "win_rate": 40.2,
+                "win_rate": 40.1,
                 "rank": 57
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1178,
-                "win_rate": 37.2,
+                "elo": 1177,
+                "win_rate": 37.1,
                 "rank": 59
               },
               {
@@ -3238,20 +3336,20 @@
                 "category": "svg",
                 "elo": 1134,
                 "win_rate": 34.8,
-                "rank": 53
+                "rank": 52
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1210,
-                "win_rate": 41.8,
+                "elo": 1212,
+                "win_rate": 42.1,
                 "rank": 48
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1228,
-                "win_rate": 43.6,
+                "elo": 1229,
+                "win_rate": 43.7,
                 "rank": 47
               }
             ],
@@ -3359,7 +3457,7 @@
                 "arena": "agents",
                 "category": "fullstack",
                 "elo": 1250,
-                "win_rate": 61.2,
+                "win_rate": 61.1,
                 "rank": 12
               },
               {
@@ -3394,20 +3492,20 @@
                 "arena": "agents",
                 "category": "webapps",
                 "elo": 1236,
-                "win_rate": 56.3,
-                "rank": 14
+                "win_rate": 56.2,
+                "rank": 13
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1321,
+                "elo": 1322,
                 "win_rate": 54,
                 "rank": 13
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1228,
+                "elo": 1227,
                 "win_rate": 48.7,
                 "rank": 19
               },
@@ -3422,7 +3520,7 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1312,
-                "win_rate": 53.9,
+                "win_rate": 53.8,
                 "rank": 10
               },
               {
@@ -3435,8 +3533,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1249,
-                "win_rate": 50.7,
+                "elo": 1248,
+                "win_rate": 50.4,
                 "rank": 14
               },
               {
@@ -3473,5 +3571,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-16T03:21:09+00:00"
+  "updated_at": "2026-09-16T15:51:05+00:00"
 }
