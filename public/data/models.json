@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 444,
-  "free_models_count": 24,
-  "paid_models_count": 420,
+  "total_models": 446,
+  "free_models_count": 25,
+  "paid_models_count": 421,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -71,6 +71,138 @@
       },
       "reasoning": {
         "mandatory": false
+      }
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731:free",
+      "canonical_slug": "deepseek/deepseek-v4-flash-20260731",
+      "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+      "created": 1785478908,
+      "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "DeepSeek",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 393216,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": [],
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/deepseek/deepseek-v4-flash-20260731/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1237,
+            "win_rate": 48.6,
+            "rank": 36
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1111,
+            "win_rate": 33.3,
+            "rank": 58
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1245,
+            "win_rate": 46.5,
+            "rank": 40
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1197,
+            "win_rate": 41.1,
+            "rank": 54
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1232,
+            "win_rate": 44.6,
+            "rank": 38
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1211,
+            "win_rate": 45.1,
+            "rank": 24
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1252,
+            "win_rate": 47,
+            "rank": 35
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1251,
+            "win_rate": 46.8,
+            "rank": 38
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 34.5,
+          "coding_index": 69.1,
+          "agentic_index": 41.7
+        }
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "high"
       }
     },
     {
@@ -979,8 +1111,8 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1158,
-            "win_rate": 38.6,
+            "elo": 1157,
+            "win_rate": 38.5,
             "rank": 73
           },
           {
@@ -993,15 +1125,15 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1094,
+            "elo": 1099,
             "win_rate": 35.6,
             "rank": 60
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1151,
-            "win_rate": 37.2,
+            "elo": 1150,
+            "win_rate": 37,
             "rank": 73
           },
           {
@@ -1177,6 +1309,7 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "logprobs",
         "max_completion_tokens",
         "max_tokens",
@@ -1307,23 +1440,24 @@
       }
     },
     {
-      "id": "stealth/union-alpha",
-      "canonical_slug": "stealth/union-alpha",
-      "hugging_face_id": null,
-      "name": "Union Alpha",
-      "created": 1789569723,
-      "description": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model....",
+      "id": "qwen/qwen3.8-27b:free",
+      "canonical_slug": "qwen/qwen3.8-27b-20260814",
+      "hugging_face_id": "Qwen/Qwen3.8-27B",
+      "name": "Qwen: Qwen3.8 27B (free)",
+      "created": 1786722910,
+      "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
       "context_length": 262144,
       "architecture": {
-        "modality": "text+image->text",
+        "modality": "text+image+video->text",
         "input_modalities": [
           "text",
-          "image"
+          "image",
+          "video"
         ],
         "output_modalities": [
           "text"
         ],
-        "tokenizer": "Other",
+        "tokenizer": "Qwen",
         "instruct_type": null
       },
       "pricing": {
@@ -1332,24 +1466,53 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 235929,
         "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
         "max_tokens",
-        "response_format",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
         "top_p"
       ],
-      "default_parameters": {},
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": 20
+      },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2098-12-31",
+      "expiration_date": null,
       "links": {
-        "details": "/api/v1/models/stealth/union-alpha/endpoints"
+        "details": "/api/v1/models/qwen/qwen3.8-27b-20260814/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 33.9,
+          "coding_index": 68.1,
+          "agentic_index": 46.5
+        }
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "xhigh",
+          "medium",
+          "low"
+        ],
+        "default_effort": "xhigh"
       }
     },
     {
@@ -1496,7 +1659,7 @@
             "arena": "models",
             "category": "3d",
             "elo": 1185,
-            "win_rate": 41.1,
+            "win_rate": 41.2,
             "rank": 54
           },
           {
@@ -1517,35 +1680,35 @@
             "arena": "models",
             "category": "dataviz",
             "elo": 1191,
-            "win_rate": 40.1,
+            "win_rate": 40,
             "rank": 57
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1179,
-            "win_rate": 37.4,
-            "rank": 59
+            "elo": 1175,
+            "win_rate": 36.9,
+            "rank": 60
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1130,
-            "win_rate": 35,
-            "rank": 52
+            "elo": 1139,
+            "win_rate": 35.5,
+            "rank": 51
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1211,
-            "win_rate": 41.9,
+            "elo": 1210,
+            "win_rate": 41.6,
             "rank": 48
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1229,
-            "win_rate": 43.7,
+            "elo": 1230,
+            "win_rate": 43.9,
             "rank": 47
           }
         ],
@@ -1667,8 +1830,8 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1189,
-            "win_rate": 50.8,
+            "elo": 1190,
+            "win_rate": 50.7,
             "rank": 23
           },
           {
@@ -1682,7 +1845,7 @@
             "arena": "agents",
             "category": "webapps",
             "elo": 1236,
-            "win_rate": 56.2,
+            "win_rate": 56.3,
             "rank": 13
           },
           {
@@ -1695,16 +1858,16 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1230,
-            "win_rate": 49,
-            "rank": 20
+            "elo": 1225,
+            "win_rate": 48.1,
+            "rank": 21
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1309,
+            "elo": 1308,
             "win_rate": 53,
-            "rank": 10
+            "rank": 12
           },
           {
             "arena": "models",
@@ -1723,15 +1886,15 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1242,
+            "elo": 1247,
             "win_rate": 50.4,
             "rank": 14
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1309,
-            "win_rate": 55.7,
+            "elo": 1308,
+            "win_rate": 55.5,
             "rank": 14
           },
           {
@@ -1831,6 +1994,144 @@
           },
           "reasoning": {
             "mandatory": false
+          }
+        }
+      ]
+    },
+    "deepseek": {
+      "name": "deepseek",
+      "count": 1,
+      "models": [
+        {
+          "id": "deepseek/deepseek-v4-flash-0731:free",
+          "canonical_slug": "deepseek/deepseek-v4-flash-20260731",
+          "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+          "created": 1785478908,
+          "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
+          "context_length": 1048576,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "DeepSeek",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 1048576,
+            "max_completion_tokens": 393216,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "logit_bias",
+            "max_tokens",
+            "min_p",
+            "presence_penalty",
+            "reasoning",
+            "reasoning_effort",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": [],
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/deepseek/deepseek-v4-flash-20260731/endpoints"
+          },
+          "benchmarks": {
+            "design_arena": [
+              {
+                "arena": "models",
+                "category": "3d",
+                "elo": 1237,
+                "win_rate": 48.6,
+                "rank": 36
+              },
+              {
+                "arena": "models",
+                "category": "asciiart",
+                "elo": 1111,
+                "win_rate": 33.3,
+                "rank": 58
+              },
+              {
+                "arena": "models",
+                "category": "codecategories",
+                "elo": 1245,
+                "win_rate": 46.5,
+                "rank": 40
+              },
+              {
+                "arena": "models",
+                "category": "dataviz",
+                "elo": 1197,
+                "win_rate": 41.1,
+                "rank": 54
+              },
+              {
+                "arena": "models",
+                "category": "gamedev",
+                "elo": 1232,
+                "win_rate": 44.6,
+                "rank": 38
+              },
+              {
+                "arena": "models",
+                "category": "svg",
+                "elo": 1211,
+                "win_rate": 45.1,
+                "rank": 24
+              },
+              {
+                "arena": "models",
+                "category": "uicomponent",
+                "elo": 1252,
+                "win_rate": 47,
+                "rank": 35
+              },
+              {
+                "arena": "models",
+                "category": "website",
+                "elo": 1251,
+                "win_rate": 46.8,
+                "rank": 38
+              }
+            ],
+            "artificial_analysis": {
+              "intelligence_index": 34.5,
+              "coding_index": 69.1,
+              "agentic_index": 41.7
+            }
+          },
+          "reasoning": {
+            "mandatory": false,
+            "default_enabled": true,
+            "supported_efforts": [
+              "max",
+              "high",
+              "low"
+            ],
+            "default_effort": "high"
           }
         }
       ]
@@ -2775,8 +3076,8 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1158,
-                "win_rate": 38.6,
+                "elo": 1157,
+                "win_rate": 38.5,
                 "rank": 73
               },
               {
@@ -2789,15 +3090,15 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1094,
+                "elo": 1099,
                 "win_rate": 35.6,
                 "rank": 60
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1151,
-                "win_rate": 37.2,
+                "elo": 1150,
+                "win_rate": 37,
                 "rank": 73
               },
               {
@@ -2979,6 +3280,7 @@
           "supported_parameters": [
             "frequency_penalty",
             "include_reasoning",
+            "logit_bias",
             "logprobs",
             "max_completion_tokens",
             "max_tokens",
@@ -3116,28 +3418,29 @@
         }
       ]
     },
-    "stealth": {
-      "name": "stealth",
+    "qwen": {
+      "name": "qwen",
       "count": 1,
       "models": [
         {
-          "id": "stealth/union-alpha",
-          "canonical_slug": "stealth/union-alpha",
-          "hugging_face_id": null,
-          "name": "Union Alpha",
-          "created": 1789569723,
-          "description": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model....",
+          "id": "qwen/qwen3.8-27b:free",
+          "canonical_slug": "qwen/qwen3.8-27b-20260814",
+          "hugging_face_id": "Qwen/Qwen3.8-27B",
+          "name": "Qwen: Qwen3.8 27B (free)",
+          "created": 1786722910,
+          "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
           "context_length": 262144,
           "architecture": {
-            "modality": "text+image->text",
+            "modality": "text+image+video->text",
             "input_modalities": [
               "text",
-              "image"
+              "image",
+              "video"
             ],
             "output_modalities": [
               "text"
             ],
-            "tokenizer": "Other",
+            "tokenizer": "Qwen",
             "instruct_type": null
           },
           "pricing": {
@@ -3146,24 +3449,53 @@
           },
           "top_provider": {
             "context_length": 262144,
-            "max_completion_tokens": 131072,
+            "max_completion_tokens": 235929,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
             "max_tokens",
-            "response_format",
+            "presence_penalty",
+            "reasoning",
+            "reasoning_effort",
+            "repetition_penalty",
+            "stop",
+            "structured_outputs",
             "temperature",
             "tool_choice",
             "tools",
             "top_p"
           ],
-          "default_parameters": {},
+          "default_parameters": {
+            "temperature": 1,
+            "top_p": 0.95,
+            "top_k": 20
+          },
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": "2098-12-31",
+          "expiration_date": null,
           "links": {
-            "details": "/api/v1/models/stealth/union-alpha/endpoints"
+            "details": "/api/v1/models/qwen/qwen3.8-27b-20260814/endpoints"
+          },
+          "benchmarks": {
+            "design_arena": [],
+            "artificial_analysis": {
+              "intelligence_index": 33.9,
+              "coding_index": 68.1,
+              "agentic_index": 46.5
+            }
+          },
+          "reasoning": {
+            "mandatory": false,
+            "default_enabled": true,
+            "supported_efforts": [
+              "xhigh",
+              "medium",
+              "low"
+            ],
+            "default_effort": "xhigh"
           }
         }
       ]
@@ -3316,7 +3648,7 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1185,
-                "win_rate": 41.1,
+                "win_rate": 41.2,
                 "rank": 54
               },
               {
@@ -3337,35 +3669,35 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1191,
-                "win_rate": 40.1,
+                "win_rate": 40,
                 "rank": 57
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1179,
-                "win_rate": 37.4,
-                "rank": 59
+                "elo": 1175,
+                "win_rate": 36.9,
+                "rank": 60
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1130,
-                "win_rate": 35,
-                "rank": 52
+                "elo": 1139,
+                "win_rate": 35.5,
+                "rank": 51
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1211,
-                "win_rate": 41.9,
+                "elo": 1210,
+                "win_rate": 41.6,
                 "rank": 48
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1229,
-                "win_rate": 43.7,
+                "elo": 1230,
+                "win_rate": 43.9,
                 "rank": 47
               }
             ],
@@ -3493,8 +3825,8 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1189,
-                "win_rate": 50.8,
+                "elo": 1190,
+                "win_rate": 50.7,
                 "rank": 23
               },
               {
@@ -3508,7 +3840,7 @@
                 "arena": "agents",
                 "category": "webapps",
                 "elo": 1236,
-                "win_rate": 56.2,
+                "win_rate": 56.3,
                 "rank": 13
               },
               {
@@ -3521,16 +3853,16 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1230,
-                "win_rate": 49,
-                "rank": 20
+                "elo": 1225,
+                "win_rate": 48.1,
+                "rank": 21
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1309,
+                "elo": 1308,
                 "win_rate": 53,
-                "rank": 10
+                "rank": 12
               },
               {
                 "arena": "models",
@@ -3549,15 +3881,15 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1242,
+                "elo": 1247,
                 "win_rate": 50.4,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1309,
-                "win_rate": 55.7,
+                "elo": 1308,
+                "win_rate": 55.5,
                 "rank": 14
               },
               {
@@ -3587,5 +3919,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-17T15:57:13+00:00"
+  "updated_at": "2026-09-18T03:13:21+00:00"
 }
