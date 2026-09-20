@@ -157,7 +157,7 @@
             "category": "dataviz",
             "elo": 1197,
             "win_rate": 41.1,
-            "rank": 53
+            "rank": 54
           },
           {
             "arena": "models",
@@ -169,14 +169,14 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1211,
-            "win_rate": 45.1,
-            "rank": 26
+            "elo": 1212,
+            "win_rate": 45.2,
+            "rank": 25
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1252,
+            "elo": 1253,
             "win_rate": 47,
             "rank": 35
           },
@@ -189,9 +189,9 @@
           }
         ],
         "artificial_analysis": {
-          "intelligence_index": 34.5,
+          "intelligence_index": 34.3,
           "coding_index": 69.1,
-          "agentic_index": 41.7
+          "agentic_index": 41
         }
       },
       "reasoning": {
@@ -382,9 +382,9 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": 15.4,
+          "intelligence_index": null,
           "coding_index": 43.4,
-          "agentic_index": 6.7
+          "agentic_index": 4.2
         }
       },
       "reasoning": {
@@ -554,9 +554,9 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": 23,
+          "intelligence_index": 22.6,
           "coding_index": 55.6,
-          "agentic_index": 29.3
+          "agentic_index": 27.9
         }
       },
       "reasoning": {
@@ -680,9 +680,9 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": 25,
+          "intelligence_index": 24.6,
           "coding_index": 57,
-          "agentic_index": 30
+          "agentic_index": 28.7
         }
       },
       "reasoning": {
@@ -1015,9 +1015,9 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": 13.6,
+          "intelligence_index": 12.8,
           "coding_index": 37.7,
-          "agentic_index": 4.1
+          "agentic_index": 1.7
         }
       },
       "reasoning": {
@@ -1091,14 +1091,14 @@
             "arena": "models",
             "category": "3d",
             "elo": 1162,
-            "win_rate": 40.2,
+            "win_rate": 40.1,
             "rank": 62
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1098,
-            "win_rate": 36.5,
+            "elo": 1095,
+            "win_rate": 36.2,
             "rank": 61
           },
           {
@@ -1112,42 +1112,42 @@
             "arena": "models",
             "category": "dataviz",
             "elo": 1160,
-            "win_rate": 38.9,
+            "win_rate": 38.8,
             "rank": 72
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1157,
-            "win_rate": 36.9,
+            "elo": 1156,
+            "win_rate": 36.7,
             "rank": 70
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1101,
-            "win_rate": 35.6,
+            "elo": 1099,
+            "win_rate": 35.5,
             "rank": 61
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1148,
-            "win_rate": 36.6,
+            "elo": 1150,
+            "win_rate": 36.9,
             "rank": 73
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1147,
-            "win_rate": 34.6,
-            "rank": 83
+            "elo": 1148,
+            "win_rate": 34.7,
+            "rank": 82
           }
         ],
         "artificial_analysis": {
-          "intelligence_index": 23.4,
+          "intelligence_index": 22.9,
           "coding_index": 49.3,
-          "agentic_index": 21.7
+          "agentic_index": 20.1
         }
       },
       "reasoning": {
@@ -1267,9 +1267,9 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": 13.6,
+          "intelligence_index": 12.9,
           "coding_index": 26.8,
-          "agentic_index": 6.1
+          "agentic_index": 3.5
         }
       },
       "reasoning": {
@@ -1499,9 +1499,9 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": 33.9,
+          "intelligence_index": 33.7,
           "coding_index": 68.1,
-          "agentic_index": 46.5
+          "agentic_index": 45.8
         }
       },
       "reasoning": {
@@ -1576,9 +1576,9 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": 26.1,
+          "intelligence_index": null,
           "coding_index": 52.9,
-          "agentic_index": 25
+          "agentic_index": null
         }
       },
       "reasoning": {
@@ -1658,9 +1658,9 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1187,
-            "win_rate": 40.9,
-            "rank": 53
+            "elo": 1185,
+            "win_rate": 40.8,
+            "rank": 54
           },
           {
             "arena": "models",
@@ -1672,7 +1672,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1217,
+            "elo": 1216,
             "win_rate": 42.2,
             "rank": 48
           },
@@ -1687,35 +1687,35 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1181,
-            "win_rate": 37.4,
+            "win_rate": 37.5,
             "rank": 59
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1140,
-            "win_rate": 35.7,
-            "rank": 52
+            "elo": 1138,
+            "win_rate": 35.6,
+            "rank": 53
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1211,
-            "win_rate": 41.8,
+            "win_rate": 42,
             "rank": 48
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1231,
-            "win_rate": 44,
+            "elo": 1230,
+            "win_rate": 43.9,
             "rank": 47
           }
         ],
         "artificial_analysis": {
-          "intelligence_index": 25.5,
+          "intelligence_index": 25,
           "coding_index": 52.1,
-          "agentic_index": 24.3
+          "agentic_index": 22.5
         }
       },
       "reasoning": {
@@ -1810,7 +1810,7 @@
             "arena": "agents",
             "category": "fullstack",
             "elo": 1251,
-            "win_rate": 61,
+            "win_rate": 60.9,
             "rank": 11
           },
           {
@@ -1831,7 +1831,7 @@
             "arena": "agents",
             "category": "mobileapps",
             "elo": 1190,
-            "win_rate": 50.6,
+            "win_rate": 50.5,
             "rank": 23
           },
           {
@@ -1851,15 +1851,15 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1321,
+            "elo": 1320,
             "win_rate": 53.9,
             "rank": 13
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1229,
-            "win_rate": 48.5,
+            "elo": 1227,
+            "win_rate": 48.1,
             "rank": 19
           },
           {
@@ -1886,8 +1886,8 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1247,
-            "win_rate": 50.4,
+            "elo": 1246,
+            "win_rate": 50.2,
             "rank": 15
           },
           {
@@ -1901,14 +1901,14 @@
             "arena": "models",
             "category": "website",
             "elo": 1304,
-            "win_rate": 53.3,
+            "win_rate": 53.2,
             "rank": 11
           }
         ],
         "artificial_analysis": {
-          "intelligence_index": 34,
+          "intelligence_index": 33.7,
           "coding_index": 68.8,
-          "agentic_index": 39.4
+          "agentic_index": 38.4
         }
       },
       "reasoning": {
@@ -2086,7 +2086,7 @@
                 "category": "dataviz",
                 "elo": 1197,
                 "win_rate": 41.1,
-                "rank": 53
+                "rank": 54
               },
               {
                 "arena": "models",
@@ -2098,14 +2098,14 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1211,
-                "win_rate": 45.1,
-                "rank": 26
+                "elo": 1212,
+                "win_rate": 45.2,
+                "rank": 25
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1252,
+                "elo": 1253,
                 "win_rate": 47,
                 "rank": 35
               },
@@ -2118,9 +2118,9 @@
               }
             ],
             "artificial_analysis": {
-              "intelligence_index": 34.5,
+              "intelligence_index": 34.3,
               "coding_index": 69.1,
-              "agentic_index": 41.7
+              "agentic_index": 41
             }
           },
           "reasoning": {
@@ -2323,9 +2323,9 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": 15.4,
+              "intelligence_index": null,
               "coding_index": 43.4,
-              "agentic_index": 6.7
+              "agentic_index": 4.2
             }
           },
           "reasoning": {
@@ -2501,9 +2501,9 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": 23,
+              "intelligence_index": 22.6,
               "coding_index": 55.6,
-              "agentic_index": 29.3
+              "agentic_index": 27.9
             }
           },
           "reasoning": {
@@ -2627,9 +2627,9 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": 25,
+              "intelligence_index": 24.6,
               "coding_index": 57,
-              "agentic_index": 30
+              "agentic_index": 28.7
             }
           },
           "reasoning": {
@@ -2980,9 +2980,9 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": 13.6,
+              "intelligence_index": 12.8,
               "coding_index": 37.7,
-              "agentic_index": 4.1
+              "agentic_index": 1.7
             }
           },
           "reasoning": {
@@ -3056,14 +3056,14 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1162,
-                "win_rate": 40.2,
+                "win_rate": 40.1,
                 "rank": 62
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1098,
-                "win_rate": 36.5,
+                "elo": 1095,
+                "win_rate": 36.2,
                 "rank": 61
               },
               {
@@ -3077,42 +3077,42 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1160,
-                "win_rate": 38.9,
+                "win_rate": 38.8,
                 "rank": 72
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1157,
-                "win_rate": 36.9,
+                "elo": 1156,
+                "win_rate": 36.7,
                 "rank": 70
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1101,
-                "win_rate": 35.6,
+                "elo": 1099,
+                "win_rate": 35.5,
                 "rank": 61
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1148,
-                "win_rate": 36.6,
+                "elo": 1150,
+                "win_rate": 36.9,
                 "rank": 73
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1147,
-                "win_rate": 34.6,
-                "rank": 83
+                "elo": 1148,
+                "win_rate": 34.7,
+                "rank": 82
               }
             ],
             "artificial_analysis": {
-              "intelligence_index": 23.4,
+              "intelligence_index": 22.9,
               "coding_index": 49.3,
-              "agentic_index": 21.7
+              "agentic_index": 20.1
             }
           },
           "reasoning": {
@@ -3232,9 +3232,9 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": 13.6,
+              "intelligence_index": 12.9,
               "coding_index": 26.8,
-              "agentic_index": 6.1
+              "agentic_index": 3.5
             }
           },
           "reasoning": {
@@ -3482,9 +3482,9 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": 33.9,
+              "intelligence_index": 33.7,
               "coding_index": 68.1,
-              "agentic_index": 46.5
+              "agentic_index": 45.8
             }
           },
           "reasoning": {
@@ -3565,9 +3565,9 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": 26.1,
+              "intelligence_index": null,
               "coding_index": 52.9,
-              "agentic_index": 25
+              "agentic_index": null
             }
           },
           "reasoning": {
@@ -3647,9 +3647,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1187,
-                "win_rate": 40.9,
-                "rank": 53
+                "elo": 1185,
+                "win_rate": 40.8,
+                "rank": 54
               },
               {
                 "arena": "models",
@@ -3661,7 +3661,7 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1217,
+                "elo": 1216,
                 "win_rate": 42.2,
                 "rank": 48
               },
@@ -3676,35 +3676,35 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1181,
-                "win_rate": 37.4,
+                "win_rate": 37.5,
                 "rank": 59
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1140,
-                "win_rate": 35.7,
-                "rank": 52
+                "elo": 1138,
+                "win_rate": 35.6,
+                "rank": 53
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1211,
-                "win_rate": 41.8,
+                "win_rate": 42,
                 "rank": 48
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1231,
-                "win_rate": 44,
+                "elo": 1230,
+                "win_rate": 43.9,
                 "rank": 47
               }
             ],
             "artificial_analysis": {
-              "intelligence_index": 25.5,
+              "intelligence_index": 25,
               "coding_index": 52.1,
-              "agentic_index": 24.3
+              "agentic_index": 22.5
             }
           },
           "reasoning": {
@@ -3805,7 +3805,7 @@
                 "arena": "agents",
                 "category": "fullstack",
                 "elo": 1251,
-                "win_rate": 61,
+                "win_rate": 60.9,
                 "rank": 11
               },
               {
@@ -3826,7 +3826,7 @@
                 "arena": "agents",
                 "category": "mobileapps",
                 "elo": 1190,
-                "win_rate": 50.6,
+                "win_rate": 50.5,
                 "rank": 23
               },
               {
@@ -3846,15 +3846,15 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1321,
+                "elo": 1320,
                 "win_rate": 53.9,
                 "rank": 13
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1229,
-                "win_rate": 48.5,
+                "elo": 1227,
+                "win_rate": 48.1,
                 "rank": 19
               },
               {
@@ -3881,8 +3881,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1247,
-                "win_rate": 50.4,
+                "elo": 1246,
+                "win_rate": 50.2,
                 "rank": 15
               },
               {
@@ -3896,14 +3896,14 @@
                 "arena": "models",
                 "category": "website",
                 "elo": 1304,
-                "win_rate": 53.3,
+                "win_rate": 53.2,
                 "rank": 11
               }
             ],
             "artificial_analysis": {
-              "intelligence_index": 34,
+              "intelligence_index": 33.7,
               "coding_index": 68.8,
-              "agentic_index": 39.4
+              "agentic_index": 38.4
             }
           },
           "reasoning": {
@@ -3919,5 +3919,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-19T15:06:28+00:00"
+  "updated_at": "2026-09-20T03:25:39+00:00"
 }
