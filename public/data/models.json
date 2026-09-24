@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 456,
+  "total_models": 459,
   "free_models_count": 24,
-  "paid_models_count": 432,
+  "paid_models_count": 435,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -491,74 +491,6 @@
       }
     },
     {
-      "id": "inclusionai/ling-3.0-flash-vl:free",
-      "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
-      "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
-      "name": "inclusionAI: Ling 3.0 Flash VL (free)",
-      "created": 1789056114,
-      "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text+image+video->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 32768,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "seed",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/inclusionai/ling-3.0-flash-vl-20260910/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 24.6,
-          "coding_index": 57,
-          "agentic_index": 28.7
-        }
-      },
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true
-      }
-    },
-    {
       "id": "liquid/lfm-2.5-2.6b:free",
       "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
       "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
@@ -968,7 +900,7 @@
             "category": "asciiart",
             "elo": 1098,
             "win_rate": 37.1,
-            "rank": 61
+            "rank": 60
           },
           {
             "arena": "models",
@@ -987,15 +919,15 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1156,
-            "win_rate": 36.8,
-            "rank": 69
+            "elo": 1158,
+            "win_rate": 36.9,
+            "rank": 68
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1095,
-            "win_rate": 35.2,
+            "elo": 1093,
+            "win_rate": 35.1,
             "rank": 62
           },
           {
@@ -1003,7 +935,7 @@
             "category": "uicomponent",
             "elo": 1155,
             "win_rate": 37.3,
-            "rank": 72
+            "rank": 71
           },
           {
             "arena": "models",
@@ -1384,6 +1316,67 @@
       }
     },
     {
+      "id": "stealth/space-bunny-alpha",
+      "canonical_slug": "stealth/space-bunny-alpha",
+      "hugging_face_id": null,
+      "name": "Space Bunny Alpha",
+      "created": 1790174884,
+      "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 524288,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": "2098-12-31",
+      "links": {
+        "details": "/api/v1/models/stealth/space-bunny-alpha/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "max"
+      }
+    },
+    {
       "id": "thinkingmachines/inkling-small:free",
       "canonical_slug": "thinkingmachines/inkling-small-20260730",
       "hugging_face_id": "thinkingmachines/Inkling-Small",
@@ -1527,15 +1520,15 @@
             "arena": "models",
             "category": "3d",
             "elo": 1185,
-            "win_rate": 40.4,
+            "win_rate": 40.3,
             "rank": 55
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1109,
-            "win_rate": 33.7,
-            "rank": 57
+            "elo": 1099,
+            "win_rate": 33.3,
+            "rank": 59
           },
           {
             "arena": "models",
@@ -1547,29 +1540,29 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1180,
-            "win_rate": 38.2,
-            "rank": 63
+            "elo": 1178,
+            "win_rate": 38.1,
+            "rank": 64
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1182,
-            "win_rate": 37.6,
+            "win_rate": 37.5,
             "rank": 59
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1134,
+            "elo": 1132,
             "win_rate": 35.5,
             "rank": 53
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1218,
-            "win_rate": 42.4,
+            "elo": 1217,
+            "win_rate": 42.3,
             "rank": 47
           },
           {
@@ -1670,23 +1663,23 @@
           {
             "arena": "agents",
             "category": "androidnative",
-            "elo": 1189,
+            "elo": 1191,
             "win_rate": 53,
-            "rank": 17
+            "rank": 16
           },
           {
             "arena": "agents",
             "category": "fullstack",
-            "elo": 1250,
+            "elo": 1246,
             "win_rate": 60.9,
-            "rank": 11
+            "rank": 12
           },
           {
             "arena": "agents",
             "category": "godotgamedev",
             "elo": 1142,
             "win_rate": 40.1,
-            "rank": 17
+            "rank": 20
           },
           {
             "arena": "agents",
@@ -1698,9 +1691,9 @@
           {
             "arena": "agents",
             "category": "mobileapps",
-            "elo": 1191,
-            "win_rate": 50.5,
-            "rank": 22
+            "elo": 1189,
+            "win_rate": 50.4,
+            "rank": 23
           },
           {
             "arena": "agents",
@@ -1712,22 +1705,22 @@
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1229,
-            "win_rate": 56,
+            "elo": 1227,
+            "win_rate": 56.1,
             "rank": 14
           },
           {
             "arena": "models",
             "category": "3d",
             "elo": 1318,
-            "win_rate": 53.7,
+            "win_rate": 53.6,
             "rank": 14
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1218,
-            "win_rate": 47.5,
+            "elo": 1214,
+            "win_rate": 47.4,
             "rank": 21
           },
           {
@@ -1747,21 +1740,21 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1290,
-            "win_rate": 49.6,
+            "elo": 1291,
+            "win_rate": 49.7,
             "rank": 18
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1242,
-            "win_rate": 50.1,
+            "elo": 1239,
+            "win_rate": 50,
             "rank": 15
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1307,
+            "elo": 1306,
             "win_rate": 55.3,
             "rank": 14
           },
@@ -2173,7 +2166,7 @@
     },
     "inclusionai": {
       "name": "inclusionai",
-      "count": 3,
+      "count": 2,
       "models": [
         {
           "id": "inclusionai/ling-3.0-flash-fin:free",
@@ -2293,74 +2286,6 @@
           "expiration_date": null,
           "links": {
             "details": "/api/v1/models/inclusionai/ling-3.0-flash-sante-20260904/endpoints"
-          },
-          "reasoning": {
-            "mandatory": false,
-            "default_enabled": true
-          }
-        },
-        {
-          "id": "inclusionai/ling-3.0-flash-vl:free",
-          "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
-          "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
-          "name": "inclusionAI: Ling 3.0 Flash VL (free)",
-          "created": 1789056114,
-          "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
-          "context_length": 262144,
-          "architecture": {
-            "modality": "text+image+video->text",
-            "input_modalities": [
-              "text",
-              "image",
-              "video"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 262144,
-            "max_completion_tokens": 32768,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "logprobs",
-            "max_tokens",
-            "presence_penalty",
-            "reasoning",
-            "repetition_penalty",
-            "seed",
-            "stop",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_k",
-            "top_logprobs",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/inclusionai/ling-3.0-flash-vl-20260910/endpoints"
-          },
-          "benchmarks": {
-            "design_arena": [],
-            "artificial_analysis": {
-              "intelligence_index": 24.6,
-              "coding_index": 57,
-              "agentic_index": 28.7
-            }
           },
           "reasoning": {
             "mandatory": false,
@@ -2795,7 +2720,7 @@
                 "category": "asciiart",
                 "elo": 1098,
                 "win_rate": 37.1,
-                "rank": 61
+                "rank": 60
               },
               {
                 "arena": "models",
@@ -2814,15 +2739,15 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1156,
-                "win_rate": 36.8,
-                "rank": 69
+                "elo": 1158,
+                "win_rate": 36.9,
+                "rank": 68
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1095,
-                "win_rate": 35.2,
+                "elo": 1093,
+                "win_rate": 35.1,
                 "rank": 62
               },
               {
@@ -2830,7 +2755,7 @@
                 "category": "uicomponent",
                 "elo": 1155,
                 "win_rate": 37.3,
-                "rank": 72
+                "rank": 71
               },
               {
                 "arena": "models",
@@ -3230,6 +3155,73 @@
         }
       ]
     },
+    "stealth": {
+      "name": "stealth",
+      "count": 1,
+      "models": [
+        {
+          "id": "stealth/space-bunny-alpha",
+          "canonical_slug": "stealth/space-bunny-alpha",
+          "hugging_face_id": null,
+          "name": "Space Bunny Alpha",
+          "created": 1790174884,
+          "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
+          "context_length": 1000000,
+          "architecture": {
+            "modality": "text+image+video->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 1000000,
+            "max_completion_tokens": 524288,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "reasoning_effort",
+            "response_format",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": "2098-12-31",
+          "links": {
+            "details": "/api/v1/models/stealth/space-bunny-alpha/endpoints"
+          },
+          "reasoning": {
+            "mandatory": true,
+            "supported_efforts": [
+              "max",
+              "xhigh",
+              "high",
+              "medium",
+              "low"
+            ],
+            "default_effort": "max"
+          }
+        }
+      ]
+    },
     "thinkingmachines": {
       "name": "thinkingmachines",
       "count": 2,
@@ -3378,15 +3370,15 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1185,
-                "win_rate": 40.4,
+                "win_rate": 40.3,
                 "rank": 55
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1109,
-                "win_rate": 33.7,
-                "rank": 57
+                "elo": 1099,
+                "win_rate": 33.3,
+                "rank": 59
               },
               {
                 "arena": "models",
@@ -3398,29 +3390,29 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1180,
-                "win_rate": 38.2,
-                "rank": 63
+                "elo": 1178,
+                "win_rate": 38.1,
+                "rank": 64
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1182,
-                "win_rate": 37.6,
+                "win_rate": 37.5,
                 "rank": 59
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1134,
+                "elo": 1132,
                 "win_rate": 35.5,
                 "rank": 53
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1218,
-                "win_rate": 42.4,
+                "elo": 1217,
+                "win_rate": 42.3,
                 "rank": 47
               },
               {
@@ -3527,23 +3519,23 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1189,
+                "elo": 1191,
                 "win_rate": 53,
-                "rank": 17
+                "rank": 16
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1250,
+                "elo": 1246,
                 "win_rate": 60.9,
-                "rank": 11
+                "rank": 12
               },
               {
                 "arena": "agents",
                 "category": "godotgamedev",
                 "elo": 1142,
                 "win_rate": 40.1,
-                "rank": 17
+                "rank": 20
               },
               {
                 "arena": "agents",
@@ -3555,9 +3547,9 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1191,
-                "win_rate": 50.5,
-                "rank": 22
+                "elo": 1189,
+                "win_rate": 50.4,
+                "rank": 23
               },
               {
                 "arena": "agents",
@@ -3569,22 +3561,22 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1229,
-                "win_rate": 56,
+                "elo": 1227,
+                "win_rate": 56.1,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "3d",
                 "elo": 1318,
-                "win_rate": 53.7,
+                "win_rate": 53.6,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1218,
-                "win_rate": 47.5,
+                "elo": 1214,
+                "win_rate": 47.4,
                 "rank": 21
               },
               {
@@ -3604,21 +3596,21 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1290,
-                "win_rate": 49.6,
+                "elo": 1291,
+                "win_rate": 49.7,
                 "rank": 18
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1242,
-                "win_rate": 50.1,
+                "elo": 1239,
+                "win_rate": 50,
                 "rank": 15
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1307,
+                "elo": 1306,
                 "win_rate": 55.3,
                 "rank": 14
               },
@@ -3649,5 +3641,5 @@
       ]
     }
   },
-  "updated_at": "2026-09-23T15:51:06+00:00"
+  "updated_at": "2026-09-24T03:10:13+00:00"
 }
