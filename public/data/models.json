@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 467,
+  "total_models": 469,
   "free_models_count": 19,
-  "paid_models_count": 448,
+  "paid_models_count": 450,
   "free_models": [
     {
       "id": "apodex/apodex-1.1-mini:free",
@@ -781,7 +781,7 @@
             "arena": "models",
             "category": "codecategories",
             "elo": 1148,
-            "win_rate": 36.2,
+            "win_rate": 36.1,
             "rank": 79
           },
           {
@@ -796,7 +796,7 @@
             "category": "gamedev",
             "elo": 1147,
             "win_rate": 36.7,
-            "rank": 70
+            "rank": 71
           },
           {
             "arena": "models",
@@ -1286,8 +1286,8 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1174,
-            "win_rate": 38,
-            "rank": 61
+            "win_rate": 37.9,
+            "rank": 62
           },
           {
             "arena": "models",
@@ -2150,7 +2150,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1148,
-                "win_rate": 36.2,
+                "win_rate": 36.1,
                 "rank": 79
               },
               {
@@ -2165,7 +2165,7 @@
                 "category": "gamedev",
                 "elo": 1147,
                 "win_rate": 36.7,
-                "rank": 70
+                "rank": 71
               },
               {
                 "arena": "models",
@@ -2673,8 +2673,8 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1174,
-                "win_rate": 38,
-                "rank": 61
+                "win_rate": 37.9,
+                "rank": 62
               },
               {
                 "arena": "models",
@@ -2721,5 +2721,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-08T18:14:00+00:00"
+  "updated_at": "2026-10-09T04:35:16+00:00"
 }
