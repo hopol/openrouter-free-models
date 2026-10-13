@@ -1,66 +1,9 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 459,
-  "free_models_count": 19,
-  "paid_models_count": 440,
+  "total_models": 461,
+  "free_models_count": 17,
+  "paid_models_count": 444,
   "free_models": [
-    {
-      "id": "apodex/apodex-1.1-mini:free",
-      "canonical_slug": "apodex/apodex-1.1-mini-20261001",
-      "hugging_face_id": null,
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "created": 1790875335,
-      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/apodex/apodex-1.1-mini-20261001/endpoints"
-      },
-      "reasoning": {
-        "mandatory": false
-      }
-    },
     {
       "id": "cohere/north-mini-code:free",
       "canonical_slug": "cohere/north-mini-code-20260617",
@@ -424,72 +367,6 @@
       }
     },
     {
-      "id": "inclusionai/ling-3.1-flash",
-      "canonical_slug": "inclusionai/ling-3.1-flash-20261002",
-      "hugging_face_id": null,
-      "name": "inclusionAI: Ling 3.1 Flash",
-      "created": 1790950024,
-      "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "seed",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/inclusionai/ling-3.1-flash-20261002/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 41.1,
-          "coding_index": null,
-          "agentic_index": null
-        }
-      },
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true
-      }
-    },
-    {
       "id": "liquid/lfm-2.5-2.6b:free",
       "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
       "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
@@ -536,8 +413,7 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
-        "top_p"
+        "top_logprobs"
       ],
       "default_parameters": {
         "temperature": 0.1,
@@ -766,9 +642,9 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1133,
+            "elo": 1132,
             "win_rate": 39,
-            "rank": 73
+            "rank": 74
           },
           {
             "arena": "models",
@@ -781,8 +657,8 @@
             "arena": "models",
             "category": "codecategories",
             "elo": 1148,
-            "win_rate": 36.1,
-            "rank": 82
+            "win_rate": 36,
+            "rank": 83
           },
           {
             "arena": "models",
@@ -794,28 +670,28 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1143,
-            "win_rate": 36.3,
-            "rank": 75
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1069,
-            "win_rate": 32.5,
-            "rank": 69
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1144,
+            "elo": 1142,
             "win_rate": 36.3,
             "rank": 77
           },
           {
             "arena": "models",
+            "category": "svg",
+            "elo": 1069,
+            "win_rate": 32.4,
+            "rank": 69
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1142,
+            "win_rate": 36.2,
+            "rank": 79
+          },
+          {
+            "arena": "models",
             "category": "website",
-            "elo": 1145,
+            "elo": 1144,
             "win_rate": 35,
             "rank": 91
           }
@@ -1264,9 +1140,9 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1164,
+            "elo": 1163,
             "win_rate": 40.5,
-            "rank": 60
+            "rank": 62
           },
           {
             "arena": "models",
@@ -1280,7 +1156,7 @@
             "category": "codecategories",
             "elo": 1208,
             "win_rate": 42.3,
-            "rank": 55
+            "rank": 56
           },
           {
             "arena": "models",
@@ -1292,9 +1168,9 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1170,
+            "elo": 1169,
             "win_rate": 37.8,
-            "rank": 65
+            "rank": 66
           },
           {
             "arena": "models",
@@ -1306,9 +1182,9 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1201,
-            "win_rate": 40.2,
-            "rank": 56
+            "elo": 1200,
+            "win_rate": 40.1,
+            "rank": 57
           },
           {
             "arena": "models",
@@ -1340,69 +1216,6 @@
     }
   ],
   "companies": {
-    "apodex": {
-      "name": "apodex",
-      "count": 1,
-      "models": [
-        {
-          "id": "apodex/apodex-1.1-mini:free",
-          "canonical_slug": "apodex/apodex-1.1-mini-20261001",
-          "hugging_face_id": null,
-          "name": "Apodex: Apodex 1.1 Mini (free)",
-          "created": 1790875335,
-          "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
-          "context_length": 262144,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 262144,
-            "max_completion_tokens": 235929,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "max_tokens",
-            "presence_penalty",
-            "reasoning",
-            "repetition_penalty",
-            "response_format",
-            "seed",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_k",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/apodex/apodex-1.1-mini-20261001/endpoints"
-          },
-          "reasoning": {
-            "mandatory": false
-          }
-        }
-      ]
-    },
     "cohere": {
       "name": "cohere",
       "count": 1,
@@ -1783,78 +1596,6 @@
         }
       ]
     },
-    "inclusionai": {
-      "name": "inclusionai",
-      "count": 1,
-      "models": [
-        {
-          "id": "inclusionai/ling-3.1-flash",
-          "canonical_slug": "inclusionai/ling-3.1-flash-20261002",
-          "hugging_face_id": null,
-          "name": "inclusionAI: Ling 3.1 Flash",
-          "created": 1790950024,
-          "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
-          "context_length": 262144,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 262144,
-            "max_completion_tokens": 235929,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "logprobs",
-            "max_tokens",
-            "presence_penalty",
-            "reasoning",
-            "repetition_penalty",
-            "seed",
-            "stop",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_k",
-            "top_logprobs",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/inclusionai/ling-3.1-flash-20261002/endpoints"
-          },
-          "benchmarks": {
-            "design_arena": [],
-            "artificial_analysis": {
-              "intelligence_index": 41.1,
-              "coding_index": null,
-              "agentic_index": null
-            }
-          },
-          "reasoning": {
-            "mandatory": false,
-            "default_enabled": true
-          }
-        }
-      ]
-    },
     "liquid": {
       "name": "liquid",
       "count": 1,
@@ -1906,8 +1647,7 @@
             "tool_choice",
             "tools",
             "top_k",
-            "top_logprobs",
-            "top_p"
+            "top_logprobs"
           ],
           "default_parameters": {
             "temperature": 0.1,
@@ -2142,9 +1882,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1133,
+                "elo": 1132,
                 "win_rate": 39,
-                "rank": 73
+                "rank": 74
               },
               {
                 "arena": "models",
@@ -2157,8 +1897,8 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1148,
-                "win_rate": 36.1,
-                "rank": 82
+                "win_rate": 36,
+                "rank": 83
               },
               {
                 "arena": "models",
@@ -2170,28 +1910,28 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1143,
-                "win_rate": 36.3,
-                "rank": 75
-              },
-              {
-                "arena": "models",
-                "category": "svg",
-                "elo": 1069,
-                "win_rate": 32.5,
-                "rank": 69
-              },
-              {
-                "arena": "models",
-                "category": "uicomponent",
-                "elo": 1144,
+                "elo": 1142,
                 "win_rate": 36.3,
                 "rank": 77
               },
               {
                 "arena": "models",
+                "category": "svg",
+                "elo": 1069,
+                "win_rate": 32.4,
+                "rank": 69
+              },
+              {
+                "arena": "models",
+                "category": "uicomponent",
+                "elo": 1142,
+                "win_rate": 36.2,
+                "rank": 79
+              },
+              {
+                "arena": "models",
                 "category": "website",
-                "elo": 1145,
+                "elo": 1144,
                 "win_rate": 35,
                 "rank": 91
               }
@@ -2658,9 +2398,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1164,
+                "elo": 1163,
                 "win_rate": 40.5,
-                "rank": 60
+                "rank": 62
               },
               {
                 "arena": "models",
@@ -2674,7 +2414,7 @@
                 "category": "codecategories",
                 "elo": 1208,
                 "win_rate": 42.3,
-                "rank": 55
+                "rank": 56
               },
               {
                 "arena": "models",
@@ -2686,9 +2426,9 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1170,
+                "elo": 1169,
                 "win_rate": 37.8,
-                "rank": 65
+                "rank": 66
               },
               {
                 "arena": "models",
@@ -2700,9 +2440,9 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1201,
-                "win_rate": 40.2,
-                "rank": 56
+                "elo": 1200,
+                "win_rate": 40.1,
+                "rank": 57
               },
               {
                 "arena": "models",
@@ -2735,5 +2475,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-13T05:29:45+00:00"
+  "updated_at": "2026-10-13T18:42:26+00:00"
 }
