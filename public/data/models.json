@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 462,
+  "total_models": 465,
   "free_models_count": 18,
-  "paid_models_count": 444,
+  "paid_models_count": 447,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -578,7 +578,8 @@
         "supports_max_tokens": true,
         "supported_efforts": [
           "medium",
-          "low"
+          "low",
+          "none"
         ],
         "default_effort": "medium"
       }
@@ -656,7 +657,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1148,
+            "elo": 1149,
             "win_rate": 36.1,
             "rank": 84
           },
@@ -664,21 +665,21 @@
             "arena": "models",
             "category": "dataviz",
             "elo": 1142,
-            "win_rate": 37.4,
-            "rank": 83
+            "win_rate": 37.5,
+            "rank": 84
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1141,
-            "win_rate": 36.2,
+            "win_rate": 36.3,
             "rank": 78
           },
           {
             "arena": "models",
             "category": "svg",
             "elo": 1069,
-            "win_rate": 32.5,
+            "win_rate": 32.4,
             "rank": 69
           },
           {
@@ -708,7 +709,8 @@
         "supports_max_tokens": true,
         "supported_efforts": [
           "high",
-          "medium"
+          "medium",
+          "none"
         ],
         "default_effort": "high"
       }
@@ -831,7 +833,7 @@
     {
       "id": "nvidia/nemotron-3.5-super-vl:free",
       "canonical_slug": "nvidia/nemotron-3.5-super-vl-20261015",
-      "hugging_face_id": null,
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
       "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
       "created": 1792076662,
       "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
@@ -877,6 +879,14 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-3.5-super-vl-20261015/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 26.5,
+          "coding_index": null,
+          "agentic_index": null
+        }
       },
       "reasoning": {
         "mandatory": false
@@ -1195,7 +1205,7 @@
             "arena": "models",
             "category": "3d",
             "elo": 1161,
-            "win_rate": 40.1,
+            "win_rate": 40,
             "rank": 63
           },
           {
@@ -1208,16 +1218,16 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1207,
+            "elo": 1208,
             "win_rate": 42.2,
-            "rank": 57
+            "rank": 56
           },
           {
             "arena": "models",
             "category": "dataviz",
             "elo": 1162,
-            "win_rate": 37.9,
-            "rank": 74
+            "win_rate": 37.8,
+            "rank": 75
           },
           {
             "arena": "models",
@@ -1236,14 +1246,14 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1198,
+            "elo": 1197,
             "win_rate": 40.2,
             "rank": 58
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1225,
+            "elo": 1226,
             "win_rate": 44.5,
             "rank": 53
           }
@@ -1872,7 +1882,8 @@
             "supports_max_tokens": true,
             "supported_efforts": [
               "medium",
-              "low"
+              "low",
+              "none"
             ],
             "default_effort": "medium"
           }
@@ -1950,7 +1961,7 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1148,
+                "elo": 1149,
                 "win_rate": 36.1,
                 "rank": 84
               },
@@ -1958,21 +1969,21 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1142,
-                "win_rate": 37.4,
-                "rank": 83
+                "win_rate": 37.5,
+                "rank": 84
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1141,
-                "win_rate": 36.2,
+                "win_rate": 36.3,
                 "rank": 78
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1069,
-                "win_rate": 32.5,
+                "win_rate": 32.4,
                 "rank": 69
               },
               {
@@ -2002,7 +2013,8 @@
             "supports_max_tokens": true,
             "supported_efforts": [
               "high",
-              "medium"
+              "medium",
+              "none"
             ],
             "default_effort": "high"
           }
@@ -2125,7 +2137,7 @@
         {
           "id": "nvidia/nemotron-3.5-super-vl:free",
           "canonical_slug": "nvidia/nemotron-3.5-super-vl-20261015",
-          "hugging_face_id": null,
+          "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
           "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
           "created": 1792076662,
           "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
@@ -2171,6 +2183,14 @@
           "expiration_date": null,
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-3.5-super-vl-20261015/endpoints"
+          },
+          "benchmarks": {
+            "design_arena": [],
+            "artificial_analysis": {
+              "intelligence_index": 26.5,
+              "coding_index": null,
+              "agentic_index": null
+            }
           },
           "reasoning": {
             "mandatory": false
@@ -2507,7 +2527,7 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1161,
-                "win_rate": 40.1,
+                "win_rate": 40,
                 "rank": 63
               },
               {
@@ -2520,16 +2540,16 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1207,
+                "elo": 1208,
                 "win_rate": 42.2,
-                "rank": 57
+                "rank": 56
               },
               {
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1162,
-                "win_rate": 37.9,
-                "rank": 74
+                "win_rate": 37.8,
+                "rank": 75
               },
               {
                 "arena": "models",
@@ -2548,14 +2568,14 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1198,
+                "elo": 1197,
                 "win_rate": 40.2,
                 "rank": 58
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1225,
+                "elo": 1226,
                 "win_rate": 44.5,
                 "rank": 53
               }
@@ -2583,5 +2603,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-15T16:02:00+00:00"
+  "updated_at": "2026-10-16T03:08:58+00:00"
 }
