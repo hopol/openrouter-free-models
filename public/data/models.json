@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 465,
+  "total_models": 466,
   "free_models_count": 18,
-  "paid_models_count": 447,
+  "paid_models_count": 448,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -643,30 +643,30 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1132,
+            "elo": 1133,
             "win_rate": 38.9,
             "rank": 75
           },
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1097,
-            "win_rate": 37.5,
+            "elo": 1096,
+            "win_rate": 37.4,
             "rank": 60
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1149,
+            "elo": 1148,
             "win_rate": 36.1,
-            "rank": 84
+            "rank": 85
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1142,
+            "elo": 1143,
             "win_rate": 37.5,
-            "rank": 84
+            "rank": 82
           },
           {
             "arena": "models",
@@ -686,15 +686,15 @@
             "arena": "models",
             "category": "uicomponent",
             "elo": 1139,
-            "win_rate": 36.1,
+            "win_rate": 36,
             "rank": 80
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1146,
-            "win_rate": 35.1,
-            "rank": 91
+            "elo": 1145,
+            "win_rate": 35.2,
+            "rank": 92
           }
         ],
         "artificial_analysis": {
@@ -881,7 +881,29 @@
         "details": "/api/v1/models/nvidia/nemotron-3.5-super-vl-20261015/endpoints"
       },
       "benchmarks": {
-        "design_arena": [],
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1176,
+            "win_rate": 35.1,
+            "rank": 69
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1144,
+            "win_rate": 32.5,
+            "rank": 73
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1180,
+            "win_rate": 35.9,
+            "rank": 73
+          }
+        ],
         "artificial_analysis": {
           "intelligence_index": 26.5,
           "coding_index": null,
@@ -1204,7 +1226,7 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1161,
+            "elo": 1162,
             "win_rate": 40,
             "rank": 63
           },
@@ -1218,9 +1240,9 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1208,
+            "elo": 1207,
             "win_rate": 42.2,
-            "rank": 56
+            "rank": 57
           },
           {
             "arena": "models",
@@ -1233,7 +1255,7 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1169,
-            "win_rate": 38,
+            "win_rate": 38.1,
             "rank": 67
           },
           {
@@ -1253,9 +1275,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1226,
+            "elo": 1224,
             "win_rate": 44.5,
-            "rank": 53
+            "rank": 54
           }
         ],
         "artificial_analysis": {
@@ -1947,30 +1969,30 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1132,
+                "elo": 1133,
                 "win_rate": 38.9,
                 "rank": 75
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1097,
-                "win_rate": 37.5,
+                "elo": 1096,
+                "win_rate": 37.4,
                 "rank": 60
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1149,
+                "elo": 1148,
                 "win_rate": 36.1,
-                "rank": 84
+                "rank": 85
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1142,
+                "elo": 1143,
                 "win_rate": 37.5,
-                "rank": 84
+                "rank": 82
               },
               {
                 "arena": "models",
@@ -1990,15 +2012,15 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1139,
-                "win_rate": 36.1,
+                "win_rate": 36,
                 "rank": 80
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1146,
-                "win_rate": 35.1,
-                "rank": 91
+                "elo": 1145,
+                "win_rate": 35.2,
+                "rank": 92
               }
             ],
             "artificial_analysis": {
@@ -2185,7 +2207,29 @@
             "details": "/api/v1/models/nvidia/nemotron-3.5-super-vl-20261015/endpoints"
           },
           "benchmarks": {
-            "design_arena": [],
+            "design_arena": [
+              {
+                "arena": "models",
+                "category": "codecategories",
+                "elo": 1176,
+                "win_rate": 35.1,
+                "rank": 69
+              },
+              {
+                "arena": "models",
+                "category": "gamedev",
+                "elo": 1144,
+                "win_rate": 32.5,
+                "rank": 73
+              },
+              {
+                "arena": "models",
+                "category": "website",
+                "elo": 1180,
+                "win_rate": 35.9,
+                "rank": 73
+              }
+            ],
             "artificial_analysis": {
               "intelligence_index": 26.5,
               "coding_index": null,
@@ -2526,7 +2570,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1161,
+                "elo": 1162,
                 "win_rate": 40,
                 "rank": 63
               },
@@ -2540,9 +2584,9 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1208,
+                "elo": 1207,
                 "win_rate": 42.2,
-                "rank": 56
+                "rank": 57
               },
               {
                 "arena": "models",
@@ -2555,7 +2599,7 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1169,
-                "win_rate": 38,
+                "win_rate": 38.1,
                 "rank": 67
               },
               {
@@ -2575,9 +2619,9 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1226,
+                "elo": 1224,
                 "win_rate": 44.5,
-                "rank": 53
+                "rank": 54
               }
             ],
             "artificial_analysis": {
@@ -2603,5 +2647,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-16T03:08:58+00:00"
+  "updated_at": "2026-10-16T15:50:37+00:00"
 }
