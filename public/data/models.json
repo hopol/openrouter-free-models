@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 466,
-  "free_models_count": 18,
-  "paid_models_count": 448,
+  "total_models": 468,
+  "free_models_count": 19,
+  "paid_models_count": 449,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -650,8 +650,8 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1096,
-            "win_rate": 37.4,
+            "elo": 1099,
+            "win_rate": 37.8,
             "rank": 60
           },
           {
@@ -664,30 +664,30 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1143,
+            "elo": 1142,
             "win_rate": 37.5,
-            "rank": 82
+            "rank": 84
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1141,
+            "elo": 1140,
             "win_rate": 36.3,
             "rank": 78
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1069,
+            "elo": 1068,
             "win_rate": 32.4,
             "rank": 69
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1139,
-            "win_rate": 36,
-            "rank": 80
+            "elo": 1140,
+            "win_rate": 36.1,
+            "rank": 79
           },
           {
             "arena": "models",
@@ -885,23 +885,23 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1176,
-            "win_rate": 35.1,
-            "rank": 69
+            "elo": 1160,
+            "win_rate": 33.1,
+            "rank": 79
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1144,
-            "win_rate": 32.5,
-            "rank": 73
+            "elo": 1117,
+            "win_rate": 29.8,
+            "rank": 88
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1180,
-            "win_rate": 35.9,
-            "rank": 73
+            "elo": 1175,
+            "win_rate": 35,
+            "rank": 77
           }
         ],
         "artificial_analysis": {
@@ -1219,7 +1219,7 @@
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1189,
+            "elo": 1187,
             "win_rate": 48.6,
             "rank": 22
           },
@@ -1261,23 +1261,23 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1111,
-            "win_rate": 34.9,
+            "elo": 1113,
+            "win_rate": 35,
             "rank": 57
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1197,
+            "elo": 1199,
             "win_rate": 40.2,
-            "rank": 58
+            "rank": 57
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1224,
+            "elo": 1225,
             "win_rate": 44.5,
-            "rank": 54
+            "rank": 53
           }
         ],
         "artificial_analysis": {
@@ -1298,6 +1298,69 @@
           "none"
         ],
         "default_effort": "high"
+      }
+    },
+    {
+      "id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "canonical_slug": "xingchen-agi/xing4.0-29b-a4b-20261015",
+      "hugging_face_id": "XingChen-AGI/Xing4.0-29B-A4B",
+      "name": "XingChen: Xing4.0 29B A4B (free)",
+      "created": 1792177496,
+      "description": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "repetition_penalty": 1.05
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/xingchen-agi/xing4.0-29b-a4b-20261015/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
       }
     }
   ],
@@ -1976,8 +2039,8 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1096,
-                "win_rate": 37.4,
+                "elo": 1099,
+                "win_rate": 37.8,
                 "rank": 60
               },
               {
@@ -1990,30 +2053,30 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1143,
+                "elo": 1142,
                 "win_rate": 37.5,
-                "rank": 82
+                "rank": 84
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1141,
+                "elo": 1140,
                 "win_rate": 36.3,
                 "rank": 78
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1069,
+                "elo": 1068,
                 "win_rate": 32.4,
                 "rank": 69
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1139,
-                "win_rate": 36,
-                "rank": 80
+                "elo": 1140,
+                "win_rate": 36.1,
+                "rank": 79
               },
               {
                 "arena": "models",
@@ -2211,23 +2274,23 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1176,
-                "win_rate": 35.1,
-                "rank": 69
+                "elo": 1160,
+                "win_rate": 33.1,
+                "rank": 79
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1144,
-                "win_rate": 32.5,
-                "rank": 73
+                "elo": 1117,
+                "win_rate": 29.8,
+                "rank": 88
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1180,
-                "win_rate": 35.9,
-                "rank": 73
+                "elo": 1175,
+                "win_rate": 35,
+                "rank": 77
               }
             ],
             "artificial_analysis": {
@@ -2563,7 +2626,7 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1189,
+                "elo": 1187,
                 "win_rate": 48.6,
                 "rank": 22
               },
@@ -2605,23 +2668,23 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1111,
-                "win_rate": 34.9,
+                "elo": 1113,
+                "win_rate": 35,
                 "rank": 57
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1197,
+                "elo": 1199,
                 "win_rate": 40.2,
-                "rank": 58
+                "rank": 57
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1224,
+                "elo": 1225,
                 "win_rate": 44.5,
-                "rank": 54
+                "rank": 53
               }
             ],
             "artificial_analysis": {
@@ -2645,7 +2708,76 @@
           }
         }
       ]
+    },
+    "xingchen-agi": {
+      "name": "xingchen-agi",
+      "count": 1,
+      "models": [
+        {
+          "id": "xingchen-agi/xing4.0-29b-a4b:free",
+          "canonical_slug": "xingchen-agi/xing4.0-29b-a4b-20261015",
+          "hugging_face_id": "XingChen-AGI/Xing4.0-29B-A4B",
+          "name": "XingChen: Xing4.0 29B A4B (free)",
+          "created": 1792177496,
+          "description": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 235929,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "min_p",
+            "presence_penalty",
+            "reasoning",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": 1,
+            "top_p": 0.95,
+            "repetition_penalty": 1.05
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/xingchen-agi/xing4.0-29b-a4b-20261015/endpoints"
+          },
+          "reasoning": {
+            "mandatory": false,
+            "default_enabled": true
+          }
+        }
+      ]
     }
   },
-  "updated_at": "2026-10-16T15:50:37+00:00"
+  "updated_at": "2026-10-17T02:59:55+00:00"
 }
