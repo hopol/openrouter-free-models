@@ -671,9 +671,9 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1141,
-            "win_rate": 36.4,
-            "rank": 77
+            "elo": 1140,
+            "win_rate": 36.3,
+            "rank": 78
           },
           {
             "arena": "models",
@@ -692,7 +692,7 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1145,
+            "elo": 1146,
             "win_rate": 35.2,
             "rank": 92
           }
@@ -885,15 +885,15 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1127,
-            "win_rate": 28,
-            "rank": 80
+            "elo": 1132,
+            "win_rate": 28.8,
+            "rank": 76
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1155,
-            "win_rate": 32.6,
+            "win_rate": 32.5,
             "rank": 81
           },
           {
@@ -906,16 +906,16 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1119,
-            "win_rate": 29.1,
+            "elo": 1116,
+            "win_rate": 28.9,
             "rank": 87
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1171,
-            "win_rate": 34.4,
-            "rank": 78
+            "elo": 1169,
+            "win_rate": 34.2,
+            "rank": 79
           }
         ],
         "artificial_analysis": {
@@ -1233,9 +1233,9 @@
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1192,
+            "elo": 1194,
             "win_rate": 48.6,
-            "rank": 23
+            "rank": 22
           },
           {
             "arena": "models",
@@ -1256,7 +1256,7 @@
             "category": "codecategories",
             "elo": 1207,
             "win_rate": 42.2,
-            "rank": 57
+            "rank": 56
           },
           {
             "arena": "models",
@@ -1268,7 +1268,7 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1169,
+            "elo": 1168,
             "win_rate": 38.1,
             "rank": 68
           },
@@ -1276,7 +1276,7 @@
             "arena": "models",
             "category": "svg",
             "elo": 1112,
-            "win_rate": 35,
+            "win_rate": 34.9,
             "rank": 57
           },
           {
@@ -1284,7 +1284,7 @@
             "category": "uicomponent",
             "elo": 1200,
             "win_rate": 40.3,
-            "rank": 56
+            "rank": 57
           },
           {
             "arena": "models",
@@ -2074,9 +2074,9 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1141,
-                "win_rate": 36.4,
-                "rank": 77
+                "elo": 1140,
+                "win_rate": 36.3,
+                "rank": 78
               },
               {
                 "arena": "models",
@@ -2095,7 +2095,7 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1145,
+                "elo": 1146,
                 "win_rate": 35.2,
                 "rank": 92
               }
@@ -2288,15 +2288,15 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1127,
-                "win_rate": 28,
-                "rank": 80
+                "elo": 1132,
+                "win_rate": 28.8,
+                "rank": 76
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1155,
-                "win_rate": 32.6,
+                "win_rate": 32.5,
                 "rank": 81
               },
               {
@@ -2309,16 +2309,16 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1119,
-                "win_rate": 29.1,
+                "elo": 1116,
+                "win_rate": 28.9,
                 "rank": 87
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1171,
-                "win_rate": 34.4,
-                "rank": 78
+                "elo": 1169,
+                "win_rate": 34.2,
+                "rank": 79
               }
             ],
             "artificial_analysis": {
@@ -2654,9 +2654,9 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1192,
+                "elo": 1194,
                 "win_rate": 48.6,
-                "rank": 23
+                "rank": 22
               },
               {
                 "arena": "models",
@@ -2677,7 +2677,7 @@
                 "category": "codecategories",
                 "elo": 1207,
                 "win_rate": 42.2,
-                "rank": 57
+                "rank": 56
               },
               {
                 "arena": "models",
@@ -2689,7 +2689,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1169,
+                "elo": 1168,
                 "win_rate": 38.1,
                 "rank": 68
               },
@@ -2697,7 +2697,7 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1112,
-                "win_rate": 35,
+                "win_rate": 34.9,
                 "rank": 57
               },
               {
@@ -2705,7 +2705,7 @@
                 "category": "uicomponent",
                 "elo": 1200,
                 "win_rate": 40.3,
-                "rank": 56
+                "rank": 57
               },
               {
                 "arena": "models",
@@ -2807,5 +2807,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-18T03:02:23+00:00"
+  "updated_at": "2026-10-18T15:09:00+00:00"
 }
