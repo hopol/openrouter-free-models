@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 471,
-  "free_models_count": 19,
-  "paid_models_count": 452,
+  "total_models": 470,
+  "free_models_count": 20,
+  "paid_models_count": 450,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -439,6 +439,67 @@
       }
     },
     {
+      "id": "minimax/minimax-m3.1-flash:free",
+      "canonical_slug": "minimax/minimax-m3.1-flash-20261019",
+      "hugging_face_id": null,
+      "name": "MiniMax: MiniMax M3.1 Flash (free)",
+      "created": 1792379569,
+      "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 524288,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/minimax/minimax-m3.1-flash-20261019/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "max"
+      }
+    },
+    {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "canonical_slug": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428",
       "hugging_face_id": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
@@ -643,9 +704,9 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1133,
+            "elo": 1134,
             "win_rate": 38.9,
-            "rank": 75
+            "rank": 73
           },
           {
             "arena": "models",
@@ -671,14 +732,14 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1140,
+            "elo": 1139,
             "win_rate": 36.3,
-            "rank": 77
+            "rank": 79
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1069,
+            "elo": 1068,
             "win_rate": 32.4,
             "rank": 69
           },
@@ -692,9 +753,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1146,
+            "elo": 1145,
             "win_rate": 35.2,
-            "rank": 92
+            "rank": 93
           }
         ],
         "artificial_analysis": {
@@ -885,35 +946,35 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1124,
-            "win_rate": 27.8,
-            "rank": 81
+            "elo": 1129,
+            "win_rate": 28.3,
+            "rank": 78
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1153,
-            "win_rate": 32.5,
+            "elo": 1152,
+            "win_rate": 32.3,
             "rank": 83
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1114,
-            "win_rate": 29.6,
-            "rank": 89
+            "elo": 1108,
+            "win_rate": 29.1,
+            "rank": 92
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1128,
-            "win_rate": 30.2,
-            "rank": 85
+            "elo": 1124,
+            "win_rate": 29.6,
+            "rank": 87
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1169,
+            "elo": 1168,
             "win_rate": 34.2,
             "rank": 79
           }
@@ -1255,7 +1316,7 @@
             "arena": "models",
             "category": "codecategories",
             "elo": 1206,
-            "win_rate": 42.3,
+            "win_rate": 42.2,
             "rank": 57
           },
           {
@@ -1268,15 +1329,15 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1168,
+            "elo": 1167,
             "win_rate": 38.1,
-            "rank": 66
+            "rank": 70
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1111,
-            "win_rate": 34.9,
+            "elo": 1110,
+            "win_rate": 34.8,
             "rank": 57
           },
           {
@@ -1289,9 +1350,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1225,
-            "win_rate": 44.6,
-            "rank": 53
+            "elo": 1224,
+            "win_rate": 44.5,
+            "rank": 54
           }
         ],
         "artificial_analysis": {
@@ -1837,6 +1898,73 @@
         }
       ]
     },
+    "minimax": {
+      "name": "minimax",
+      "count": 1,
+      "models": [
+        {
+          "id": "minimax/minimax-m3.1-flash:free",
+          "canonical_slug": "minimax/minimax-m3.1-flash-20261019",
+          "hugging_face_id": null,
+          "name": "MiniMax: MiniMax M3.1 Flash (free)",
+          "created": 1792379569,
+          "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
+          "context_length": 1000000,
+          "architecture": {
+            "modality": "text+image+video->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 1000000,
+            "max_completion_tokens": 524288,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "reasoning_effort",
+            "response_format",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/minimax/minimax-m3.1-flash-20261019/endpoints"
+          },
+          "reasoning": {
+            "mandatory": true,
+            "supported_efforts": [
+              "max",
+              "xhigh",
+              "high",
+              "medium",
+              "low"
+            ],
+            "default_effort": "max"
+          }
+        }
+      ]
+    },
     "nvidia": {
       "name": "nvidia",
       "count": 6,
@@ -2046,9 +2174,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1133,
+                "elo": 1134,
                 "win_rate": 38.9,
-                "rank": 75
+                "rank": 73
               },
               {
                 "arena": "models",
@@ -2074,14 +2202,14 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1140,
+                "elo": 1139,
                 "win_rate": 36.3,
-                "rank": 77
+                "rank": 79
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1069,
+                "elo": 1068,
                 "win_rate": 32.4,
                 "rank": 69
               },
@@ -2095,9 +2223,9 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1146,
+                "elo": 1145,
                 "win_rate": 35.2,
-                "rank": 92
+                "rank": 93
               }
             ],
             "artificial_analysis": {
@@ -2288,35 +2416,35 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1124,
-                "win_rate": 27.8,
-                "rank": 81
+                "elo": 1129,
+                "win_rate": 28.3,
+                "rank": 78
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1153,
-                "win_rate": 32.5,
+                "elo": 1152,
+                "win_rate": 32.3,
                 "rank": 83
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1114,
-                "win_rate": 29.6,
-                "rank": 89
+                "elo": 1108,
+                "win_rate": 29.1,
+                "rank": 92
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1128,
-                "win_rate": 30.2,
-                "rank": 85
+                "elo": 1124,
+                "win_rate": 29.6,
+                "rank": 87
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1169,
+                "elo": 1168,
                 "win_rate": 34.2,
                 "rank": 79
               }
@@ -2676,7 +2804,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1206,
-                "win_rate": 42.3,
+                "win_rate": 42.2,
                 "rank": 57
               },
               {
@@ -2689,15 +2817,15 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1168,
+                "elo": 1167,
                 "win_rate": 38.1,
-                "rank": 66
+                "rank": 70
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1111,
-                "win_rate": 34.9,
+                "elo": 1110,
+                "win_rate": 34.8,
                 "rank": 57
               },
               {
@@ -2710,9 +2838,9 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1225,
-                "win_rate": 44.6,
-                "rank": 53
+                "elo": 1224,
+                "win_rate": 44.5,
+                "rank": 54
               }
             ],
             "artificial_analysis": {
@@ -2807,5 +2935,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-19T03:16:23+00:00"
+  "updated_at": "2026-10-19T18:02:38+00:00"
 }
