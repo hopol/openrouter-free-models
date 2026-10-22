@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
   "total_models": 468,
-  "free_models_count": 20,
-  "paid_models_count": 448,
+  "free_models_count": 21,
+  "paid_models_count": 447,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -719,7 +719,7 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1099,
+            "elo": 1100,
             "win_rate": 37.6,
             "rank": 60
           },
@@ -735,27 +735,27 @@
             "category": "dataviz",
             "elo": 1141,
             "win_rate": 37.5,
-            "rank": 84
+            "rank": 85
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1138,
             "win_rate": 36.2,
-            "rank": 81
+            "rank": 82
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1069,
-            "win_rate": 32.3,
+            "elo": 1070,
+            "win_rate": 32.4,
             "rank": 69
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1139,
-            "win_rate": 35.9,
+            "win_rate": 35.8,
             "rank": 83
           },
           {
@@ -961,15 +961,15 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1155,
-            "win_rate": 32.7,
+            "elo": 1156,
+            "win_rate": 32.8,
             "rank": 82
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1108,
-            "win_rate": 28.8,
+            "elo": 1111,
+            "win_rate": 29.2,
             "rank": 93
           },
           {
@@ -982,8 +982,8 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1172,
-            "win_rate": 34.8,
+            "elo": 1173,
+            "win_rate": 34.9,
             "rank": 81
           }
         ],
@@ -1160,6 +1160,59 @@
       }
     },
     {
+      "id": "recursive/flint-v1.0:free",
+      "canonical_slug": "recursive/flint-v1.0-20261021",
+      "hugging_face_id": "RecursiveSI/flint",
+      "name": "Recursive: Flint (free)",
+      "created": 1792622765,
+      "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/recursive/flint-v1.0-20261021/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true
+      }
+    },
+    {
       "id": "thinkingmachines/inkling-small:free",
       "canonical_slug": "thinkingmachines/inkling-small-20260730",
       "hugging_face_id": "thinkingmachines/Inkling-Small",
@@ -1304,7 +1357,7 @@
             "category": "webapps",
             "elo": 1196,
             "win_rate": 48.6,
-            "rank": 25
+            "rank": 26
           },
           {
             "arena": "models",
@@ -1332,7 +1385,7 @@
             "category": "dataviz",
             "elo": 1159,
             "win_rate": 37.5,
-            "rank": 77
+            "rank": 78
           },
           {
             "arena": "models",
@@ -1351,15 +1404,15 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1200,
-            "win_rate": 40.4,
+            "elo": 1201,
+            "win_rate": 40.5,
             "rank": 58
           },
           {
             "arena": "models",
             "category": "website",
             "elo": 1224,
-            "win_rate": 44.5,
+            "win_rate": 44.6,
             "rank": 57
           }
         ],
@@ -2197,7 +2250,7 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1099,
+                "elo": 1100,
                 "win_rate": 37.6,
                 "rank": 60
               },
@@ -2213,27 +2266,27 @@
                 "category": "dataviz",
                 "elo": 1141,
                 "win_rate": 37.5,
-                "rank": 84
+                "rank": 85
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1138,
                 "win_rate": 36.2,
-                "rank": 81
+                "rank": 82
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1069,
-                "win_rate": 32.3,
+                "elo": 1070,
+                "win_rate": 32.4,
                 "rank": 69
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1139,
-                "win_rate": 35.9,
+                "win_rate": 35.8,
                 "rank": 83
               },
               {
@@ -2439,15 +2492,15 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1155,
-                "win_rate": 32.7,
+                "elo": 1156,
+                "win_rate": 32.8,
                 "rank": 82
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1108,
-                "win_rate": 28.8,
+                "elo": 1111,
+                "win_rate": 29.2,
                 "rank": 93
               },
               {
@@ -2460,8 +2513,8 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1172,
-                "win_rate": 34.8,
+                "elo": 1173,
+                "win_rate": 34.9,
                 "rank": 81
               }
             ],
@@ -2651,6 +2704,65 @@
         }
       ]
     },
+    "recursive": {
+      "name": "recursive",
+      "count": 1,
+      "models": [
+        {
+          "id": "recursive/flint-v1.0:free",
+          "canonical_slug": "recursive/flint-v1.0-20261021",
+          "hugging_face_id": "RecursiveSI/flint",
+          "name": "Recursive: Flint (free)",
+          "created": 1792622765,
+          "description": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 235929,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "logprobs",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "seed",
+            "stop",
+            "temperature",
+            "tools",
+            "top_logprobs",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/recursive/flint-v1.0-20261021/endpoints"
+          },
+          "reasoning": {
+            "mandatory": true
+          }
+        }
+      ]
+    },
     "thinkingmachines": {
       "name": "thinkingmachines",
       "count": 2,
@@ -2800,7 +2912,7 @@
                 "category": "webapps",
                 "elo": 1196,
                 "win_rate": 48.6,
-                "rank": 25
+                "rank": 26
               },
               {
                 "arena": "models",
@@ -2828,7 +2940,7 @@
                 "category": "dataviz",
                 "elo": 1159,
                 "win_rate": 37.5,
-                "rank": 77
+                "rank": 78
               },
               {
                 "arena": "models",
@@ -2847,15 +2959,15 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1200,
-                "win_rate": 40.4,
+                "elo": 1201,
+                "win_rate": 40.5,
                 "rank": 58
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1224,
-                "win_rate": 44.5,
+                "win_rate": 44.6,
                 "rank": 57
               }
             ],
@@ -2951,5 +3063,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-21T16:22:08+00:00"
+  "updated_at": "2026-10-22T03:18:31+00:00"
 }
