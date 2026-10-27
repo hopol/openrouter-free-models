@@ -1,7 +1,7 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 464,
-  "free_models_count": 20,
+  "total_models": 463,
+  "free_models_count": 19,
   "paid_models_count": 444,
   "free_models": [
     {
@@ -509,82 +509,6 @@
       }
     },
     {
-      "id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
-      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-      "name": "NVIDIA: Nemotron 3 Super (free)",
-      "created": 1773245239,
-      "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/nvidia/nemotron-3-super-120b-a12b-20230311/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 12.8,
-          "coding_index": 37.7,
-          "agentic_index": 1.7
-        }
-      },
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true,
-        "supports_max_tokens": true,
-        "supported_efforts": [
-          "medium",
-          "low",
-          "none"
-        ],
-        "default_effort": "medium"
-      }
-    },
-    {
       "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "canonical_slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
       "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -652,7 +576,7 @@
             "category": "asciiart",
             "elo": 1098,
             "win_rate": 37.3,
-            "rank": 60
+            "rank": 61
           },
           {
             "arena": "models",
@@ -678,7 +602,7 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1066,
+            "elo": 1067,
             "win_rate": 32.3,
             "rank": 73
           },
@@ -1293,7 +1217,7 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1156,
+            "elo": 1157,
             "win_rate": 39.9,
             "rank": 66
           },
@@ -1302,7 +1226,7 @@
             "category": "asciiart",
             "elo": 1087,
             "win_rate": 33.6,
-            "rank": 64
+            "rank": 65
           },
           {
             "arena": "models",
@@ -1315,7 +1239,7 @@
             "arena": "models",
             "category": "dataviz",
             "elo": 1156,
-            "win_rate": 37.4,
+            "win_rate": 37.6,
             "rank": 81
           },
           {
@@ -1328,9 +1252,9 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1105,
+            "elo": 1106,
             "win_rate": 34.3,
-            "rank": 62
+            "rank": 61
           },
           {
             "arena": "models",
@@ -1892,7 +1816,7 @@
     },
     "nvidia": {
       "name": "nvidia",
-      "count": 6,
+      "count": 5,
       "models": [
         {
           "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -1965,82 +1889,6 @@
           }
         },
         {
-          "id": "nvidia/nemotron-3-super-120b-a12b:free",
-          "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
-          "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
-          "name": "NVIDIA: Nemotron 3 Super (free)",
-          "created": 1773245239,
-          "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-          "context_length": 262144,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 262144,
-            "max_completion_tokens": 235929,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "include_reasoning",
-            "max_tokens",
-            "reasoning",
-            "reasoning_effort",
-            "response_format",
-            "seed",
-            "structured_outputs",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": 1,
-            "top_p": 0.95,
-            "top_k": null,
-            "frequency_penalty": null,
-            "presence_penalty": null,
-            "repetition_penalty": null
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/nvidia/nemotron-3-super-120b-a12b-20230311/endpoints"
-          },
-          "benchmarks": {
-            "design_arena": [],
-            "artificial_analysis": {
-              "intelligence_index": 12.8,
-              "coding_index": 37.7,
-              "agentic_index": 1.7
-            }
-          },
-          "reasoning": {
-            "mandatory": false,
-            "default_enabled": true,
-            "supports_max_tokens": true,
-            "supported_efforts": [
-              "medium",
-              "low",
-              "none"
-            ],
-            "default_effort": "medium"
-          }
-        },
-        {
           "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
           "canonical_slug": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
           "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
@@ -2108,7 +1956,7 @@
                 "category": "asciiart",
                 "elo": 1098,
                 "win_rate": 37.3,
-                "rank": 60
+                "rank": 61
               },
               {
                 "arena": "models",
@@ -2134,7 +1982,7 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1066,
+                "elo": 1067,
                 "win_rate": 32.3,
                 "rank": 73
               },
@@ -2773,7 +2621,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1156,
+                "elo": 1157,
                 "win_rate": 39.9,
                 "rank": 66
               },
@@ -2782,7 +2630,7 @@
                 "category": "asciiart",
                 "elo": 1087,
                 "win_rate": 33.6,
-                "rank": 64
+                "rank": 65
               },
               {
                 "arena": "models",
@@ -2795,7 +2643,7 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1156,
-                "win_rate": 37.4,
+                "win_rate": 37.6,
                 "rank": 81
               },
               {
@@ -2808,9 +2656,9 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1105,
+                "elo": 1106,
                 "win_rate": 34.3,
-                "rank": 62
+                "rank": 61
               },
               {
                 "arena": "models",
@@ -2919,5 +2767,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-27T03:43:33+00:00"
+  "updated_at": "2026-10-27T17:07:02+00:00"
 }
