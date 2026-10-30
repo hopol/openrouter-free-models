@@ -61,6 +61,12 @@
       "links": {
         "details": "/api/v1/models/cohere/north-mini-code-20260617/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -121,6 +127,12 @@
       "links": {
         "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "reasoning": {
         "mandatory": false
       }
@@ -178,6 +190,12 @@
       "links": {
         "details": "/api/v1/models/google/gemma-4-26b-a4b-it-20260403/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -247,6 +265,12 @@
       "links": {
         "details": "/api/v1/models/google/gemma-4-31b-it-20260402/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -311,7 +335,13 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/lyria-3-clip-preview-20260330/endpoints"
-      }
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ]
     },
     {
       "id": "google/lyria-3-pro-preview",
@@ -364,7 +394,13 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/google/lyria-3-pro-preview-20260330/endpoints"
-      }
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ]
     },
     {
       "id": "liquid/lfm-2.5-2.6b:free",
@@ -426,6 +462,12 @@
       "links": {
         "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -494,6 +536,12 @@
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -562,6 +610,12 @@
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-3-ultra-550b-a55b-20260604/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [
           {
@@ -595,15 +649,15 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1140,
+            "elo": 1139,
             "win_rate": 36.1,
-            "rank": 79
+            "rank": 80
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1067,
-            "win_rate": 32.2,
+            "elo": 1068,
+            "win_rate": 32.3,
             "rank": 75
           },
           {
@@ -691,6 +745,12 @@
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-3.5-content-safety-20260604/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true
@@ -742,6 +802,12 @@
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-3.5-lightning-20260807/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -804,14 +870,20 @@
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-3.5-super-vl-20261015/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1115,
-            "win_rate": 28.5,
-            "rank": 86
+            "elo": 1119,
+            "win_rate": 29.1,
+            "rank": 84
           },
           {
             "arena": "models",
@@ -823,7 +895,7 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1107,
+            "elo": 1106,
             "win_rate": 29.4,
             "rank": 95
           },
@@ -837,9 +909,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1169,
-            "win_rate": 35.3,
-            "rank": 82
+            "elo": 1168,
+            "win_rate": 35.2,
+            "rank": 83
           }
         ],
         "artificial_analysis": {
@@ -914,7 +986,13 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/openrouter/free/endpoints"
-      }
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ]
     },
     {
       "id": "poolside/laguna-s-2.1:free",
@@ -960,6 +1038,12 @@
       "links": {
         "details": "/api/v1/models/poolside/laguna-s-2.1-20260720/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true
@@ -1009,6 +1093,12 @@
       "links": {
         "details": "/api/v1/models/poolside/laguna-xs-2.1-20260625/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true
@@ -1063,6 +1153,12 @@
       "links": {
         "details": "/api/v1/models/recursive/flint-v1.0-20261021/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "reasoning": {
         "mandatory": true
       }
@@ -1125,6 +1221,12 @@
       "links": {
         "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
@@ -1205,12 +1307,18 @@
       "links": {
         "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "benchmarks": {
         "design_arena": [
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1186,
+            "elo": 1184,
             "win_rate": 48.6,
             "rank": 26
           },
@@ -1252,7 +1360,7 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1107,
+            "elo": 1106,
             "win_rate": 34.3,
             "rank": 63
           },
@@ -1349,6 +1457,12 @@
       "links": {
         "details": "/api/v1/models/xingchen-agi/xing4.0-29b-a4b-20261015/endpoints"
       },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "reasoning": {
         "mandatory": false,
         "default_enabled": true
@@ -1417,6 +1531,12 @@
           "links": {
             "details": "/api/v1/models/cohere/north-mini-code-20260617/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
@@ -1483,6 +1603,12 @@
           "links": {
             "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "reasoning": {
             "mandatory": false
           }
@@ -1546,6 +1672,12 @@
           "links": {
             "details": "/api/v1/models/google/gemma-4-26b-a4b-it-20260403/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
@@ -1615,6 +1747,12 @@
           "links": {
             "details": "/api/v1/models/google/gemma-4-31b-it-20260402/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
@@ -1679,7 +1817,13 @@
           "expiration_date": null,
           "links": {
             "details": "/api/v1/models/google/lyria-3-clip-preview-20260330/endpoints"
-          }
+          },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ]
         },
         {
           "id": "google/lyria-3-pro-preview",
@@ -1732,7 +1876,13 @@
           "expiration_date": null,
           "links": {
             "details": "/api/v1/models/google/lyria-3-pro-preview-20260330/endpoints"
-          }
+          },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ]
         }
       ]
     },
@@ -1800,6 +1950,12 @@
           "links": {
             "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
@@ -1874,6 +2030,12 @@
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
@@ -1942,6 +2104,12 @@
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-3-ultra-550b-a55b-20260604/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [
               {
@@ -1975,15 +2143,15 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1140,
+                "elo": 1139,
                 "win_rate": 36.1,
-                "rank": 79
+                "rank": 80
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1067,
-                "win_rate": 32.2,
+                "elo": 1068,
+                "win_rate": 32.3,
                 "rank": 75
               },
               {
@@ -2071,6 +2239,12 @@
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-3.5-content-safety-20260604/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "reasoning": {
             "mandatory": false,
             "default_enabled": true
@@ -2122,6 +2296,12 @@
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-3.5-lightning-20260807/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
@@ -2184,14 +2364,20 @@
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-3.5-super-vl-20261015/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1115,
-                "win_rate": 28.5,
-                "rank": 86
+                "elo": 1119,
+                "win_rate": 29.1,
+                "rank": 84
               },
               {
                 "arena": "models",
@@ -2203,7 +2389,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1107,
+                "elo": 1106,
                 "win_rate": 29.4,
                 "rank": 95
               },
@@ -2217,9 +2403,9 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1169,
-                "win_rate": 35.3,
-                "rank": 82
+                "elo": 1168,
+                "win_rate": 35.2,
+                "rank": 83
               }
             ],
             "artificial_analysis": {
@@ -2300,7 +2486,13 @@
           "expiration_date": null,
           "links": {
             "details": "/api/v1/models/openrouter/free/endpoints"
-          }
+          },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ]
         }
       ]
     },
@@ -2352,6 +2544,12 @@
           "links": {
             "details": "/api/v1/models/poolside/laguna-s-2.1-20260720/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "reasoning": {
             "mandatory": false,
             "default_enabled": true
@@ -2401,6 +2599,12 @@
           "links": {
             "details": "/api/v1/models/poolside/laguna-xs-2.1-20260625/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "reasoning": {
             "mandatory": false,
             "default_enabled": true
@@ -2461,6 +2665,12 @@
           "links": {
             "details": "/api/v1/models/recursive/flint-v1.0-20261021/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "reasoning": {
             "mandatory": true
           }
@@ -2529,6 +2739,12 @@
           "links": {
             "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
@@ -2609,12 +2825,18 @@
           "links": {
             "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "benchmarks": {
             "design_arena": [
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1186,
+                "elo": 1184,
                 "win_rate": 48.6,
                 "rank": 26
               },
@@ -2656,7 +2878,7 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1107,
+                "elo": 1106,
                 "win_rate": 34.3,
                 "rank": 63
               },
@@ -2759,6 +2981,12 @@
           "links": {
             "details": "/api/v1/models/xingchen-agi/xing4.0-29b-a4b-20261015/endpoints"
           },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "reasoning": {
             "mandatory": false,
             "default_enabled": true
@@ -2767,5 +2995,5 @@
       ]
     }
   },
-  "updated_at": "2026-10-30T04:23:49+00:00"
+  "updated_at": "2026-10-30T17:31:00+00:00"
 }
