@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 452,
+  "total_models": 451,
   "free_models_count": 17,
-  "paid_models_count": 435,
+  "paid_models_count": 434,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -628,8 +628,8 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1099,
-            "win_rate": 37.4,
+            "elo": 1097,
+            "win_rate": 37.2,
             "rank": 63
           },
           {
@@ -657,7 +657,7 @@
             "arena": "models",
             "category": "svg",
             "elo": 1067,
-            "win_rate": 32.2,
+            "win_rate": 32.3,
             "rank": 75
           },
           {
@@ -1107,7 +1107,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-04",
       "links": {
         "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
       },
@@ -1193,7 +1193,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-04",
       "links": {
         "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
       },
@@ -1208,9 +1208,9 @@
           {
             "arena": "agents",
             "category": "webapps",
-            "elo": 1182,
+            "elo": 1180,
             "win_rate": 48.6,
-            "rank": 25
+            "rank": 26
           },
           {
             "arena": "models",
@@ -1222,9 +1222,9 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1086,
-            "win_rate": 33.3,
-            "rank": 67
+            "elo": 1091,
+            "win_rate": 33.9,
+            "rank": 65
           },
           {
             "arena": "models",
@@ -1250,8 +1250,8 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1107,
-            "win_rate": 34.4,
+            "elo": 1106,
+            "win_rate": 34.3,
             "rank": 63
           },
           {
@@ -2012,8 +2012,8 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1099,
-                "win_rate": 37.4,
+                "elo": 1097,
+                "win_rate": 37.2,
                 "rank": 63
               },
               {
@@ -2041,7 +2041,7 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1067,
-                "win_rate": 32.2,
+                "win_rate": 32.3,
                 "rank": 75
               },
               {
@@ -2509,7 +2509,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-11-04",
           "links": {
             "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
           },
@@ -2595,7 +2595,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-11-04",
           "links": {
             "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
           },
@@ -2610,9 +2610,9 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1182,
+                "elo": 1180,
                 "win_rate": 48.6,
-                "rank": 25
+                "rank": 26
               },
               {
                 "arena": "models",
@@ -2624,9 +2624,9 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1086,
-                "win_rate": 33.3,
-                "rank": 67
+                "elo": 1091,
+                "win_rate": 33.9,
+                "rank": 65
               },
               {
                 "arena": "models",
@@ -2652,8 +2652,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1107,
-                "win_rate": 34.4,
+                "elo": 1106,
+                "win_rate": 34.3,
                 "rank": 63
               },
               {
@@ -2769,5 +2769,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-02T04:27:21+00:00"
+  "updated_at": "2026-11-02T21:11:02+00:00"
 }
