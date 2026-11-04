@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 455,
-  "free_models_count": 18,
-  "paid_models_count": 437,
+  "total_models": 454,
+  "free_models_count": 16,
+  "paid_models_count": 438,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -623,8 +623,8 @@
             "arena": "models",
             "category": "3d",
             "elo": 1127,
-            "win_rate": 38.1,
-            "rank": 79
+            "win_rate": 38.2,
+            "rank": 81
           },
           {
             "arena": "models",
@@ -651,7 +651,7 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1139,
-            "win_rate": 36,
+            "win_rate": 35.9,
             "rank": 80
           },
           {
@@ -664,8 +664,8 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1136,
-            "win_rate": 35.9,
+            "elo": 1137,
+            "win_rate": 36,
             "rank": 84
           },
           {
@@ -882,30 +882,30 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1125,
-            "win_rate": 30.4,
-            "rank": 82
+            "elo": 1128,
+            "win_rate": 30.9,
+            "rank": 79
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1150,
-            "win_rate": 33.1,
+            "win_rate": 33.2,
             "rank": 89
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1108,
-            "win_rate": 29.5,
-            "rank": 94
+            "win_rate": 29.6,
+            "rank": 95
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1133,
-            "win_rate": 30.6,
-            "rank": 86
+            "elo": 1136,
+            "win_rate": 31,
+            "rank": 85
           },
           {
             "arena": "models",
@@ -1123,242 +1123,6 @@
           "minimal"
         ],
         "default_effort": "max"
-      }
-    },
-    {
-      "id": "thinkingmachines/inkling-small:free",
-      "canonical_slug": "thinkingmachines/inkling-small-20260730",
-      "hugging_face_id": "thinkingmachines/Inkling-Small",
-      "name": "Thinking Machines: Inkling Small (free)",
-      "created": 1785443117,
-      "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text+image+audio->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 262144,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "seed",
-        "stop",
-        "temperature",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-11-04",
-      "links": {
-        "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 12.9,
-          "coding_index": 52.9,
-          "agentic_index": 23.5
-        }
-      },
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true,
-        "supported_efforts": [
-          "max",
-          "high",
-          "medium",
-          "low",
-          "minimal",
-          "none"
-        ],
-        "default_effort": "high"
-      }
-    },
-    {
-      "id": "thinkingmachines/inkling:free",
-      "canonical_slug": "thinkingmachines/inkling-20260715",
-      "hugging_face_id": "thinkingmachines/Inkling",
-      "name": "Thinking Machines: Inkling (free)",
-      "created": 1784325956,
-      "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text+image+audio->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "audio"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 262144,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "seed",
-        "stop",
-        "temperature",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-11-04",
-      "links": {
-        "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "agents",
-            "category": "webapps",
-            "elo": 1182,
-            "win_rate": 48.6,
-            "rank": 26
-          },
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1156,
-            "win_rate": 39.8,
-            "rank": 66
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 1092,
-            "win_rate": 34.1,
-            "rank": 65
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1204,
-            "win_rate": 42.2,
-            "rank": 63
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1157,
-            "win_rate": 37.6,
-            "rank": 81
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1165,
-            "win_rate": 37.9,
-            "rank": 72
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1106,
-            "win_rate": 34.3,
-            "rank": 63
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1196,
-            "win_rate": 40.5,
-            "rank": 61
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1223,
-            "win_rate": 44.7,
-            "rank": 58
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": 12.5,
-          "coding_index": 52.1,
-          "agentic_index": 22.5
-        }
-      },
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true,
-        "supported_efforts": [
-          "max",
-          "high",
-          "medium",
-          "low",
-          "minimal",
-          "none"
-        ],
-        "default_effort": "high"
       }
     },
     {
@@ -2079,8 +1843,8 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1127,
-                "win_rate": 38.1,
-                "rank": 79
+                "win_rate": 38.2,
+                "rank": 81
               },
               {
                 "arena": "models",
@@ -2107,7 +1871,7 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1139,
-                "win_rate": 36,
+                "win_rate": 35.9,
                 "rank": 80
               },
               {
@@ -2120,8 +1884,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1136,
-                "win_rate": 35.9,
+                "elo": 1137,
+                "win_rate": 36,
                 "rank": 84
               },
               {
@@ -2338,30 +2102,30 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1125,
-                "win_rate": 30.4,
-                "rank": 82
+                "elo": 1128,
+                "win_rate": 30.9,
+                "rank": 79
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1150,
-                "win_rate": 33.1,
+                "win_rate": 33.2,
                 "rank": 89
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1108,
-                "win_rate": 29.5,
-                "rank": 94
+                "win_rate": 29.6,
+                "rank": 95
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1133,
-                "win_rate": 30.6,
-                "rank": 86
+                "elo": 1136,
+                "win_rate": 31,
+                "rank": 85
               },
               {
                 "arena": "models",
@@ -2601,248 +2365,6 @@
         }
       ]
     },
-    "thinkingmachines": {
-      "name": "thinkingmachines",
-      "count": 2,
-      "models": [
-        {
-          "id": "thinkingmachines/inkling-small:free",
-          "canonical_slug": "thinkingmachines/inkling-small-20260730",
-          "hugging_face_id": "thinkingmachines/Inkling-Small",
-          "name": "Thinking Machines: Inkling Small (free)",
-          "created": 1785443117,
-          "description": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of...",
-          "context_length": 1048576,
-          "architecture": {
-            "modality": "text+image+audio->text",
-            "input_modalities": [
-              "text",
-              "image",
-              "audio"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 1048576,
-            "max_completion_tokens": 262144,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "max_tokens",
-            "presence_penalty",
-            "reasoning",
-            "reasoning_effort",
-            "seed",
-            "stop",
-            "temperature",
-            "tools",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": null,
-            "top_p": null,
-            "top_k": null,
-            "frequency_penalty": null,
-            "presence_penalty": null,
-            "repetition_penalty": null
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": "2026-11-04",
-          "links": {
-            "details": "/api/v1/models/thinkingmachines/inkling-small-20260730/endpoints"
-          },
-          "endpoints": [
-            "/api/v1/chat/completions",
-            "/api/v1/completions",
-            "/api/v1/messages",
-            "/api/v1/responses"
-          ],
-          "benchmarks": {
-            "design_arena": [],
-            "artificial_analysis": {
-              "intelligence_index": 12.9,
-              "coding_index": 52.9,
-              "agentic_index": 23.5
-            }
-          },
-          "reasoning": {
-            "mandatory": false,
-            "default_enabled": true,
-            "supported_efforts": [
-              "max",
-              "high",
-              "medium",
-              "low",
-              "minimal",
-              "none"
-            ],
-            "default_effort": "high"
-          }
-        },
-        {
-          "id": "thinkingmachines/inkling:free",
-          "canonical_slug": "thinkingmachines/inkling-20260715",
-          "hugging_face_id": "thinkingmachines/Inkling",
-          "name": "Thinking Machines: Inkling (free)",
-          "created": 1784325956,
-          "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
-          "context_length": 1048576,
-          "architecture": {
-            "modality": "text+image+audio->text",
-            "input_modalities": [
-              "text",
-              "image",
-              "audio"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 1048576,
-            "max_completion_tokens": 262144,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "max_tokens",
-            "presence_penalty",
-            "reasoning",
-            "reasoning_effort",
-            "seed",
-            "stop",
-            "temperature",
-            "tools",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": null,
-            "top_p": null,
-            "top_k": null,
-            "frequency_penalty": null,
-            "presence_penalty": null,
-            "repetition_penalty": null
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": "2026-11-04",
-          "links": {
-            "details": "/api/v1/models/thinkingmachines/inkling-20260715/endpoints"
-          },
-          "endpoints": [
-            "/api/v1/chat/completions",
-            "/api/v1/completions",
-            "/api/v1/messages",
-            "/api/v1/responses"
-          ],
-          "benchmarks": {
-            "design_arena": [
-              {
-                "arena": "agents",
-                "category": "webapps",
-                "elo": 1182,
-                "win_rate": 48.6,
-                "rank": 26
-              },
-              {
-                "arena": "models",
-                "category": "3d",
-                "elo": 1156,
-                "win_rate": 39.8,
-                "rank": 66
-              },
-              {
-                "arena": "models",
-                "category": "asciiart",
-                "elo": 1092,
-                "win_rate": 34.1,
-                "rank": 65
-              },
-              {
-                "arena": "models",
-                "category": "codecategories",
-                "elo": 1204,
-                "win_rate": 42.2,
-                "rank": 63
-              },
-              {
-                "arena": "models",
-                "category": "dataviz",
-                "elo": 1157,
-                "win_rate": 37.6,
-                "rank": 81
-              },
-              {
-                "arena": "models",
-                "category": "gamedev",
-                "elo": 1165,
-                "win_rate": 37.9,
-                "rank": 72
-              },
-              {
-                "arena": "models",
-                "category": "svg",
-                "elo": 1106,
-                "win_rate": 34.3,
-                "rank": 63
-              },
-              {
-                "arena": "models",
-                "category": "uicomponent",
-                "elo": 1196,
-                "win_rate": 40.5,
-                "rank": 61
-              },
-              {
-                "arena": "models",
-                "category": "website",
-                "elo": 1223,
-                "win_rate": 44.7,
-                "rank": 58
-              }
-            ],
-            "artificial_analysis": {
-              "intelligence_index": 12.5,
-              "coding_index": 52.1,
-              "agentic_index": 22.5
-            }
-          },
-          "reasoning": {
-            "mandatory": false,
-            "default_enabled": true,
-            "supported_efforts": [
-              "max",
-              "high",
-              "medium",
-              "low",
-              "minimal",
-              "none"
-            ],
-            "default_effort": "high"
-          }
-        }
-      ]
-    },
     "xingchen-agi": {
       "name": "xingchen-agi",
       "count": 1,
@@ -2919,5 +2441,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-04T04:51:26+00:00"
+  "updated_at": "2026-11-04T19:09:43+00:00"
 }
