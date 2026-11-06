@@ -1,7 +1,7 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 454,
-  "free_models_count": 16,
+  "total_models": 453,
+  "free_models_count": 15,
   "paid_models_count": 438,
   "free_models": [
     {
@@ -70,7 +70,7 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": null,
+          "intelligence_index": 3.4,
           "coding_index": 36.5,
           "agentic_index": 1.1
         }
@@ -622,9 +622,9 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1127,
+            "elo": 1124,
             "win_rate": 38.1,
-            "rank": 81
+            "rank": 82
           },
           {
             "arena": "models",
@@ -636,7 +636,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1145,
+            "elo": 1144,
             "win_rate": 36,
             "rank": 90
           },
@@ -645,35 +645,35 @@
             "category": "dataviz",
             "elo": 1142,
             "win_rate": 37.5,
-            "rank": 86
+            "rank": 87
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1139,
-            "win_rate": 36,
-            "rank": 80
+            "elo": 1137,
+            "win_rate": 35.9,
+            "rank": 79
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1066,
-            "win_rate": 32.1,
+            "elo": 1067,
+            "win_rate": 32.2,
             "rank": 75
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1136,
-            "win_rate": 36,
-            "rank": 85
+            "win_rate": 35.8,
+            "rank": 86
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1144,
+            "elo": 1143,
             "win_rate": 35.2,
-            "rank": 98
+            "rank": 99
           }
         ],
         "artificial_analysis": {
@@ -692,69 +692,6 @@
           "none"
         ],
         "default_effort": "high"
-      }
-    },
-    {
-      "id": "nvidia/nemotron-3.5-content-safety:free",
-      "canonical_slug": "nvidia/nemotron-3.5-content-safety-20260604",
-      "hugging_face_id": "nvidia/Nemotron-3.5-Content-Safety",
-      "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
-      "created": 1780581864,
-      "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 8192,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "seed",
-        "temperature",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/nvidia/nemotron-3.5-content-safety-20260604/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true
       }
     },
     {
@@ -882,37 +819,37 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1132,
-            "win_rate": 31,
-            "rank": 77
+            "elo": 1128,
+            "win_rate": 30.8,
+            "rank": 79
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1151,
-            "win_rate": 33.3,
-            "rank": 87
+            "elo": 1150,
+            "win_rate": 33.2,
+            "rank": 88
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1109,
-            "win_rate": 29.8,
+            "elo": 1106,
+            "win_rate": 29.6,
             "rank": 94
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1135,
-            "win_rate": 30.7,
-            "rank": 86
+            "elo": 1137,
+            "win_rate": 31.1,
+            "rank": 85
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1166,
+            "elo": 1165,
             "win_rate": 35.1,
-            "rank": 84
+            "rank": 86
           }
         ],
         "artificial_analysis": {
@@ -1266,7 +1203,7 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": null,
+              "intelligence_index": 3.4,
               "coding_index": 36.5,
               "agentic_index": 1.1
             }
@@ -1699,7 +1636,7 @@
     },
     "nvidia": {
       "name": "nvidia",
-      "count": 5,
+      "count": 4,
       "models": [
         {
           "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
@@ -1842,9 +1779,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1127,
+                "elo": 1124,
                 "win_rate": 38.1,
-                "rank": 81
+                "rank": 82
               },
               {
                 "arena": "models",
@@ -1856,7 +1793,7 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1145,
+                "elo": 1144,
                 "win_rate": 36,
                 "rank": 90
               },
@@ -1865,35 +1802,35 @@
                 "category": "dataviz",
                 "elo": 1142,
                 "win_rate": 37.5,
-                "rank": 86
+                "rank": 87
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1139,
-                "win_rate": 36,
-                "rank": 80
+                "elo": 1137,
+                "win_rate": 35.9,
+                "rank": 79
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1066,
-                "win_rate": 32.1,
+                "elo": 1067,
+                "win_rate": 32.2,
                 "rank": 75
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1136,
-                "win_rate": 36,
-                "rank": 85
+                "win_rate": 35.8,
+                "rank": 86
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1144,
+                "elo": 1143,
                 "win_rate": 35.2,
-                "rank": 98
+                "rank": 99
               }
             ],
             "artificial_analysis": {
@@ -1912,69 +1849,6 @@
               "none"
             ],
             "default_effort": "high"
-          }
-        },
-        {
-          "id": "nvidia/nemotron-3.5-content-safety:free",
-          "canonical_slug": "nvidia/nemotron-3.5-content-safety-20260604",
-          "hugging_face_id": "nvidia/Nemotron-3.5-Content-Safety",
-          "name": "NVIDIA: Nemotron 3.5 Content Safety (free)",
-          "created": 1780581864,
-          "description": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting...",
-          "context_length": 128000,
-          "architecture": {
-            "modality": "text+image->text",
-            "input_modalities": [
-              "text",
-              "image"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 128000,
-            "max_completion_tokens": 8192,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "include_reasoning",
-            "max_tokens",
-            "reasoning",
-            "seed",
-            "temperature",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": null,
-            "top_p": null,
-            "top_k": null,
-            "frequency_penalty": null,
-            "presence_penalty": null,
-            "repetition_penalty": null
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/nvidia/nemotron-3.5-content-safety-20260604/endpoints"
-          },
-          "endpoints": [
-            "/api/v1/chat/completions",
-            "/api/v1/completions",
-            "/api/v1/messages",
-            "/api/v1/responses"
-          ],
-          "reasoning": {
-            "mandatory": false,
-            "default_enabled": true
           }
         },
         {
@@ -2102,37 +1976,37 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1132,
-                "win_rate": 31,
-                "rank": 77
+                "elo": 1128,
+                "win_rate": 30.8,
+                "rank": 79
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1151,
-                "win_rate": 33.3,
-                "rank": 87
+                "elo": 1150,
+                "win_rate": 33.2,
+                "rank": 88
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1109,
-                "win_rate": 29.8,
+                "elo": 1106,
+                "win_rate": 29.6,
                 "rank": 94
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1135,
-                "win_rate": 30.7,
-                "rank": 86
+                "elo": 1137,
+                "win_rate": 31.1,
+                "rank": 85
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1166,
+                "elo": 1165,
                 "win_rate": 35.1,
-                "rank": 84
+                "rank": 86
               }
             ],
             "artificial_analysis": {
@@ -2441,5 +2315,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-05T19:17:05+00:00"
+  "updated_at": "2026-11-06T18:42:54+00:00"
 }
