@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 453,
-  "free_models_count": 15,
-  "paid_models_count": 438,
+  "total_models": 460,
+  "free_models_count": 16,
+  "paid_models_count": 444,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -459,7 +459,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-13",
       "links": {
         "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
       },
@@ -477,6 +477,77 @@
           "agentic_index": null
         }
       },
+      "reasoning": {
+        "mandatory": true
+      }
+    },
+    {
+      "id": "liquid/lfm-3-1.7b:free",
+      "canonical_slug": "liquid/lfm-3-1.7b-20261106",
+      "hugging_face_id": "LiquidAI/LFM3-1.7B",
+      "name": "LiquidAI: LFM3-1.7B (free)",
+      "created": 1794009477,
+      "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 8192,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 0.1,
+        "top_k": 50,
+        "repetition_penalty": 1.1
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/liquid/lfm-3-1.7b-20261106/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
       "reasoning": {
         "mandatory": true
       }
@@ -622,9 +693,9 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1124,
+            "elo": 1123,
             "win_rate": 38.1,
-            "rank": 82
+            "rank": 83
           },
           {
             "arena": "models",
@@ -638,21 +709,21 @@
             "category": "codecategories",
             "elo": 1144,
             "win_rate": 36,
-            "rank": 90
+            "rank": 91
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1142,
-            "win_rate": 37.5,
-            "rank": 87
+            "elo": 1143,
+            "win_rate": 37.6,
+            "rank": 86
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1137,
             "win_rate": 35.9,
-            "rank": 79
+            "rank": 80
           },
           {
             "arena": "models",
@@ -665,14 +736,14 @@
             "arena": "models",
             "category": "uicomponent",
             "elo": 1136,
-            "win_rate": 35.8,
-            "rank": 86
+            "win_rate": 35.9,
+            "rank": 85
           },
           {
             "arena": "models",
             "category": "website",
             "elo": 1143,
-            "win_rate": 35.2,
+            "win_rate": 35.3,
             "rank": 99
           }
         ],
@@ -819,30 +890,30 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1128,
-            "win_rate": 30.8,
-            "rank": 79
+            "elo": 1126,
+            "win_rate": 31.1,
+            "rank": 82
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1150,
-            "win_rate": 33.2,
-            "rank": 88
+            "win_rate": 33.3,
+            "rank": 89
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1106,
-            "win_rate": 29.6,
-            "rank": 94
+            "elo": 1107,
+            "win_rate": 29.7,
+            "rank": 95
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1137,
-            "win_rate": 31.1,
-            "rank": 85
+            "elo": 1135,
+            "win_rate": 31,
+            "rank": 86
           },
           {
             "arena": "models",
@@ -1551,7 +1622,7 @@
     },
     "liquid": {
       "name": "liquid",
-      "count": 1,
+      "count": 2,
       "models": [
         {
           "id": "liquid/lfm-2.5-2.6b:free",
@@ -1610,7 +1681,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-11-13",
           "links": {
             "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
           },
@@ -1628,6 +1699,77 @@
               "agentic_index": null
             }
           },
+          "reasoning": {
+            "mandatory": true
+          }
+        },
+        {
+          "id": "liquid/lfm-3-1.7b:free",
+          "canonical_slug": "liquid/lfm-3-1.7b-20261106",
+          "hugging_face_id": "LiquidAI/LFM3-1.7B",
+          "name": "LiquidAI: LFM3-1.7B (free)",
+          "created": 1794009477,
+          "description": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 8192,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "logprobs",
+            "max_completion_tokens",
+            "max_tokens",
+            "min_p",
+            "presence_penalty",
+            "reasoning",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_logprobs",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": 0.1,
+            "top_k": 50,
+            "repetition_penalty": 1.1
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/liquid/lfm-3-1.7b-20261106/endpoints"
+          },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
           "reasoning": {
             "mandatory": true
           }
@@ -1779,9 +1921,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1124,
+                "elo": 1123,
                 "win_rate": 38.1,
-                "rank": 82
+                "rank": 83
               },
               {
                 "arena": "models",
@@ -1795,21 +1937,21 @@
                 "category": "codecategories",
                 "elo": 1144,
                 "win_rate": 36,
-                "rank": 90
+                "rank": 91
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1142,
-                "win_rate": 37.5,
-                "rank": 87
+                "elo": 1143,
+                "win_rate": 37.6,
+                "rank": 86
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1137,
                 "win_rate": 35.9,
-                "rank": 79
+                "rank": 80
               },
               {
                 "arena": "models",
@@ -1822,14 +1964,14 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1136,
-                "win_rate": 35.8,
-                "rank": 86
+                "win_rate": 35.9,
+                "rank": 85
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1143,
-                "win_rate": 35.2,
+                "win_rate": 35.3,
                 "rank": 99
               }
             ],
@@ -1976,30 +2118,30 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1128,
-                "win_rate": 30.8,
-                "rank": 79
+                "elo": 1126,
+                "win_rate": 31.1,
+                "rank": 82
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1150,
-                "win_rate": 33.2,
-                "rank": 88
+                "win_rate": 33.3,
+                "rank": 89
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1106,
-                "win_rate": 29.6,
-                "rank": 94
+                "elo": 1107,
+                "win_rate": 29.7,
+                "rank": 95
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1137,
-                "win_rate": 31.1,
-                "rank": 85
+                "elo": 1135,
+                "win_rate": 31,
+                "rank": 86
               },
               {
                 "arena": "models",
@@ -2315,5 +2457,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-06T18:42:54+00:00"
+  "updated_at": "2026-11-07T04:40:22+00:00"
 }
