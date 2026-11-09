@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 461,
+  "total_models": 464,
   "free_models_count": 16,
-  "paid_models_count": 445,
+  "paid_models_count": 448,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -721,9 +721,9 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1135,
+            "elo": 1136,
             "win_rate": 35.8,
-            "rank": 82
+            "rank": 81
           },
           {
             "arena": "models",
@@ -890,23 +890,23 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1127,
-            "win_rate": 31.3,
+            "elo": 1124,
+            "win_rate": 30.9,
             "rank": 82
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1150,
+            "elo": 1151,
             "win_rate": 33.4,
-            "rank": 88
+            "rank": 87
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1091,
-            "win_rate": 26.5,
-            "rank": 105
+            "elo": 1097,
+            "win_rate": 27.2,
+            "rank": 102
           },
           {
             "arena": "models",
@@ -918,9 +918,9 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1140,
-            "win_rate": 31.4,
-            "rank": 85
+            "elo": 1143,
+            "win_rate": 31.7,
+            "rank": 84
           },
           {
             "arena": "models",
@@ -1117,7 +1117,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-11-09",
       "links": {
         "details": "/api/v1/models/stealth/crouton-alpha/endpoints"
       },
@@ -1956,9 +1956,9 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1135,
+                "elo": 1136,
                 "win_rate": 35.8,
-                "rank": 82
+                "rank": 81
               },
               {
                 "arena": "models",
@@ -2125,23 +2125,23 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1127,
-                "win_rate": 31.3,
+                "elo": 1124,
+                "win_rate": 30.9,
                 "rank": 82
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1150,
+                "elo": 1151,
                 "win_rate": 33.4,
-                "rank": 88
+                "rank": 87
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1091,
-                "win_rate": 26.5,
-                "rank": 105
+                "elo": 1097,
+                "win_rate": 27.2,
+                "rank": 102
               },
               {
                 "arena": "models",
@@ -2153,9 +2153,9 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1140,
-                "win_rate": 31.4,
-                "rank": 85
+                "elo": 1143,
+                "win_rate": 31.7,
+                "rank": 84
               },
               {
                 "arena": "models",
@@ -2370,7 +2370,7 @@
           "default_parameters": {},
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-11-09",
           "links": {
             "details": "/api/v1/models/stealth/crouton-alpha/endpoints"
           },
@@ -2471,5 +2471,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-09T04:41:01+00:00"
+  "updated_at": "2026-11-09T21:47:29+00:00"
 }
