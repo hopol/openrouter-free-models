@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 464,
+  "total_models": 465,
   "free_models_count": 16,
-  "paid_models_count": 448,
+  "paid_models_count": 449,
   "free_models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -728,14 +728,14 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1067,
-            "win_rate": 32.1,
+            "elo": 1066,
+            "win_rate": 32,
             "rank": 76
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1137,
+            "elo": 1136,
             "win_rate": 36,
             "rank": 87
           },
@@ -890,9 +890,9 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1124,
-            "win_rate": 30.9,
-            "rank": 82
+            "elo": 1122,
+            "win_rate": 30.8,
+            "rank": 83
           },
           {
             "arena": "models",
@@ -904,9 +904,9 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1097,
-            "win_rate": 27.2,
-            "rank": 102
+            "elo": 1099,
+            "win_rate": 27.4,
+            "rank": 101
           },
           {
             "arena": "models",
@@ -1070,21 +1070,18 @@
       }
     },
     {
-      "id": "stealth/crouton-alpha",
-      "canonical_slug": "stealth/crouton-alpha",
+      "id": "thinkingmachines/inkling-2-small:free",
+      "canonical_slug": "thinkingmachines/inkling-2-small-20261107",
       "hugging_face_id": null,
-      "name": "Crouton Alpha",
-      "created": 1793669930,
-      "description": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work. Developers...",
+      "name": "Thinking Machines: Inkling 2 Small (free)",
+      "created": 1794261847,
+      "description": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling...",
       "context_length": 1048576,
       "architecture": {
-        "modality": "text+image+file+audio+video->text",
+        "modality": "text+image->text",
         "input_modalities": [
           "text",
-          "image",
-          "video",
-          "file",
-          "audio"
+          "image"
         ],
         "output_modalities": [
           "text"
@@ -1098,7 +1095,7 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1107,19 +1104,25 @@
         "max_tokens",
         "reasoning",
         "reasoning_effort",
-        "response_format",
-        "structured_outputs",
+        "seed",
+        "stop",
         "temperature",
-        "tool_choice",
         "tools",
         "top_p"
       ],
-      "default_parameters": {},
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2026-11-09",
+      "expiration_date": null,
       "links": {
-        "details": "/api/v1/models/stealth/crouton-alpha/endpoints"
+        "details": "/api/v1/models/thinkingmachines/inkling-2-small-20261107/endpoints"
       },
       "endpoints": [
         "/api/v1/chat/completions",
@@ -1127,17 +1130,25 @@
         "/api/v1/messages",
         "/api/v1/responses"
       ],
+      "benchmarks": {
+        "design_arena": [],
+        "artificial_analysis": {
+          "intelligence_index": 30.6,
+          "coding_index": null,
+          "agentic_index": null
+        }
+      },
       "reasoning": {
         "mandatory": true,
+        "default_enabled": true,
         "supported_efforts": [
           "max",
-          "xhigh",
           "high",
           "medium",
           "low",
           "minimal"
         ],
-        "default_effort": "max"
+        "default_effort": "high"
       }
     },
     {
@@ -1963,14 +1974,14 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1067,
-                "win_rate": 32.1,
+                "elo": 1066,
+                "win_rate": 32,
                 "rank": 76
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1137,
+                "elo": 1136,
                 "win_rate": 36,
                 "rank": 87
               },
@@ -2125,9 +2136,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1124,
-                "win_rate": 30.9,
-                "rank": 82
+                "elo": 1122,
+                "win_rate": 30.8,
+                "rank": 83
               },
               {
                 "arena": "models",
@@ -2139,9 +2150,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1097,
-                "win_rate": 27.2,
-                "rank": 102
+                "elo": 1099,
+                "win_rate": 27.4,
+                "rank": 101
               },
               {
                 "arena": "models",
@@ -2318,26 +2329,23 @@
         }
       ]
     },
-    "stealth": {
-      "name": "stealth",
+    "thinkingmachines": {
+      "name": "thinkingmachines",
       "count": 1,
       "models": [
         {
-          "id": "stealth/crouton-alpha",
-          "canonical_slug": "stealth/crouton-alpha",
+          "id": "thinkingmachines/inkling-2-small:free",
+          "canonical_slug": "thinkingmachines/inkling-2-small-20261107",
           "hugging_face_id": null,
-          "name": "Crouton Alpha",
-          "created": 1793669930,
-          "description": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work. Developers...",
+          "name": "Thinking Machines: Inkling 2 Small (free)",
+          "created": 1794261847,
+          "description": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling...",
           "context_length": 1048576,
           "architecture": {
-            "modality": "text+image+file+audio+video->text",
+            "modality": "text+image->text",
             "input_modalities": [
               "text",
-              "image",
-              "video",
-              "file",
-              "audio"
+              "image"
             ],
             "output_modalities": [
               "text"
@@ -2351,7 +2359,7 @@
           },
           "top_provider": {
             "context_length": 1048576,
-            "max_completion_tokens": 943718,
+            "max_completion_tokens": 131072,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -2360,19 +2368,25 @@
             "max_tokens",
             "reasoning",
             "reasoning_effort",
-            "response_format",
-            "structured_outputs",
+            "seed",
+            "stop",
             "temperature",
-            "tool_choice",
             "tools",
             "top_p"
           ],
-          "default_parameters": {},
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": "2026-11-09",
+          "expiration_date": null,
           "links": {
-            "details": "/api/v1/models/stealth/crouton-alpha/endpoints"
+            "details": "/api/v1/models/thinkingmachines/inkling-2-small-20261107/endpoints"
           },
           "endpoints": [
             "/api/v1/chat/completions",
@@ -2380,17 +2394,25 @@
             "/api/v1/messages",
             "/api/v1/responses"
           ],
+          "benchmarks": {
+            "design_arena": [],
+            "artificial_analysis": {
+              "intelligence_index": 30.6,
+              "coding_index": null,
+              "agentic_index": null
+            }
+          },
           "reasoning": {
             "mandatory": true,
+            "default_enabled": true,
             "supported_efforts": [
               "max",
-              "xhigh",
               "high",
               "medium",
               "low",
               "minimal"
             ],
-            "default_effort": "max"
+            "default_effort": "high"
           }
         }
       ]
@@ -2471,5 +2493,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-09T21:47:29+00:00"
+  "updated_at": "2026-11-10T05:56:38+00:00"
 }
