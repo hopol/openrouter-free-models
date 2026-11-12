@@ -1,9 +1,71 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 468,
-  "free_models_count": 16,
-  "paid_models_count": 452,
+  "total_models": 473,
+  "free_models_count": 17,
+  "paid_models_count": 456,
   "free_models": [
+    {
+      "id": "apodex/apodex-1.1-mini:free",
+      "canonical_slug": "apodex/apodex-1.1-mini-20261001",
+      "hugging_face_id": null,
+      "name": "Apodex: Apodex 1.1 Mini (free)",
+      "created": 1790875335,
+      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/apodex/apodex-1.1-mini-20261001/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
+      "reasoning": {
+        "mandatory": false
+      }
+    },
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
       "canonical_slug": "baidu/ernie-5.5-flash-preview-20261110",
@@ -763,50 +825,50 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1095,
+            "elo": 1093,
             "win_rate": 36.8,
-            "rank": 63
+            "rank": 65
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1141,
-            "win_rate": 35.9,
-            "rank": 93
+            "elo": 1133,
+            "win_rate": 35.4,
+            "rank": 96
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1143,
-            "win_rate": 37.8,
-            "rank": 85
+            "elo": 1139,
+            "win_rate": 37.2,
+            "rank": 87
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1133,
-            "win_rate": 35.7,
+            "win_rate": 35.6,
             "rank": 84
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1062,
-            "win_rate": 32,
+            "elo": 1061,
+            "win_rate": 32.2,
             "rank": 78
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1135,
-            "win_rate": 36,
-            "rank": 89
+            "elo": 1128,
+            "win_rate": 35.4,
+            "rank": 92
           },
           {
             "arena": "models",
             "category": "website",
             "elo": 1141,
-            "win_rate": 35.2,
+            "win_rate": 35.1,
             "rank": 101
           }
         ],
@@ -953,23 +1015,23 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1117,
-            "win_rate": 30.4,
-            "rank": 85
+            "elo": 1119,
+            "win_rate": 30.6,
+            "rank": 84
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1151,
-            "win_rate": 33.5,
-            "rank": 88
+            "elo": 1141,
+            "win_rate": 32.5,
+            "rank": 93
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1099,
+            "elo": 1097,
             "win_rate": 27.4,
-            "rank": 101
+            "rank": 102
           },
           {
             "arena": "models",
@@ -981,14 +1043,14 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1147,
-            "win_rate": 32.4,
-            "rank": 83
+            "elo": 1157,
+            "win_rate": 33.3,
+            "rank": 79
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1167,
+            "elo": 1168,
             "win_rate": 35.6,
             "rank": 86
           }
@@ -1216,6 +1278,74 @@
     }
   ],
   "companies": {
+    "apodex": {
+      "name": "apodex",
+      "count": 1,
+      "models": [
+        {
+          "id": "apodex/apodex-1.1-mini:free",
+          "canonical_slug": "apodex/apodex-1.1-mini-20261001",
+          "hugging_face_id": null,
+          "name": "Apodex: Apodex 1.1 Mini (free)",
+          "created": 1790875335,
+          "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 235929,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/apodex/apodex-1.1-mini-20261001/endpoints"
+          },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
+          "reasoning": {
+            "mandatory": false
+          }
+        }
+      ]
+    },
     "baidu": {
       "name": "baidu",
       "count": 1,
@@ -2009,50 +2139,50 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1095,
+                "elo": 1093,
                 "win_rate": 36.8,
-                "rank": 63
+                "rank": 65
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1141,
-                "win_rate": 35.9,
-                "rank": 93
+                "elo": 1133,
+                "win_rate": 35.4,
+                "rank": 96
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1143,
-                "win_rate": 37.8,
-                "rank": 85
+                "elo": 1139,
+                "win_rate": 37.2,
+                "rank": 87
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1133,
-                "win_rate": 35.7,
+                "win_rate": 35.6,
                 "rank": 84
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1062,
-                "win_rate": 32,
+                "elo": 1061,
+                "win_rate": 32.2,
                 "rank": 78
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1135,
-                "win_rate": 36,
-                "rank": 89
+                "elo": 1128,
+                "win_rate": 35.4,
+                "rank": 92
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1141,
-                "win_rate": 35.2,
+                "win_rate": 35.1,
                 "rank": 101
               }
             ],
@@ -2199,23 +2329,23 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1117,
-                "win_rate": 30.4,
-                "rank": 85
+                "elo": 1119,
+                "win_rate": 30.6,
+                "rank": 84
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1151,
-                "win_rate": 33.5,
-                "rank": 88
+                "elo": 1141,
+                "win_rate": 32.5,
+                "rank": 93
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1099,
+                "elo": 1097,
                 "win_rate": 27.4,
-                "rank": 101
+                "rank": 102
               },
               {
                 "arena": "models",
@@ -2227,14 +2357,14 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1147,
-                "win_rate": 32.4,
-                "rank": 83
+                "elo": 1157,
+                "win_rate": 33.3,
+                "rank": 79
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1167,
+                "elo": 1168,
                 "win_rate": 35.6,
                 "rank": 86
               }
@@ -2481,5 +2611,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-12T05:45:50+00:00"
+  "updated_at": "2026-11-12T19:22:09+00:00"
 }
