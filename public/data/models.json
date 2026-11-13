@@ -1,71 +1,9 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 475,
-  "free_models_count": 18,
-  "paid_models_count": 457,
+  "total_models": 470,
+  "free_models_count": 16,
+  "paid_models_count": 454,
   "free_models": [
-    {
-      "id": "apodex/apodex-1.1-mini:free",
-      "canonical_slug": "apodex/apodex-1.1-mini-20261001",
-      "hugging_face_id": null,
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "created": 1790875335,
-      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 235929,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/apodex/apodex-1.1-mini-20261001/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "reasoning": {
-        "mandatory": false
-      }
-    },
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
       "canonical_slug": "baidu/ernie-5.5-flash-preview-20261110",
@@ -528,85 +466,6 @@
       ]
     },
     {
-      "id": "liquid/lfm-2.5-2.6b:free",
-      "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
-      "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
-      "created": 1786470519,
-      "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-      "context_length": 65536,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 65536,
-        "max_completion_tokens": 8192,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_completion_tokens",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "reasoning",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.1,
-        "top_k": 50,
-        "repetition_penalty": 1.1
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-11-13",
-      "links": {
-        "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": null,
-          "coding_index": 7.7,
-          "agentic_index": null
-        }
-      },
-      "reasoning": {
-        "mandatory": true
-      }
-    },
-    {
       "id": "liquid/lfm-3-1.7b:free",
       "canonical_slug": "liquid/lfm-3-1.7b-20261106",
       "hugging_face_id": "LiquidAI/LFM3-1.7B",
@@ -818,9 +677,9 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1111,
+            "elo": 1107,
             "win_rate": 38,
-            "rank": 87
+            "rank": 88
           },
           {
             "arena": "models",
@@ -832,9 +691,9 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1133,
-            "win_rate": 35.4,
-            "rank": 96
+            "elo": 1131,
+            "win_rate": 35.3,
+            "rank": 98
           },
           {
             "arena": "models",
@@ -846,14 +705,14 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1127,
+            "elo": 1126,
             "win_rate": 35.4,
-            "rank": 87
+            "rank": 88
           },
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1062,
+            "elo": 1061,
             "win_rate": 32.1,
             "rank": 78
           },
@@ -862,13 +721,13 @@
             "category": "uicomponent",
             "elo": 1128,
             "win_rate": 35.3,
-            "rank": 92
+            "rank": 93
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1131,
-            "win_rate": 34.4,
+            "elo": 1129,
+            "win_rate": 34.3,
             "rank": 102
           }
         ],
@@ -1015,15 +874,15 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1116,
-            "win_rate": 30.2,
-            "rank": 84
+            "elo": 1107,
+            "win_rate": 29.6,
+            "rank": 87
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1140,
-            "win_rate": 32.4,
+            "elo": 1138,
+            "win_rate": 32.3,
             "rank": 93
           },
           {
@@ -1037,22 +896,22 @@
             "arena": "models",
             "category": "gamedev",
             "elo": 1078,
-            "win_rate": 27.1,
-            "rank": 106
+            "win_rate": 27.2,
+            "rank": 107
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1154,
-            "win_rate": 33,
-            "rank": 82
+            "elo": 1152,
+            "win_rate": 32.7,
+            "rank": 83
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1160,
-            "win_rate": 34.8,
-            "rank": 88
+            "elo": 1158,
+            "win_rate": 34.7,
+            "rank": 89
           }
         ],
         "artificial_analysis": {
@@ -1357,74 +1216,6 @@
     }
   ],
   "companies": {
-    "apodex": {
-      "name": "apodex",
-      "count": 1,
-      "models": [
-        {
-          "id": "apodex/apodex-1.1-mini:free",
-          "canonical_slug": "apodex/apodex-1.1-mini-20261001",
-          "hugging_face_id": null,
-          "name": "Apodex: Apodex 1.1 Mini (free)",
-          "created": 1790875335,
-          "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
-          "context_length": 262144,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 262144,
-            "max_completion_tokens": 235929,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "max_tokens",
-            "presence_penalty",
-            "reasoning",
-            "repetition_penalty",
-            "response_format",
-            "seed",
-            "stop",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_k",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/apodex/apodex-1.1-mini-20261001/endpoints"
-          },
-          "endpoints": [
-            "/api/v1/chat/completions",
-            "/api/v1/completions",
-            "/api/v1/messages",
-            "/api/v1/responses"
-          ],
-          "reasoning": {
-            "mandatory": false
-          }
-        }
-      ]
-    },
     "baidu": {
       "name": "baidu",
       "count": 1,
@@ -1912,87 +1703,8 @@
     },
     "liquid": {
       "name": "liquid",
-      "count": 2,
+      "count": 1,
       "models": [
-        {
-          "id": "liquid/lfm-2.5-2.6b:free",
-          "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
-          "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-          "name": "LiquidAI: LFM2.5-2.6B (free)",
-          "created": 1786470519,
-          "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-          "context_length": 65536,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 65536,
-            "max_completion_tokens": 8192,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "logprobs",
-            "max_completion_tokens",
-            "max_tokens",
-            "min_p",
-            "presence_penalty",
-            "reasoning",
-            "repetition_penalty",
-            "response_format",
-            "seed",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_k",
-            "top_logprobs",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": 0.1,
-            "top_k": 50,
-            "repetition_penalty": 1.1
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": "2026-11-13",
-          "links": {
-            "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
-          },
-          "endpoints": [
-            "/api/v1/chat/completions",
-            "/api/v1/completions",
-            "/api/v1/messages",
-            "/api/v1/responses"
-          ],
-          "benchmarks": {
-            "design_arena": [],
-            "artificial_analysis": {
-              "intelligence_index": null,
-              "coding_index": 7.7,
-              "agentic_index": null
-            }
-          },
-          "reasoning": {
-            "mandatory": true
-          }
-        },
         {
           "id": "liquid/lfm-3-1.7b:free",
           "canonical_slug": "liquid/lfm-3-1.7b-20261106",
@@ -2211,9 +1923,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1111,
+                "elo": 1107,
                 "win_rate": 38,
-                "rank": 87
+                "rank": 88
               },
               {
                 "arena": "models",
@@ -2225,9 +1937,9 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1133,
-                "win_rate": 35.4,
-                "rank": 96
+                "elo": 1131,
+                "win_rate": 35.3,
+                "rank": 98
               },
               {
                 "arena": "models",
@@ -2239,14 +1951,14 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1127,
+                "elo": 1126,
                 "win_rate": 35.4,
-                "rank": 87
+                "rank": 88
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1062,
+                "elo": 1061,
                 "win_rate": 32.1,
                 "rank": 78
               },
@@ -2255,13 +1967,13 @@
                 "category": "uicomponent",
                 "elo": 1128,
                 "win_rate": 35.3,
-                "rank": 92
+                "rank": 93
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1131,
-                "win_rate": 34.4,
+                "elo": 1129,
+                "win_rate": 34.3,
                 "rank": 102
               }
             ],
@@ -2408,15 +2120,15 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1116,
-                "win_rate": 30.2,
-                "rank": 84
+                "elo": 1107,
+                "win_rate": 29.6,
+                "rank": 87
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1140,
-                "win_rate": 32.4,
+                "elo": 1138,
+                "win_rate": 32.3,
                 "rank": 93
               },
               {
@@ -2430,22 +2142,22 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1078,
-                "win_rate": 27.1,
-                "rank": 106
+                "win_rate": 27.2,
+                "rank": 107
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1154,
-                "win_rate": 33,
-                "rank": 82
+                "elo": 1152,
+                "win_rate": 32.7,
+                "rank": 83
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1160,
-                "win_rate": 34.8,
-                "rank": 88
+                "elo": 1158,
+                "win_rate": 34.7,
+                "rank": 89
               }
             ],
             "artificial_analysis": {
@@ -2775,5 +2487,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-13T05:05:16+00:00"
+  "updated_at": "2026-11-13T18:59:40+00:00"
 }
