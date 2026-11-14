@@ -1,7 +1,7 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 470,
-  "free_models_count": 16,
+  "total_models": 471,
+  "free_models_count": 17,
   "paid_models_count": 454,
   "free_models": [
     {
@@ -466,6 +466,70 @@
       ]
     },
     {
+      "id": "inclusionai/ling-3.2-flash:free",
+      "canonical_slug": "inclusionai/ling-3.2-flash-20261113",
+      "hugging_face_id": "inclusionAI/Ling-3.2-flash",
+      "name": "inclusionAI: Ling 3.2 Flash (free)",
+      "created": 1794591958,
+      "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 262144,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/inclusionai/ling-3.2-flash-20261113/endpoints"
+      },
+      "endpoints": [
+        "/api/v1/chat/completions",
+        "/api/v1/completions",
+        "/api/v1/messages",
+        "/api/v1/responses"
+      ],
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      }
+    },
+    {
       "id": "liquid/lfm-3-1.7b:free",
       "canonical_slug": "liquid/lfm-3-1.7b-20261106",
       "hugging_face_id": "LiquidAI/LFM3-1.7B",
@@ -677,16 +741,16 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1107,
-            "win_rate": 38,
-            "rank": 88
+            "elo": 1108,
+            "win_rate": 37.9,
+            "rank": 89
           },
           {
             "arena": "models",
             "category": "asciiart",
             "elo": 1093,
             "win_rate": 36.8,
-            "rank": 65
+            "rank": 64
           },
           {
             "arena": "models",
@@ -698,7 +762,7 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1139,
+            "elo": 1137,
             "win_rate": 37.2,
             "rank": 87
           },
@@ -712,23 +776,23 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1061,
+            "elo": 1060,
             "win_rate": 32.1,
-            "rank": 78
+            "rank": 79
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1128,
-            "win_rate": 35.3,
-            "rank": 93
+            "elo": 1126,
+            "win_rate": 35.2,
+            "rank": 94
           },
           {
             "arena": "models",
             "category": "website",
             "elo": 1129,
             "win_rate": 34.3,
-            "rank": 102
+            "rank": 103
           }
         ],
         "artificial_analysis": {
@@ -874,23 +938,23 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1107,
-            "win_rate": 29.6,
-            "rank": 87
+            "elo": 1120,
+            "win_rate": 30.9,
+            "rank": 82
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1138,
-            "win_rate": 32.3,
+            "elo": 1140,
+            "win_rate": 32.5,
             "rank": 93
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1085,
+            "elo": 1084,
             "win_rate": 26.1,
-            "rank": 106
+            "rank": 107
           },
           {
             "arena": "models",
@@ -902,16 +966,16 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1152,
-            "win_rate": 32.7,
-            "rank": 83
+            "elo": 1158,
+            "win_rate": 33.2,
+            "rank": 77
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1158,
-            "win_rate": 34.7,
-            "rank": 89
+            "elo": 1160,
+            "win_rate": 34.8,
+            "rank": 88
           }
         ],
         "artificial_analysis": {
@@ -1701,6 +1765,76 @@
         }
       ]
     },
+    "inclusionai": {
+      "name": "inclusionai",
+      "count": 1,
+      "models": [
+        {
+          "id": "inclusionai/ling-3.2-flash:free",
+          "canonical_slug": "inclusionai/ling-3.2-flash-20261113",
+          "hugging_face_id": "inclusionAI/Ling-3.2-flash",
+          "name": "inclusionAI: Ling 3.2 Flash (free)",
+          "created": 1794591958,
+          "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
+          "context_length": 1048576,
+          "architecture": {
+            "modality": "text+image->text",
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 1048576,
+            "max_completion_tokens": 262144,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/inclusionai/ling-3.2-flash-20261113/endpoints"
+          },
+          "endpoints": [
+            "/api/v1/chat/completions",
+            "/api/v1/completions",
+            "/api/v1/messages",
+            "/api/v1/responses"
+          ],
+          "reasoning": {
+            "mandatory": false,
+            "default_enabled": true
+          }
+        }
+      ]
+    },
     "liquid": {
       "name": "liquid",
       "count": 1,
@@ -1923,16 +2057,16 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1107,
-                "win_rate": 38,
-                "rank": 88
+                "elo": 1108,
+                "win_rate": 37.9,
+                "rank": 89
               },
               {
                 "arena": "models",
                 "category": "asciiart",
                 "elo": 1093,
                 "win_rate": 36.8,
-                "rank": 65
+                "rank": 64
               },
               {
                 "arena": "models",
@@ -1944,7 +2078,7 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1139,
+                "elo": 1137,
                 "win_rate": 37.2,
                 "rank": 87
               },
@@ -1958,23 +2092,23 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1061,
+                "elo": 1060,
                 "win_rate": 32.1,
-                "rank": 78
+                "rank": 79
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1128,
-                "win_rate": 35.3,
-                "rank": 93
+                "elo": 1126,
+                "win_rate": 35.2,
+                "rank": 94
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1129,
                 "win_rate": 34.3,
-                "rank": 102
+                "rank": 103
               }
             ],
             "artificial_analysis": {
@@ -2120,23 +2254,23 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1107,
-                "win_rate": 29.6,
-                "rank": 87
+                "elo": 1120,
+                "win_rate": 30.9,
+                "rank": 82
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1138,
-                "win_rate": 32.3,
+                "elo": 1140,
+                "win_rate": 32.5,
                 "rank": 93
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1085,
+                "elo": 1084,
                 "win_rate": 26.1,
-                "rank": 106
+                "rank": 107
               },
               {
                 "arena": "models",
@@ -2148,16 +2282,16 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1152,
-                "win_rate": 32.7,
-                "rank": 83
+                "elo": 1158,
+                "win_rate": 33.2,
+                "rank": 77
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1158,
-                "win_rate": 34.7,
-                "rank": 89
+                "elo": 1160,
+                "win_rate": 34.8,
+                "rank": 88
               }
             ],
             "artificial_analysis": {
@@ -2487,5 +2621,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-13T18:59:40+00:00"
+  "updated_at": "2026-11-14T04:56:17+00:00"
 }
