@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 467,
+  "total_models": 468,
   "free_models_count": 17,
-  "paid_models_count": 450,
+  "paid_models_count": 451,
   "free_models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -748,9 +748,9 @@
           {
             "arena": "models",
             "category": "asciiart",
-            "elo": 1085,
-            "win_rate": 36.5,
-            "rank": 66
+            "elo": 1083,
+            "win_rate": 36.3,
+            "rank": 67
           },
           {
             "arena": "models",
@@ -762,7 +762,7 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1138,
+            "elo": 1137,
             "win_rate": 37.2,
             "rank": 87
           },
@@ -776,8 +776,8 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1060,
-            "win_rate": 32.1,
+            "elo": 1059,
+            "win_rate": 32,
             "rank": 79
           },
           {
@@ -938,8 +938,8 @@
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1118,
-            "win_rate": 30.5,
+            "elo": 1117,
+            "win_rate": 30.3,
             "rank": 85
           },
           {
@@ -952,9 +952,9 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1083,
-            "win_rate": 25.9,
-            "rank": 108
+            "elo": 1087,
+            "win_rate": 26.4,
+            "rank": 105
           },
           {
             "arena": "models",
@@ -2064,9 +2064,9 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1085,
-                "win_rate": 36.5,
-                "rank": 66
+                "elo": 1083,
+                "win_rate": 36.3,
+                "rank": 67
               },
               {
                 "arena": "models",
@@ -2078,7 +2078,7 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1138,
+                "elo": 1137,
                 "win_rate": 37.2,
                 "rank": 87
               },
@@ -2092,8 +2092,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1060,
-                "win_rate": 32.1,
+                "elo": 1059,
+                "win_rate": 32,
                 "rank": 79
               },
               {
@@ -2254,8 +2254,8 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1118,
-                "win_rate": 30.5,
+                "elo": 1117,
+                "win_rate": 30.3,
                 "rank": 85
               },
               {
@@ -2268,9 +2268,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1083,
-                "win_rate": 25.9,
-                "rank": 108
+                "elo": 1087,
+                "win_rate": 26.4,
+                "rank": 105
               },
               {
                 "arena": "models",
@@ -2621,5 +2621,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-15T18:18:12+00:00"
+  "updated_at": "2026-11-16T04:46:03+00:00"
 }
