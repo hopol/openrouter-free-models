@@ -1,7 +1,7 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 480,
-  "free_models_count": 17,
+  "total_models": 479,
+  "free_models_count": 16,
   "paid_models_count": 463,
   "free_models": [
     {
@@ -799,9 +799,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1149,
-            "win_rate": 40,
-            "rank": 31
+            "elo": 1135,
+            "win_rate": 38.5,
+            "rank": 33
           },
           {
             "arena": "models",
@@ -820,9 +820,9 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1127,
+            "elo": 1124,
             "win_rate": 35.3,
-            "rank": 99
+            "rank": 98
           },
           {
             "arena": "models",
@@ -849,7 +849,7 @@
             "arena": "models",
             "category": "uicomponent",
             "elo": 1123,
-            "win_rate": 35.2,
+            "win_rate": 35.1,
             "rank": 97
           },
           {
@@ -1023,9 +1023,9 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 952,
+            "elo": 973,
             "win_rate": 21.9,
-            "rank": 40
+            "rank": 41
           },
           {
             "arena": "models",
@@ -1037,7 +1037,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1134,
+            "elo": 1131,
             "win_rate": 32.3,
             "rank": 96
           },
@@ -1051,8 +1051,8 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1078,
-            "win_rate": 27.7,
+            "elo": 1077,
+            "win_rate": 27.6,
             "rank": 106
           },
           {
@@ -1065,9 +1065,9 @@
           {
             "arena": "models",
             "category": "website",
-            "elo": 1154,
+            "elo": 1155,
             "win_rate": 34.5,
-            "rank": 94
+            "rank": 93
           }
         ],
         "artificial_analysis": {
@@ -1296,98 +1296,6 @@
       ],
       "reasoning": {
         "mandatory": true
-      }
-    },
-    {
-      "id": "thinkingmachines/inkling-2-small:free",
-      "canonical_slug": "thinkingmachines/inkling-2-small-20261107",
-      "hugging_face_id": "thinkingmachines/Inkling-2-Small",
-      "name": "Thinking Machines: Inkling 2 Small (free)",
-      "created": 1794261847,
-      "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "seed",
-        "stop",
-        "temperature",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-11-19",
-      "links": {
-        "details": "/api/v1/models/thinkingmachines/inkling-2-small-20261107/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 30.6,
-          "coding_index": null,
-          "agentic_index": null,
-          "finance_and_accounting_index": 44.3,
-          "strategy_and_ops_index": 43.5,
-          "legal_index": 41.6,
-          "healthcare_and_medical_index": 40.8,
-          "engineering_index": 38.9,
-          "economics_index": 43.4,
-          "cyber_index": null,
-          "openness_index": 38.9,
-          "multilingual_index": null,
-          "decision_index": null
-        }
-      },
-      "reasoning": {
-        "mandatory": true,
-        "default_enabled": true,
-        "supported_efforts": [
-          "max",
-          "high",
-          "medium",
-          "low",
-          "minimal"
-        ],
-        "default_effort": "high"
       }
     }
   ],
@@ -2227,9 +2135,9 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1149,
-                "win_rate": 40,
-                "rank": 31
+                "elo": 1135,
+                "win_rate": 38.5,
+                "rank": 33
               },
               {
                 "arena": "models",
@@ -2248,9 +2156,9 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1127,
+                "elo": 1124,
                 "win_rate": 35.3,
-                "rank": 99
+                "rank": 98
               },
               {
                 "arena": "models",
@@ -2277,7 +2185,7 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1123,
-                "win_rate": 35.2,
+                "win_rate": 35.1,
                 "rank": 97
               },
               {
@@ -2451,9 +2359,9 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 952,
+                "elo": 973,
                 "win_rate": 21.9,
-                "rank": 40
+                "rank": 41
               },
               {
                 "arena": "models",
@@ -2465,7 +2373,7 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1134,
+                "elo": 1131,
                 "win_rate": 32.3,
                 "rank": 96
               },
@@ -2479,8 +2387,8 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1078,
-                "win_rate": 27.7,
+                "elo": 1077,
+                "win_rate": 27.6,
                 "rank": 106
               },
               {
@@ -2493,9 +2401,9 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1154,
+                "elo": 1155,
                 "win_rate": 34.5,
-                "rank": 94
+                "rank": 93
               }
             ],
             "artificial_analysis": {
@@ -2745,105 +2653,7 @@
           }
         }
       ]
-    },
-    "thinkingmachines": {
-      "name": "thinkingmachines",
-      "count": 1,
-      "models": [
-        {
-          "id": "thinkingmachines/inkling-2-small:free",
-          "canonical_slug": "thinkingmachines/inkling-2-small-20261107",
-          "hugging_face_id": "thinkingmachines/Inkling-2-Small",
-          "name": "Thinking Machines: Inkling 2 Small (free)",
-          "created": 1794261847,
-          "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
-          "context_length": 1048576,
-          "architecture": {
-            "modality": "text+image->text",
-            "input_modalities": [
-              "text",
-              "image"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 1048576,
-            "max_completion_tokens": 131072,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "include_reasoning",
-            "max_tokens",
-            "reasoning",
-            "reasoning_effort",
-            "seed",
-            "stop",
-            "temperature",
-            "tools",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": null,
-            "top_p": null,
-            "top_k": null,
-            "frequency_penalty": null,
-            "presence_penalty": null,
-            "repetition_penalty": null
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": "2026-11-19",
-          "links": {
-            "details": "/api/v1/models/thinkingmachines/inkling-2-small-20261107/endpoints"
-          },
-          "endpoints": [
-            "/api/v1/chat/completions",
-            "/api/v1/completions",
-            "/api/v1/messages",
-            "/api/v1/responses"
-          ],
-          "benchmarks": {
-            "design_arena": [],
-            "artificial_analysis": {
-              "intelligence_index": 30.6,
-              "coding_index": null,
-              "agentic_index": null,
-              "finance_and_accounting_index": 44.3,
-              "strategy_and_ops_index": 43.5,
-              "legal_index": 41.6,
-              "healthcare_and_medical_index": 40.8,
-              "engineering_index": 38.9,
-              "economics_index": 43.4,
-              "cyber_index": null,
-              "openness_index": 38.9,
-              "multilingual_index": null,
-              "decision_index": null
-            }
-          },
-          "reasoning": {
-            "mandatory": true,
-            "default_enabled": true,
-            "supported_efforts": [
-              "max",
-              "high",
-              "medium",
-              "low",
-              "minimal"
-            ],
-            "default_effort": "high"
-          }
-        }
-      ]
     }
   },
-  "updated_at": "2026-11-19T05:55:07+00:00"
+  "updated_at": "2026-11-19T19:48:01+00:00"
 }
