@@ -714,8 +714,8 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1107,
-            "win_rate": 35.5,
+            "elo": 1116,
+            "win_rate": 36.4,
             "rank": 39
           },
           {
@@ -730,7 +730,7 @@
             "category": "asciiart",
             "elo": 1080,
             "win_rate": 36.3,
-            "rank": 68
+            "rank": 69
           },
           {
             "arena": "models",
@@ -742,8 +742,8 @@
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1136,
-            "win_rate": 37.2,
+            "elo": 1135,
+            "win_rate": 37.1,
             "rank": 90
           },
           {
@@ -938,14 +938,14 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1002,
-            "win_rate": 30.4,
+            "elo": 1018,
+            "win_rate": 29.3,
             "rank": 43
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1103,
+            "elo": 1105,
             "win_rate": 29.8,
             "rank": 89
           },
@@ -954,20 +954,20 @@
             "category": "codecategories",
             "elo": 1132,
             "win_rate": 32.1,
-            "rank": 96
+            "rank": 97
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1081,
-            "win_rate": 25.8,
+            "elo": 1083,
+            "win_rate": 26.2,
             "rank": 111
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1075,
-            "win_rate": 27.6,
+            "elo": 1074,
+            "win_rate": 27.5,
             "rank": 107
           },
           {
@@ -1959,8 +1959,8 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1107,
-                "win_rate": 35.5,
+                "elo": 1116,
+                "win_rate": 36.4,
                 "rank": 39
               },
               {
@@ -1975,7 +1975,7 @@
                 "category": "asciiart",
                 "elo": 1080,
                 "win_rate": 36.3,
-                "rank": 68
+                "rank": 69
               },
               {
                 "arena": "models",
@@ -1987,8 +1987,8 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1136,
-                "win_rate": 37.2,
+                "elo": 1135,
+                "win_rate": 37.1,
                 "rank": 90
               },
               {
@@ -2183,14 +2183,14 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1002,
-                "win_rate": 30.4,
+                "elo": 1018,
+                "win_rate": 29.3,
                 "rank": 43
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1103,
+                "elo": 1105,
                 "win_rate": 29.8,
                 "rank": 89
               },
@@ -2199,20 +2199,20 @@
                 "category": "codecategories",
                 "elo": 1132,
                 "win_rate": 32.1,
-                "rank": 96
+                "rank": 97
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1081,
-                "win_rate": 25.8,
+                "elo": 1083,
+                "win_rate": 26.2,
                 "rank": 111
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1075,
-                "win_rate": 27.6,
+                "elo": 1074,
+                "win_rate": 27.5,
                 "rank": 107
               },
               {
@@ -2479,5 +2479,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-20T05:43:43+00:00"
+  "updated_at": "2026-11-20T19:28:10+00:00"
 }
