@@ -656,14 +656,14 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1064,
-            "win_rate": 30.8,
-            "rank": 43
+            "elo": 1059,
+            "win_rate": 30.2,
+            "rank": 44
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1095,
+            "elo": 1096,
             "win_rate": 37.8,
             "rank": 92
           },
@@ -672,19 +672,19 @@
             "category": "asciiart",
             "elo": 1082,
             "win_rate": 36.3,
-            "rank": 68
+            "rank": 69
           },
           {
             "arena": "models",
             "category": "codecategories",
             "elo": 1124,
-            "win_rate": 35.2,
+            "win_rate": 35.3,
             "rank": 99
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1134,
+            "elo": 1135,
             "win_rate": 37.1,
             "rank": 90
           },
@@ -699,7 +699,7 @@
             "arena": "models",
             "category": "svg",
             "elo": 1055,
-            "win_rate": 31.9,
+            "win_rate": 32,
             "rank": 81
           },
           {
@@ -880,44 +880,44 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1059,
-            "win_rate": 33.3,
-            "rank": 44
+            "elo": 1048,
+            "win_rate": 31.4,
+            "rank": 45
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1104,
-            "win_rate": 29.7,
+            "elo": 1102,
+            "win_rate": 29.6,
             "rank": 89
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1131,
-            "win_rate": 32.1,
+            "elo": 1130,
+            "win_rate": 32,
             "rank": 97
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1085,
+            "elo": 1088,
             "win_rate": 26.9,
             "rank": 108
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1068,
-            "win_rate": 27.4,
-            "rank": 108
+            "elo": 1066,
+            "win_rate": 27.2,
+            "rank": 110
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1148,
-            "win_rate": 32.3,
-            "rank": 85
+            "elo": 1146,
+            "win_rate": 32,
+            "rank": 87
           },
           {
             "arena": "models",
@@ -1837,14 +1837,14 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1064,
-                "win_rate": 30.8,
-                "rank": 43
+                "elo": 1059,
+                "win_rate": 30.2,
+                "rank": 44
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1095,
+                "elo": 1096,
                 "win_rate": 37.8,
                 "rank": 92
               },
@@ -1853,19 +1853,19 @@
                 "category": "asciiart",
                 "elo": 1082,
                 "win_rate": 36.3,
-                "rank": 68
+                "rank": 69
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1124,
-                "win_rate": 35.2,
+                "win_rate": 35.3,
                 "rank": 99
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1134,
+                "elo": 1135,
                 "win_rate": 37.1,
                 "rank": 90
               },
@@ -1880,7 +1880,7 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1055,
-                "win_rate": 31.9,
+                "win_rate": 32,
                 "rank": 81
               },
               {
@@ -2061,44 +2061,44 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1059,
-                "win_rate": 33.3,
-                "rank": 44
+                "elo": 1048,
+                "win_rate": 31.4,
+                "rank": 45
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1104,
-                "win_rate": 29.7,
+                "elo": 1102,
+                "win_rate": 29.6,
                 "rank": 89
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1131,
-                "win_rate": 32.1,
+                "elo": 1130,
+                "win_rate": 32,
                 "rank": 97
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1085,
+                "elo": 1088,
                 "win_rate": 26.9,
                 "rank": 108
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1068,
-                "win_rate": 27.4,
-                "rank": 108
+                "elo": 1066,
+                "win_rate": 27.2,
+                "rank": 110
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1148,
-                "win_rate": 32.3,
-                "rank": 85
+                "elo": 1146,
+                "win_rate": 32,
+                "rank": 87
               },
               {
                 "arena": "models",
@@ -2357,5 +2357,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-21T18:30:00+00:00"
+  "updated_at": "2026-11-22T05:05:26+00:00"
 }
