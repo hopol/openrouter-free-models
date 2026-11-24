@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 473,
-  "free_models_count": 15,
-  "paid_models_count": 458,
+  "total_models": 469,
+  "free_models_count": 14,
+  "paid_models_count": 455,
   "free_models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -65,64 +65,6 @@
           "high"
         ],
         "default_effort": "high"
-      }
-    },
-    {
-      "id": "dots-studio/dots-3-note-preview:free",
-      "canonical_slug": "dots-studio/dots-3-note-preview-20260813",
-      "hugging_face_id": "dots-studio/dots3-note-prev",
-      "name": "Dots Studio: Dots3-Note Preview (free)",
-      "created": 1786680361,
-      "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
-      "context_length": 512000,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 512000,
-        "max_completion_tokens": 460800,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-12-31",
-      "links": {
-        "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
-      },
-      "endpoints": [
-        "/api/v1/chat/completions",
-        "/api/v1/completions",
-        "/api/v1/messages",
-        "/api/v1/responses"
-      ],
-      "reasoning": {
-        "mandatory": false
       }
     },
     {
@@ -715,15 +657,15 @@
             "arena": "agents",
             "category": "pdf",
             "elo": 1102,
-            "win_rate": 35.3,
-            "rank": 45
+            "win_rate": 35.2,
+            "rank": 44
           },
           {
             "arena": "models",
             "category": "3d",
             "elo": 1093,
             "win_rate": 37.8,
-            "rank": 91
+            "rank": 92
           },
           {
             "arena": "models",
@@ -756,9 +698,9 @@
           {
             "arena": "models",
             "category": "svg",
-            "elo": 1113,
-            "win_rate": 32.1,
-            "rank": 77
+            "elo": 1112,
+            "win_rate": 32,
+            "rank": 78
           },
           {
             "arena": "models",
@@ -938,50 +880,50 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1055,
-            "win_rate": 32.5,
+            "elo": 1056,
+            "win_rate": 32.9,
             "rank": 47
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1092,
-            "win_rate": 28.5,
-            "rank": 93
+            "elo": 1093,
+            "win_rate": 28.7,
+            "rank": 91
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1189,
+            "elo": 1190,
             "win_rate": 31.9,
             "rank": 94
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1088,
-            "win_rate": 26.9,
-            "rank": 109
+            "elo": 1084,
+            "win_rate": 26.5,
+            "rank": 110
           },
           {
             "arena": "models",
             "category": "gamedev",
             "elo": 1067,
-            "win_rate": 27.1,
+            "win_rate": 27.2,
             "rank": 108
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1142,
-            "win_rate": 31.9,
+            "win_rate": 32,
             "rank": 87
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1204,
-            "win_rate": 34.3,
+            "elo": 1205,
+            "win_rate": 34.4,
             "rank": 93
           }
         ],
@@ -1280,70 +1222,6 @@
               "high"
             ],
             "default_effort": "high"
-          }
-        }
-      ]
-    },
-    "dots-studio": {
-      "name": "dots-studio",
-      "count": 1,
-      "models": [
-        {
-          "id": "dots-studio/dots-3-note-preview:free",
-          "canonical_slug": "dots-studio/dots-3-note-preview-20260813",
-          "hugging_face_id": "dots-studio/dots3-note-prev",
-          "name": "Dots Studio: Dots3-Note Preview (free)",
-          "created": 1786680361,
-          "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
-          "context_length": 512000,
-          "architecture": {
-            "modality": "text+image->text",
-            "input_modalities": [
-              "text",
-              "image"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 512000,
-            "max_completion_tokens": 460800,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "include_reasoning",
-            "max_tokens",
-            "reasoning",
-            "response_format",
-            "structured_outputs",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": "2026-12-31",
-          "links": {
-            "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
-          },
-          "endpoints": [
-            "/api/v1/chat/completions",
-            "/api/v1/completions",
-            "/api/v1/messages",
-            "/api/v1/responses"
-          ],
-          "reasoning": {
-            "mandatory": false
           }
         }
       ]
@@ -1960,15 +1838,15 @@
                 "arena": "agents",
                 "category": "pdf",
                 "elo": 1102,
-                "win_rate": 35.3,
-                "rank": 45
+                "win_rate": 35.2,
+                "rank": 44
               },
               {
                 "arena": "models",
                 "category": "3d",
                 "elo": 1093,
                 "win_rate": 37.8,
-                "rank": 91
+                "rank": 92
               },
               {
                 "arena": "models",
@@ -2001,9 +1879,9 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1113,
-                "win_rate": 32.1,
-                "rank": 77
+                "elo": 1112,
+                "win_rate": 32,
+                "rank": 78
               },
               {
                 "arena": "models",
@@ -2183,50 +2061,50 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1055,
-                "win_rate": 32.5,
+                "elo": 1056,
+                "win_rate": 32.9,
                 "rank": 47
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1092,
-                "win_rate": 28.5,
-                "rank": 93
+                "elo": 1093,
+                "win_rate": 28.7,
+                "rank": 91
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1189,
+                "elo": 1190,
                 "win_rate": 31.9,
                 "rank": 94
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1088,
-                "win_rate": 26.9,
-                "rank": 109
+                "elo": 1084,
+                "win_rate": 26.5,
+                "rank": 110
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1067,
-                "win_rate": 27.1,
+                "win_rate": 27.2,
                 "rank": 108
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1142,
-                "win_rate": 31.9,
+                "win_rate": 32,
                 "rank": 87
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1204,
-                "win_rate": 34.3,
+                "elo": 1205,
+                "win_rate": 34.4,
                 "rank": 93
               }
             ],
@@ -2479,5 +2357,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-24T08:24:28+00:00"
+  "updated_at": "2026-11-24T21:46:37+00:00"
 }
