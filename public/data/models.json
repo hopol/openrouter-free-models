@@ -1,8 +1,8 @@
 {
   "source": "https://openrouter.ai/api/v1/models",
-  "total_models": 474,
+  "total_models": 477,
   "free_models_count": 14,
-  "paid_models_count": 460,
+  "paid_models_count": 463,
   "free_models": [
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -656,16 +656,16 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1103,
-            "win_rate": 35,
+            "elo": 1104,
+            "win_rate": 35.5,
             "rank": 43
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1093,
+            "elo": 1094,
             "win_rate": 37.8,
-            "rank": 92
+            "rank": 90
           },
           {
             "arena": "models",
@@ -691,7 +691,7 @@
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1109,
+            "elo": 1108,
             "win_rate": 35.3,
             "rank": 91
           },
@@ -707,7 +707,7 @@
             "category": "uicomponent",
             "elo": 1122,
             "win_rate": 35.4,
-            "rank": 96
+            "rank": 97
           },
           {
             "arena": "models",
@@ -880,43 +880,43 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1060,
-            "win_rate": 33.3,
-            "rank": 48
+            "elo": 1063,
+            "win_rate": 33.7,
+            "rank": 47
           },
           {
             "arena": "models",
             "category": "3d",
             "elo": 1093,
             "win_rate": 29,
-            "rank": 91
+            "rank": 92
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1190,
+            "elo": 1189,
             "win_rate": 31.9,
             "rank": 94
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1079,
-            "win_rate": 25.7,
-            "rank": 115
+            "elo": 1075,
+            "win_rate": 25.2,
+            "rank": 116
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1068,
-            "win_rate": 27.1,
-            "rank": 107
+            "elo": 1065,
+            "win_rate": 26.9,
+            "rank": 110
           },
           {
             "arena": "models",
             "category": "uicomponent",
             "elo": 1143,
-            "win_rate": 31.9,
+            "win_rate": 32.8,
             "rank": 87
           },
           {
@@ -1043,7 +1043,7 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1837,16 +1837,16 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1103,
-                "win_rate": 35,
+                "elo": 1104,
+                "win_rate": 35.5,
                 "rank": 43
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1093,
+                "elo": 1094,
                 "win_rate": 37.8,
-                "rank": 92
+                "rank": 90
               },
               {
                 "arena": "models",
@@ -1872,7 +1872,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1109,
+                "elo": 1108,
                 "win_rate": 35.3,
                 "rank": 91
               },
@@ -1888,7 +1888,7 @@
                 "category": "uicomponent",
                 "elo": 1122,
                 "win_rate": 35.4,
-                "rank": 96
+                "rank": 97
               },
               {
                 "arena": "models",
@@ -2061,43 +2061,43 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1060,
-                "win_rate": 33.3,
-                "rank": 48
+                "elo": 1063,
+                "win_rate": 33.7,
+                "rank": 47
               },
               {
                 "arena": "models",
                 "category": "3d",
                 "elo": 1093,
                 "win_rate": 29,
-                "rank": 91
+                "rank": 92
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1190,
+                "elo": 1189,
                 "win_rate": 31.9,
                 "rank": 94
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1079,
-                "win_rate": 25.7,
-                "rank": 115
+                "elo": 1075,
+                "win_rate": 25.2,
+                "rank": 116
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1068,
-                "win_rate": 27.1,
-                "rank": 107
+                "elo": 1065,
+                "win_rate": 26.9,
+                "rank": 110
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1143,
-                "win_rate": 31.9,
+                "win_rate": 32.8,
                 "rank": 87
               },
               {
@@ -2236,7 +2236,7 @@
           },
           "top_provider": {
             "context_length": 1048576,
-            "max_completion_tokens": 131072,
+            "max_completion_tokens": 943718,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -2357,5 +2357,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-26T06:52:11+00:00"
+  "updated_at": "2026-11-26T20:45:17+00:00"
 }
