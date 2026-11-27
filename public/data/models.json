@@ -129,14 +129,14 @@
       "benchmarks": {
         "design_arena": [],
         "artificial_analysis": {
-          "intelligence_index": null,
+          "intelligence_index": 4,
           "coding_index": null,
           "agentic_index": null,
           "finance_and_accounting_index": 7.1,
           "strategy_and_ops_index": 5.3,
           "legal_index": 6.9,
           "healthcare_and_medical_index": null,
-          "engineering_index": null,
+          "engineering_index": 11.1,
           "economics_index": 8.2,
           "cyber_index": null,
           "openness_index": 38.9,
@@ -656,16 +656,16 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1104,
+            "elo": 1105,
             "win_rate": 35.5,
-            "rank": 43
+            "rank": 44
           },
           {
             "arena": "models",
             "category": "3d",
             "elo": 1094,
             "win_rate": 37.8,
-            "rank": 90
+            "rank": 91
           },
           {
             "arena": "models",
@@ -677,7 +677,7 @@
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1185,
+            "elo": 1184,
             "win_rate": 35.4,
             "rank": 96
           },
@@ -693,7 +693,7 @@
             "category": "gamedev",
             "elo": 1108,
             "win_rate": 35.3,
-            "rank": 91
+            "rank": 92
           },
           {
             "arena": "models",
@@ -705,15 +705,15 @@
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1122,
-            "win_rate": 35.4,
+            "elo": 1121,
+            "win_rate": 35.3,
             "rank": 97
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1179,
-            "win_rate": 34.5,
+            "elo": 1180,
+            "win_rate": 34.4,
             "rank": 103
           }
         ],
@@ -880,51 +880,51 @@
           {
             "arena": "agents",
             "category": "pdf",
-            "elo": 1063,
-            "win_rate": 33.7,
+            "elo": 1070,
+            "win_rate": 34.7,
             "rank": 47
           },
           {
             "arena": "models",
             "category": "3d",
-            "elo": 1093,
-            "win_rate": 29,
-            "rank": 92
+            "elo": 1094,
+            "win_rate": 28.9,
+            "rank": 90
           },
           {
             "arena": "models",
             "category": "codecategories",
-            "elo": 1189,
-            "win_rate": 31.9,
+            "elo": 1190,
+            "win_rate": 32,
             "rank": 94
           },
           {
             "arena": "models",
             "category": "dataviz",
-            "elo": 1075,
-            "win_rate": 25.2,
-            "rank": 116
+            "elo": 1090,
+            "win_rate": 27.1,
+            "rank": 111
           },
           {
             "arena": "models",
             "category": "gamedev",
-            "elo": 1065,
-            "win_rate": 26.9,
-            "rank": 110
+            "elo": 1066,
+            "win_rate": 27,
+            "rank": 108
           },
           {
             "arena": "models",
             "category": "uicomponent",
-            "elo": 1143,
-            "win_rate": 32.8,
+            "elo": 1142,
+            "win_rate": 32.7,
             "rank": 87
           },
           {
             "arena": "models",
             "category": "website",
-            "elo": 1205,
-            "win_rate": 34.5,
-            "rank": 93
+            "elo": 1206,
+            "win_rate": 34.6,
+            "rank": 92
           }
         ],
         "artificial_analysis": {
@@ -1292,14 +1292,14 @@
           "benchmarks": {
             "design_arena": [],
             "artificial_analysis": {
-              "intelligence_index": null,
+              "intelligence_index": 4,
               "coding_index": null,
               "agentic_index": null,
               "finance_and_accounting_index": 7.1,
               "strategy_and_ops_index": 5.3,
               "legal_index": 6.9,
               "healthcare_and_medical_index": null,
-              "engineering_index": null,
+              "engineering_index": 11.1,
               "economics_index": 8.2,
               "cyber_index": null,
               "openness_index": 38.9,
@@ -1837,16 +1837,16 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1104,
+                "elo": 1105,
                 "win_rate": 35.5,
-                "rank": 43
+                "rank": 44
               },
               {
                 "arena": "models",
                 "category": "3d",
                 "elo": 1094,
                 "win_rate": 37.8,
-                "rank": 90
+                "rank": 91
               },
               {
                 "arena": "models",
@@ -1858,7 +1858,7 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1185,
+                "elo": 1184,
                 "win_rate": 35.4,
                 "rank": 96
               },
@@ -1874,7 +1874,7 @@
                 "category": "gamedev",
                 "elo": 1108,
                 "win_rate": 35.3,
-                "rank": 91
+                "rank": 92
               },
               {
                 "arena": "models",
@@ -1886,15 +1886,15 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1122,
-                "win_rate": 35.4,
+                "elo": 1121,
+                "win_rate": 35.3,
                 "rank": 97
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1179,
-                "win_rate": 34.5,
+                "elo": 1180,
+                "win_rate": 34.4,
                 "rank": 103
               }
             ],
@@ -2061,51 +2061,51 @@
               {
                 "arena": "agents",
                 "category": "pdf",
-                "elo": 1063,
-                "win_rate": 33.7,
+                "elo": 1070,
+                "win_rate": 34.7,
                 "rank": 47
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1093,
-                "win_rate": 29,
-                "rank": 92
+                "elo": 1094,
+                "win_rate": 28.9,
+                "rank": 90
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1189,
-                "win_rate": 31.9,
+                "elo": 1190,
+                "win_rate": 32,
                 "rank": 94
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1075,
-                "win_rate": 25.2,
-                "rank": 116
+                "elo": 1090,
+                "win_rate": 27.1,
+                "rank": 111
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1065,
-                "win_rate": 26.9,
-                "rank": 110
+                "elo": 1066,
+                "win_rate": 27,
+                "rank": 108
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1143,
-                "win_rate": 32.8,
+                "elo": 1142,
+                "win_rate": 32.7,
                 "rank": 87
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1205,
-                "win_rate": 34.5,
-                "rank": 93
+                "elo": 1206,
+                "win_rate": 34.6,
+                "rank": 92
               }
             ],
             "artificial_analysis": {
@@ -2357,5 +2357,5 @@
       ]
     }
   },
-  "updated_at": "2026-11-26T20:45:17+00:00"
+  "updated_at": "2026-11-27T06:44:35+00:00"
 }
